@@ -1,6 +1,8 @@
 .Mentors{
     font-family: 'Poppins';
-    background: #1978A5B2;
+    /* background: #1978A5B2; */
+    background: linear-gradient(45deg ,#22E4AC 45% ,#0FBED8 10% ,#1BD78B 45%);
+    /* background:linear-gradient(to Bottom , #2AF59B ,#22E4AC ,#1BD78B #14C9CB ,#0FBED8 , #08B3E5); */
     width:100vw;
     margin: 4rem 0;
     padding: 2.5rem 0;

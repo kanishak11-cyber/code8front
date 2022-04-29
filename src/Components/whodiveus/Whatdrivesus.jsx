@@ -27,7 +27,7 @@ const Whatdrivesus = () => {
                     </div>
                     <div className="w-reason">Vision</div>
                     <div className="w-card-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate animi vel, quibusdam laudantium nam eveniet delectus? Dignissimos officia debitis minus porro et deserunt dolorum?
+                    To provide industry relevant skills and exposure to every engineer in making
                     </div>
                 </div>
                 <div className="w-card zigzag">
@@ -36,7 +36,7 @@ const Whatdrivesus = () => {
                     </div>
                     <div className="w-reason">Mission</div>
                     <div className="w-card-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate animi vel, quibusdam laudantium nam eveniet delectus? Dignissimos officia debitis minus porro et deserunt dolorum?
+                    Upskilling young geniuses to create a better world through technology.
                     </div>
                 </div>
 

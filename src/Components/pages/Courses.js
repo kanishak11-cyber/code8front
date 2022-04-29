@@ -11,7 +11,7 @@ export default function Courses() {
       {/* Boost your career */}
       <div
         style={{
-          backgroundColor: "#1978A5",
+          // background: "linear-gradient(45deg ,#2AF59B 45% ,#0FBED8 10% ,#1BD78B 45%)",
           // backgroundImage:`url("/images/courses-bg.png")`,
           // backgroundSize:"contain",
           // backgroundRepeat: 'no-repeat',
@@ -28,13 +28,13 @@ export default function Courses() {
                 fontSize: "64px",
                 fontFamily: "poppins",
                 fontWeight: "400",
-                color: "white",
+                color: "#1BD78B",
               }}
             >
               Boost your career with our courses!
             </h1>
 
-            <p className="coursepg">
+            <p className="coursepg" style={{color : 'black'}}>
               We believe that every student, irrespective of their<br></br>{" "}
               college or branch, can make it big. All of our courses<br></br>
               are FREE while never compromising on quality.<br></br>We cover
@@ -128,7 +128,7 @@ export default function Courses() {
 
       {/* Courses */}
 
-      <div className="bg-built-nextpro">
+      <div className="bg-built-nextpro" style={{ background: "linear-gradient(45deg ,#0FBED8 45% ,#0FBED8 10% , #08B3E5 45%)"}}>
         <h1 className="build-head" 
         style={{PaddingTop:"20px",color:'white'}}
         >

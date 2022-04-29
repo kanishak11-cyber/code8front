@@ -333,13 +333,11 @@ function Home() {
                     margin: "10px 0px",
                   }}
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  cras est nisl enim, pellentesque lorem dolor est habitant.
-                  Vitae nunc, dolor gravida duis. At et, quam est donec.
-                  Consectetur morbi et dignissim sed amet erat augue quis. Et,
-                  aliquam ac turpis vestibulum vulputate tellus. Sed sit mauris
-                  suspendisse imperdiet lectus ultrices eget ornare interdum.
-                  Neque ultricies ornare nunc, pulvinar malesuada odio pharetra.
+                  Code8 is an experiential  learning platform driven by the energy 
+                  of code and ideas to harness the power of innovation in learners.
+                  We are building a culture to work on projects while getting upskilled
+                   with industry relevant learnings and experience.
+
                 </div>
               </CardContent>
             </Card>

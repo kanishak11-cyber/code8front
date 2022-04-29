@@ -28,13 +28,9 @@ export default function AboutUs() {
           </h1>
 
           <p className="aboutpg">
-            Lorem ipsum dolor sit amet, consectetur dipiscing <br></br> elit.
-            Malesuada ultrices tempor laoreet hendrerit.<br></br> Convallis ut
-            laoreet hendrerit eget justo, enenatis,<br></br> consectetur.
-            Integer etiam faucibus nisl netus erat<br></br> vitae enim lorem.
-            <br></br>
-            Lorem ipsum dolor sit amet, consectetur dipiscing<br></br> elit.
-            Malesuada ultrices tempor laoreet hendrerit.
+          Code8 is an experiential  learning platform driven by the energy of code and ideas to harness the power of innovation in learners.
+We are building a culture to work on projects while getting upskilled with industry relevant learnings and experience.
+
           </p>
         </div>
 
@@ -51,7 +47,9 @@ export default function AboutUs() {
 
         <div class="grid-item">
           <div className="jr-container">
-            <Card className="juniorolym">
+            <Card className="juniorolym"  style={{
+             background :"radial-gradient(farthest-corner at bottom left , #22E4AC 20%, #08B3E5 80%)"
+          }}>
               <CardContent>
                 <Typography
                   style={{
@@ -92,8 +90,10 @@ export default function AboutUs() {
             </Card>
           </div>
 
-          <div className="jr-container">
-            <Card className="juniorolym">
+          <div className="jr-container" >
+            <Card className="juniorolym" style={{
+             background :"radial-gradient(farthest-corner at top left , #22E4AC 20%, #08B3E5 80%)"
+          }}>
               <CardContent>
                 <Typography
                   style={{

@@ -19,8 +19,7 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   headline: 'About Code8',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada ultrices tempor laoreet hendrerit. Convallis ut laoreet hendrerit eget justo, venenatis, consectetur. Integer etiam faucibus nisl netus erat vitae enim lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada ultrices tempor laoreet hendrerit. Convallis ut laoreet hendrerit eget justo, venenatis, consectetur. Integer etiam faucibus nisl netus erat vitae enim lorem.',
+  description:'Code8 is an experiential  learning platform driven by the energy of code and ideas to harness the power of innovation in learners.We are building a culture to work on projects while getting upskilled with industry relevant learnings and experience.',
   buttonLabel: 'Vision',
   imgStart: '',
   img: 'images/illustration_about.png',

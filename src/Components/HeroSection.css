@@ -83,6 +83,12 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+  cursor: pointer;
+  transition: transform 0.8s;
+}
+img:hover{
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 991px) {

@@ -63,7 +63,7 @@ export default function Built() {
       </div>
 
       {/* Still writing */}
-      <div style={{ backgroundColor: "#5699b8" }}>
+      <div style={{ background: " linear-gradient(43deg , #22E4AC ,#0FBED8 , #08B3E5)" }}>
         <div class="grid-container">
           <div class="grid-item">
             <img
@@ -133,7 +133,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background: "#ECFCF9",
+                  background: " #0FBED8 ",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -165,7 +165,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background: "#ECFCF9",
+                  background: "#0FBED8",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -207,7 +207,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background: "#ECFCF9",
+                  background: " #0FBED8 ",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -239,7 +239,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background: "#ECFCF9",
+                  background:  "#0FBED8",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -310,7 +310,7 @@ export default function Built() {
       </div>
 
       {/* Find your next project */}
-      <div className="bg-built-nextpro">
+      <div>
         <h1 className="build-head" 
         style={{PaddingTop:"20px",}}
         >
@@ -327,6 +327,10 @@ export default function Built() {
                   filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
                   border: "2px solid #1978A5",
                 }}
+
+                style={{
+                  background :"radial-gradient(farthest-corner at top center,#0FBED8,#00ddff )"
+                  }}
               >
                 <CardContent>
                   <Typography
@@ -397,6 +401,9 @@ export default function Built() {
                   filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
                   border: "2px solid #1978A5",
                 }}
+                style={{
+                  background :"radial-gradient(farthest-corner at top center,#0FBED8,#00ddff )"
+                  }}
               >
                 <CardContent>
                   <Typography
@@ -467,6 +474,9 @@ export default function Built() {
                   filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
                   border: "2px solid #1978A5",
                 }}
+                style={{
+                  background :"radial-gradient(farthest-corner at top center,#0FBED8,#00ddff )"
+                  }}
               >
                 <CardContent>
                   <Typography
