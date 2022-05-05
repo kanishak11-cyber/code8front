@@ -1,0 +1,81 @@
+.ment-card{
+    display: flex;
+    width: 45vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ECFCF9;
+    width: fit-content;
+    padding: 2rem 3rem;
+    border-radius: 28px;
+    margin: 10px;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.company-holder{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.mentor-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 0;
+}
+.ment-name{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.ment-container{
+    display: flex;
+    gap: 0 2rem;
+}
+
+.mentor-holder img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid2px black;
+    box-shadow: 3px 3px 20px grey;
+    transition: border-radius 0.5s ease-in;
+    cursor: pointer;
+}
+
+.mentor-holder img:hover{
+    border-radius: 17px;
+}
+
+.ment-logos{
+  width: -webkit-fill-available;
+  display: flex;
+  color: blueviolet;
+  font-size: 1.3rem;
+  justify-content: space-around;
+}
+
+.ment-logos i{
+    cursor: pointer;
+}
+
+.read-more{
+    background-image: linear-gradient( transparent 90%, cornflowerblue 10%);
+    background-size: 0% 100% ;
+    cursor: pointer;
+    background-position-x: right;
+    transition: background-size 300ms ;
+    background-repeat: no-repeat;
+}
+
+.read-more:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}

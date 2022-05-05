@@ -1,0 +1,61 @@
+.Our-community{
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+.o-community{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.O-comm-sponsor-holder{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.o-s-card{
+    flex-basis: 35%;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.o-s-card p{
+    font-size: 1.2rem;
+}
+
+.card-conte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 0.9;
+}
+
+.o-s-card img{
+    height: 80px;
+    width: 80px;
+}
+
+.whatsapp{
+    background-color: #25D366;
+}
+.instagram{ 
+    background-color: #5B51D8;
+}
+.linkedin{
+    background: #0077B5;
+}
+.discord{
+    background-color: #738ADB;
+}

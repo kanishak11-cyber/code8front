@@ -1,0 +1,74 @@
+.project{
+    width: calc(100vw - 8rem);
+    background-color: #384883B2;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem 3rem;
+    margin: 4rem auto;
+    border-radius:45px ;
+}
+
+.Domain{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 2.5em;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-card{
+    flex-basis: 300px;
+    flex-grow: 0.15;
+    background-color: #ECFCF9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2.3rem 0;
+    padding: 2.4rem 1.3rem;
+    border-radius: 25px;
+}
+
+.pjc-skills{
+    display: flex;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+}
+
+.pjc-head{
+    font-weight: 800;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.pjc-content{
+    font-weight: 100;
+    color: rgb(42, 42, 42);
+}
+
+.skill-btn{
+    background-color: rgb(182, 182, 182);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 4px;
+    margin: 0 4px;
+}
+
+.pjc-foot{
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+
+.download ,.viewmore{
+    color: rgb(83, 83, 177);
+    cursor: pointer;
+    text-decoration: underline rgb(83, 83, 177);
+}
+
+
