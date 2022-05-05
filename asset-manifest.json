@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/code8front/static/css/main.dab99369.chunk.css",
+    "main.js": "/code8front/static/js/main.9462c73b.chunk.js",
+    "main.js.map": "/code8front/static/js/main.9462c73b.chunk.js.map",
+    "runtime-main.js": "/code8front/static/js/runtime-main.82b454f2.js",
+    "runtime-main.js.map": "/code8front/static/js/runtime-main.82b454f2.js.map",
+    "static/js/2.db437199.chunk.js": "/code8front/static/js/2.db437199.chunk.js",
+    "static/js/2.db437199.chunk.js.map": "/code8front/static/js/2.db437199.chunk.js.map",
+    "index.html": "/code8front/index.html",
+    "precache-manifest.b70620efff8470a78c7b1f39d40fb1a6.js": "/code8front/precache-manifest.b70620efff8470a78c7b1f39d40fb1a6.js",
+    "service-worker.js": "/code8front/service-worker.js",
+    "static/css/main.dab99369.chunk.css.map": "/code8front/static/css/main.dab99369.chunk.css.map",
+    "static/js/2.db437199.chunk.js.LICENSE.txt": "/code8front/static/js/2.db437199.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82b454f2.js",
+    "static/js/2.db437199.chunk.js",
+    "static/css/main.dab99369.chunk.css",
+    "static/js/main.9462c73b.chunk.js"
+  ]
+}
