@@ -159,7 +159,9 @@ We are building a culture to work on projects while getting upskilled with indus
 
       <div class="hello">
         <div class="information">
-          <div class="list">
+          <div class="list" style={{
+              background: 'linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)',
+          }}>
             <h3 style={{
                 fontWeight: "normal",
                 fontSize: "48px",

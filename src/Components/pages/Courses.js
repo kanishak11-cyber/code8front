@@ -34,7 +34,7 @@ export default function Courses() {
               Boost your career with our courses!
             </h1>
 
-            <p className="coursepg" style={{color : 'black'}}>
+            <p className="coursepg" style={{ color: 'black' }}>
               We believe that every student, irrespective of their<br></br>{" "}
               college or branch, can make it big. All of our courses<br></br>
               are FREE while never compromising on quality.<br></br>We cover
@@ -128,14 +128,14 @@ export default function Courses() {
 
       {/* Courses */}
 
-      <div className="bg-built-nextpro" style={{ background: "linear-gradient(45deg ,#0FBED8 45% ,#0FBED8 10% , #08B3E5 45%)"}}>
-        <h1 className="build-head" 
-        style={{PaddingTop:"20px",color:'white'}}
+      <div className="bg-built-nextpro" style={{ background: "linear-gradient(45deg ,#0FBED8 45% ,#0FBED8 10% , #08B3E5 45%)" }}>
+        <h1 className="build-head"
+          style={{ PaddingTop: "20px", color: 'white' }}
         >
           Courses
         </h1>
 
-        <p style={{display:"flex",alignItems:'center',justifyContent:"center",color:'white',lineHeight:'2',fontSize:'20px',letterSpacing:'3px'}} >Explore a wide range of courses!!</p>
+        <p style={{ display: "flex", alignItems: 'center', justifyContent: "center", color: 'white', lineHeight: '2', fontSize: '20px', letterSpacing: '3px' }} >Explore a wide range of courses!!</p>
 
         <div class="grid-container-Courses-project">
 
@@ -151,7 +151,7 @@ export default function Courses() {
               >
                 <CardContent>
 
-                <img style={{display:"block", marginLeft:'auto',marginRight:'auto'}} src="/images/javasym.png"></img>
+                  <img style={{ display: "block", marginLeft: 'auto', marginRight: 'auto' }} src="/images/javasym.png"></img>
 
                   <Typography
                     style={{
@@ -161,7 +161,7 @@ export default function Courses() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: 'center',
-                      textAlign:'-webkit-center',
+                      textAlign: '-webkit-center',
                       fontFamily: "Poppins",
                       fontWeight: "400",
                     }}
@@ -182,9 +182,9 @@ export default function Courses() {
                       fontFamily: "Poppins",
                     }}
                   >
-                Learn Data structures and Algorithms right<br></br>from the basics and become an<br></br>accomplished programmer
-                 using Java, one<br></br>of the most popular programming<br></br>languages in the world and brighten your<br></br>
-                chances of making it to the Top Tech<br></br>organisations as an Intern or SDE.
+                    Learn Data structures and Algorithms right<br></br>from the basics and become an<br></br>accomplished programmer
+                    using Java, one<br></br>of the most popular programming<br></br>languages in the world and brighten your<br></br>
+                    chances of making it to the Top Tech<br></br>organisations as an Intern or SDE.
                   </Typography>
 
                   <h3
@@ -221,7 +221,7 @@ export default function Courses() {
               >
                 <CardContent>
 
-                <img style={{display:"block", marginLeft:'auto',marginRight:'auto'}} src="/images/C++.png"></img>
+                  <img style={{ display: "block", marginLeft: 'auto', marginRight: 'auto' }} src="/images/C++.png"></img>
 
                   <Typography
                     style={{
@@ -231,14 +231,14 @@ export default function Courses() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: 'center',
-                      textAlign:'-webkit-center',
+                      textAlign: '-webkit-center',
                       fontFamily: "Poppins",
                       fontWeight: "400",
                     }}
                     color="#fff"
                     gutterBottom
                   >
-                   Master Data Structures and<br></br>Algorithms using C++
+                    Master Data Structures and<br></br>Algorithms using C++
                   </Typography>
 
                   <Typography
@@ -252,9 +252,9 @@ export default function Courses() {
                       fontFamily: "Poppins",
                     }}
                   >
-                Learn Data structures and Algorithms right<br></br>from the basics and become an<br></br>accomplished programmer
-                 using Java, one<br></br>of the most popular programming<br></br>languages in the world and brighten your<br></br>
-                chances of making it to the Top Tech<br></br>organisations as an Intern or SDE.
+                    Learn Data structures and Algorithms right<br></br>from the basics and become an<br></br>accomplished programmer
+                    using Java, one<br></br>of the most popular programming<br></br>languages in the world and brighten your<br></br>
+                    chances of making it to the Top Tech<br></br>organisations as an Intern or SDE.
                   </Typography>
 
                   <h3
@@ -283,80 +283,80 @@ export default function Courses() {
 
         <div class="grid-container-Courses-project">
 
-<div class="grid-item">
-  <div className="course-card-container">
-    <Card
-      className="course-card"
-      sx={{
-        overflow: "inherit",
-        filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
-        border: "2px solid #1978A5",
-      }}
-    >
-      <CardContent>
+          <div class="grid-item">
+            <div className="course-card-container">
+              <Card
+                className="course-card"
+                sx={{
+                  overflow: "inherit",
+                  filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                  border: "2px solid #1978A5",
+                }}
+              >
+                <CardContent>
 
-      <img style={{display:"block", marginLeft:'auto',marginRight:'auto'}} src="/images/WebD.png"></img>
+                  <img style={{ display: "block", marginLeft: 'auto', marginRight: 'auto' }} src="/images/WebD.png"></img>
 
-        <Typography
-          style={{
-            fontSize: "28px",
-            color: "black",
-            marginTop: "50px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: 'center',
-            textAlign:'-webkit-center',
-            fontFamily: "Poppins",
-            fontWeight: "400",
-          }}
-          color="#fff"
-          gutterBottom
-        >
-          Master Full Stack Web<br></br>Development
-        </Typography>
+                  <Typography
+                    style={{
+                      fontSize: "28px",
+                      color: "black",
+                      marginTop: "50px",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: 'center',
+                      textAlign: '-webkit-center',
+                      fontFamily: "Poppins",
+                      fontWeight: "400",
+                    }}
+                    color="#fff"
+                    gutterBottom
+                  >
+                    Master Full Stack Web<br></br>Development
+                  </Typography>
 
-        <Typography
-          style={{
-            justifyContent: "center",
-            fontSize: "18px",
-            marginTop: "20px",
-            color: "black",
-            display: "flex",
-            textAlign: "-webkit-center",
-            fontFamily: "Poppins",
-          }}
-        >
-      Learn Data structures and Algorithms right<br></br>from the basics and become an<br></br>accomplished programmer
-       using Java, one<br></br>of the most popular programming<br></br>languages in the world and brighten your<br></br>
-      chances of making it to the Top Tech<br></br>organisations as an Intern or SDE.
-        </Typography>
+                  <Typography
+                    style={{
+                      justifyContent: "center",
+                      fontSize: "18px",
+                      marginTop: "20px",
+                      color: "black",
+                      display: "flex",
+                      textAlign: "-webkit-center",
+                      fontFamily: "Poppins",
+                    }}
+                  >
+                    Learn Data structures and Algorithms right<br></br>from the basics and become an<br></br>accomplished programmer
+                    using Java, one<br></br>of the most popular programming<br></br>languages in the world and brighten your<br></br>
+                    chances of making it to the Top Tech<br></br>organisations as an Intern or SDE.
+                  </Typography>
 
-        <h3
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            marginTop: 40,
-            fontSize: 20,
-            fontFamily: "poppins",
-            fontWeight: 400,
-          }}
-        >
-          Learn more
-          <img
-            style={{ marginLeft: "15px" }}
-            src="/images/smallarrow.png"
-          ></img>
-        </h3>
-      </CardContent>
-      <CardActions></CardActions>
-    </Card>
-  </div>
-</div>
+                  <h3
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginTop: 40,
+                      fontSize: 20,
+                      fontFamily: "poppins",
+                      fontWeight: 400,
+                    }}
+                  >
+                    Learn more
+                    <img
+                      style={{ marginLeft: "15px" }}
+                      src="/images/smallarrow.png"
+                    ></img>
+                  </h3>
+                </CardContent>
+                <CardActions></CardActions>
+              </Card>
+            </div>
+          </div>
 
 
 
-</div>
+        </div>
 
       </div>
 
@@ -384,7 +384,7 @@ export default function Courses() {
         <div class="information">
           <div
             class="list"
-            style={{ backgroundColor: "#1978A5", color: "white" }}
+            style={{ background: " linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8) ", color: "white" }}
           >
             <h3
               style={{
@@ -406,15 +406,12 @@ export default function Courses() {
           </div>
           <div class="text-info">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
-              vitae vehicula nisi, tincidunt eget. Imperdiet quam quam pharetra
-              in semper senectus semper. Orci dui semper molestie ac rutrum
-              sociis nulla. Hac est donec nulla et sit sit. Quam eu laoreet
-              tellus sed. Ridiculus at mi aliquam lacus lectus scelerisque
-              tempus, dictumst augue. Scelerisque ut non interdum risus et massa
-              amet sed. Vitae, donec aliquam at mauris in. Bibendum senectus nec
-              eget arcu mattis lectus id. Fames aliquet lacus, et massa,
-              ullamcorper sem morbi erat congue.
+              learn from mentors from top tech companies.  ( the learning you need, the skills you want, the career you deserve)
+              We partner with mentors from companies like amazon, paytm, deloitte, tcs, hitachi, cisco
+              To provide you with industry relevant cohort based courses
+              Get the company like experiential learning right from your college.
+              Hone your skills like never before.
+
             </p>
             <br></br>
 

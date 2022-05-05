@@ -3,7 +3,8 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.16rem;
     display: flex;
-    background: linear-gradient(-43deg , #14C9CB ,#0FBED8 , #08B3E5);
+    /* background: linear-gradient(-43deg , #14C9CB ,#0FBED8 , #08B3E5); */
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
     flex-wrap: wrap;
 }
 

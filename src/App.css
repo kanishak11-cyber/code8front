@@ -16,8 +16,12 @@
   grid-template-columns: auto auto auto;
 }
 
-.grid-item {
-}
+/* .grid-item {
+} */
+
+/* #img-ab2 :hover{
+  border: solid 5px rgb(0, 255, 140 , 0.6) , solid 15px  rgb(0, 255, 140 , 0.4);
+} */
 
 .home-card-container {
   margin-left: 70px;
@@ -447,5 +451,11 @@ color: #10379C;
 
 .bg-courses-nextpro{
   margin-top: 70px;
-  background-color: #1978a5;
+  background-color: rgb(25, 120, 165);
+}
+
+.button :hover{
+  box-shadow: 3px 5px rgb(25, 120, 165, 0.5),
+  6px 7px rgb(25, 120, 165, 0.4),
+  9px 9px rgb(25, 120, 165, 0.3);
 }

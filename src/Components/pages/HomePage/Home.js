@@ -21,7 +21,7 @@ function Home() {
     <>
       <HeroSection {...homeObjOne} />
       <div style={{ float: "right", marginTop: "-80px", marginRight: "108px" }}>
-        <Button buttonSize="btn--large" buttonColor="blue">
+        <Button buttonSize="btn--large" buttonColor="blue" className="button">
           Join our community for free
         </Button>
       </div>
@@ -55,7 +55,6 @@ function Home() {
                 minWidth: "100%",
                 filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
                 background: "#F5F5F5",
-
                 boxSizing: "border-box",
                 borderRadius: "39px",
               }}
@@ -406,6 +405,9 @@ function Home() {
                 boxSizing: "border-box",
                 borderRadius: "22px",
               }}
+              style={{
+                background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
+              }}
             >
               <CardContent
                 style={{
@@ -449,6 +451,9 @@ function Home() {
                 boxSizing: "border-box",
                 borderRadius: "22px",
               }}
+              style={{
+                background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
+              }}
             >
               <CardContent
                 style={{
@@ -491,6 +496,9 @@ function Home() {
                 background: "rgba(25, 120, 165, 0.7)",
                 boxSizing: "border-box",
                 borderRadius: "22px",
+              }}
+              style={{
+                background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
               }}
             >
               <CardContent
@@ -546,6 +554,9 @@ function Home() {
                 boxSizing: "border-box",
                 borderRadius: "22px",
               }}
+              style={{
+                background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
+              }}
             >
               <CardContent
                 style={{
@@ -588,6 +599,9 @@ function Home() {
                 background: "rgba(25, 120, 165, 0.7)",
                 boxSizing: "border-box",
                 borderRadius: "22px",
+              }}
+              style={{
+                background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
               }}
             >
               <CardContent
@@ -639,7 +653,8 @@ function Home() {
       <section className=" py-4 my-8" style={{
         fontFamily: "poppins",
         textAlign: "center",
-        background: "rgba(25, 120, 165, 0.7)"
+        padding:'2rem 0rem',
+        background: 'linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)',
       }}>
 
         <FontAwesomeIcon icon={faChevronRight} style={{
@@ -656,7 +671,7 @@ function Home() {
             height: "3rem",
             width: "3rem",
             float: "right",
-            marginTop: '11.4rem'
+            marginTop: '11.4rem',
           }} />
           <div className="row">
             <div className="col-md-6 col-lg-4">
