@@ -48,7 +48,7 @@ We are building a culture to work on projects while getting upskilled with indus
         <div class="grid-item">
           <div className="jr-container">
             <Card className="juniorolym"  style={{
-             background :"radial-gradient(farthest-corner at bottom left , #22E4AC 20%, #08B3E5 80%)"
+             background :"linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
           }}>
               <CardContent>
                 <Typography
@@ -92,7 +92,7 @@ We are building a culture to work on projects while getting upskilled with indus
 
           <div className="jr-container" >
             <Card className="juniorolym" style={{
-             background :"radial-gradient(farthest-corner at top left , #22E4AC 20%, #08B3E5 80%)"
+             background :"linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
           }}>
               <CardContent>
                 <Typography

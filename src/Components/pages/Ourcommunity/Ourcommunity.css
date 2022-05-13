@@ -6,6 +6,32 @@
     align-items: center;
     margin: 3rem 0;
 }
+.builttop{
+    position: relative;
+}
+.builttop::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: 50%;
+    left: 21%;
+    border: solid 50px rgb(0, 119, 181 , 0.5);
+    transform: rotateZ(45deg);
+}
+.builttop::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: -10%;
+    right: 20%;
+    border: solid 50px rgb(0, 119, 181 , 0.5);
+}
 .o-community{
     font-size: 3.5rem;
     font-weight: 700;

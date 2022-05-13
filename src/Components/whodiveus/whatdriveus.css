@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .whatdrivecontent{
-    background: #1BD78B;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
     padding: 2.5rem 2rem;
     text-align: center;
 }
@@ -42,7 +42,7 @@
 }
 
 .custom-shape-divider-top-1649615606 .shape-fill {
-    fill: #1BD78B;
+    fill: #56a8d0;
 
 }
 

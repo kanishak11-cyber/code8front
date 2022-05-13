@@ -6,6 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import { Button } from "../Button";
 import Grid from "@mui/material/Grid";
 import { Link } from "react-router-dom";
+import "../pages/Ourcommunity/Ourcommunity.css";
 
 import Typography from "@mui/material/Typography";
 import Mentor from "../mentors/Mentor";
@@ -16,6 +17,7 @@ export default function Community() {
       {/* Join Us */}
       <div className="builttop">
         <img
+          className="community-image"
           style={{
             display: "flex",
             alignItems: "center",

@@ -11,7 +11,7 @@ export default function Built() {
   return (
     <>
       {/* What is build */}
-      <div className="builttop">
+      <div className="builttop ">
       <img
           src=".\images\Build Illustration (1) 1.png"
           style={{
@@ -63,7 +63,7 @@ export default function Built() {
       </div>
 
       {/* Still writing */}
-      <div style={{ background: " linear-gradient(43deg , #22E4AC ,#0FBED8 , #08B3E5)" }}>
+      <div style={{ background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)" }}>
         <div class="grid-container">
           <div class="grid-item">
             <img
