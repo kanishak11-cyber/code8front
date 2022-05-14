@@ -64,7 +64,7 @@ export default function Courses() {
         </p>
 
         <div class="grid-container-home">
-          <div class="grid-item">
+          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
             <div className="features-class">
               <img style={{ display: "flex" }} src="/images/brain.png"></img>
             </div>
@@ -78,7 +78,7 @@ export default function Courses() {
             </p>
           </div>
 
-          <div class="grid-item">
+          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
             <div className="features-class">
               <img style={{ display: "flex" }} src="/images/Notes.png"></img>
             </div>
@@ -92,7 +92,7 @@ export default function Courses() {
             </p>
           </div>
 
-          <div class="grid-item">
+          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
             <div className="features-class">
               <img style={{ display: "flex" }} src="/images/Projects.png"></img>
             </div>
@@ -107,9 +107,8 @@ export default function Courses() {
         </div>
 
         <div class="grid-container-home">
-          <div class="grid-item"></div>
-
-          <div class="grid-item">
+          <div className="grid-item"></div>
+          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
             <div className="features-class">
               <img
                 style={{ display: "flex" }}
@@ -128,7 +127,7 @@ export default function Courses() {
 
       {/* Courses */}
 
-      <div className="bg-built-nextpro" style={{ background: "linear-gradient(45deg ,#0FBED8 45% ,#0FBED8 10% , #08B3E5 45%)" }}>
+      <div className="bg-built-nextpro" style={{ background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)" }}>
         <h1 className="build-head"
           style={{ PaddingTop: "20px", color: 'white' }}
         >

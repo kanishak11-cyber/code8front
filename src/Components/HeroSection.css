@@ -71,7 +71,7 @@
   position: relative;
 }
 
-.home__hero-img-wrapper ::after {
+.home__hero-img-wrapper ::before {
     content: "";
     position: absolute;
     z-index: -1;

@@ -42,12 +42,12 @@ function Home() {
         viewBox="0 0 1440 320"
       >
         <path
-          fill="#1978A5"
+          fill="#089ee8"
           fill-opacity="1"
           d="M0,64L48,74.7C96,85,192,107,288,112C384,117,480,107,576,85.3C672,64,768,32,864,16C960,0,1056,0,1152,10.7C1248,21,1344,43,1392,53.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
-      <div style={{ margin: "40px 0px", background: "#1978A5" }}>
+      <div style={{ margin: "40px 0px", background: "#089ee8" }}>
         <Grid container spacing={4} style={{ padding: "0px 30px" }}>
           <Grid item xs={4}>
             <Card
@@ -678,10 +678,13 @@ function Home() {
               <div className="card my-2" style={{
                 width: "18rem",
                 border: "none",
-                boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
               }}>
                 <div className="card-thumbnail ">
-                  <img src="https://www.markuptag.com/images/image-six.jpg" className="img-fluid" alt="thumbnail" />
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -690,10 +693,13 @@ function Home() {
               <div className="card my-2" style={{
                 width: "18rem",
                 border: "none",
-                boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
               }}>
                 <div className="card-thumbnail" >
-                  <img src="https://www.markuptag.com/images/image-six.jpg" className="img-fluid" alt="thumbnail" />
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
                 </div>
 
               </div>
@@ -703,10 +709,13 @@ function Home() {
               <div className="card my-2" style={{
                 width: "18rem",
                 border: "none",
-                boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
               }}>
                 <div className="card-thumbnail" >
-                  <img src="https://www.markuptag.com/images/image-six.jpg" className="img-fluid" alt="thumbnail" />
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
                 </div>
 
               </div>
@@ -716,10 +725,13 @@ function Home() {
               <div className="card my-2" style={{
                 width: "18rem",
                 border: "none",
-                boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
               }}>
                 <div className="card-thumbnail">
-                  <img src="https://www.markuptag.com/images/image-six.jpg" className="img-fluid" alt="thumbnail" />
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
                 </div>
 
               </div>
@@ -729,10 +741,13 @@ function Home() {
               <div className="card my-2" style={{
                 width: "18rem",
                 border: "none",
-                boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
               }}>
                 <div className="card-thumbnail" >
-                  <img src="https://www.markuptag.com/images/image-six.jpg" className="img-fluid" alt="thumbnail" />
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
                 </div>
 
               </div>
@@ -742,10 +757,13 @@ function Home() {
               <div className="card my-2" style={{
                 width: "18rem",
                 border: "none",
-                boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
               }}>
                 <div className="card-thumbnail">
-                  <img src="https://www.markuptag.com/images/image-six.jpg" className="img-fluid" alt="thumbnail" />
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
                 </div>
 
               </div>

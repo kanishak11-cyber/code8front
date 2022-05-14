@@ -11,7 +11,7 @@ export default function Built() {
   return (
     <>
       {/* What is build */}
-      <div className="builttop ">
+      <div className="builttop">
       <img
           src=".\images\Build Illustration (1) 1.png"
           style={{
@@ -133,7 +133,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background: " #0FBED8 ",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -165,7 +165,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background: "#0FBED8",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -207,7 +207,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background: " #0FBED8 ",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -239,7 +239,7 @@ export default function Built() {
               <Card
                 sx={{
                   width: "400px",
-                  background:  "#0FBED8",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
                   boxSizing: "border-box",
                   boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
                   borderRadius: "56px",
@@ -329,7 +329,7 @@ export default function Built() {
                 }}
 
                 style={{
-                  background :"radial-gradient(farthest-corner at top center,#0FBED8,#00ddff )"
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
                   }}
               >
                 <CardContent>
@@ -402,7 +402,7 @@ export default function Built() {
                   border: "2px solid #1978A5",
                 }}
                 style={{
-                  background :"radial-gradient(farthest-corner at top center,#0FBED8,#00ddff )"
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
                   }}
               >
                 <CardContent>
@@ -475,7 +475,7 @@ export default function Built() {
                   border: "2px solid #1978A5",
                 }}
                 style={{
-                  background :"radial-gradient(farthest-corner at top center,#0FBED8,#00ddff )"
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)"
                   }}
               >
                 <CardContent>
