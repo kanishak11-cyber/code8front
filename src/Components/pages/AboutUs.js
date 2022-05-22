@@ -4,6 +4,7 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import { Button } from "../Button";
+import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Whatdrivesus from "../whodiveus/Whatdrivesus";
 
@@ -135,7 +136,328 @@ We are building a culture to work on projects while getting upskilled with indus
           </div>
         </div>
       </div>
+   
+      {/* {WHAT we do Wht We do} */}
+     
+      <svg
+        style={{ marginBottom: "-20px" }}
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#089ee8"
+          fill-opacity="1"
+          d="M0,64L48,74.7C96,85,192,107,288,112C384,117,480,107,576,85.3C672,64,768,32,864,16C960,0,1056,0,1152,10.7C1248,21,1344,43,1392,53.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+      <div style={{ margin: "40px 0px", background: "#089ee8" }}>
+        <Grid container spacing={4} style={{ padding: "0px 30px" }}>
+          <Grid item xs={4}>
+            <Card
+              sx={{
+                minWidth: "100%",
+                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                background: "#F5F5F5",
+                boxSizing: "border-box",
+                borderRadius: "39px",
+              }}
+            >
+              <CardContent
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexDirection: "column",
+                  padding: "30px",
+                }}
+              >
+                <div style={{ margin: "0px" }}>
+                  <img
+                    src="/images/illustration_why we do.png"
+                    style={{
+                      borderRadius: "56px",
+                      width: "350px",
+                    }}
+                  />
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "bold",
+                    fontSize: "24px",
+                    lineHeight: "36px",
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    margin: "0px",
+                  }}
+                >
+                  Why We Do?
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontSize: "14px",
+                    lineHeight: 1.75,
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    margin: "10px 0px",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  cras est nisl enim, pellentesque lorem dolor est habitant.
+                  Vitae nunc, dolor gravida duis. At et, quam est donec.
+                  Consectetur morbi et dignissim sed amet erat augue quis. Et,
+                  aliquam ac turpis vestibulum vulputate tellus. Sed sit mauris
+                  suspendisse imperdiet lectus ultrices eget ornare interdum.
+                  Neque ultricies ornare nunc, pulvinar malesuada odio pharetra.
+                </div>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card
+              sx={{
+                minWidth: "100%",
+                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                background: "#F5F5F5",
 
+                boxSizing: "border-box",
+                borderRadius: "39px",
+              }}
+            >
+              <CardContent
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexDirection: "column",
+                  padding: "30px 30px",
+                }}
+              >
+                <div style={{ margin: "0px" }}>
+                  <img
+                    src="/images/illus_3.png"
+                    style={{
+                      borderRadius: "56px",
+                      width: "350px",
+                    }}
+                  />
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "bold",
+                    fontSize: "24px",
+                    lineHeight: "36px",
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    margin: "0px",
+                  }}
+                >
+                  What We Do?
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontSize: "14px",
+                    lineHeight: 1.75,
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    margin: "10px 0px",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  cras est nisl enim, pellentesque lorem dolor est habitant.
+                  Vitae nunc, dolor gravida duis. At et, quam est donec.
+                  Consectetur morbi et dignissim sed amet erat augue quis. Et,
+                  aliquam ac turpis vestibulum vulputate tellus. Sed sit mauris
+                  suspendisse imperdiet lectus ultrices eget ornare interdum.
+                  Neque ultricies ornare nunc, pulvinar malesuada odio pharetra.
+                </div>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card
+              sx={{
+                minWidth: "100%",
+                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                background: "#F5F5F5",
+                boxSizing: "border-box",
+                borderRadius: "39px",
+              }}
+            >
+              <CardContent
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexDirection: "column",
+                  padding: "30px 30px",
+                }}
+              >
+                <div style={{ margin: "0px" }}>
+                  <img
+                    src="/images/illus_4.png"
+                    style={{
+                      borderRadius: "56px",
+                      width: "350px",
+                    }}
+                  />
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "bold",
+                    fontSize: "24px",
+                    lineHeight: "36px",
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    margin: "0px",
+                  }}
+                >
+                  How will you learn?
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontSize: "14px",
+                    lineHeight: 1.75,
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    margin: "10px 0px",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  cras est nisl enim, pellentesque lorem dolor est habitant.
+                  Vitae nunc, dolor gravida duis. At et, quam est donec.
+                  Consectetur morbi et dignissim sed amet erat augue quis. Et,
+                  aliquam ac turpis vestibulum vulputate tellus. Sed sit mauris
+                  suspendisse imperdiet lectus ultrices eget ornare interdum.
+                  Neque ultricies ornare nunc, pulvinar malesuada odio pharetra.
+                </div>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
+        <Grid container spacing={2}>
+          <Grid item xs={4}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "40px",
+              }}
+            >
+              <img src="images/ladder.png" />
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <Card
+              sx={{
+                minWidth: "100%",
+                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                background: "#F5F5F5",
+
+                marginTop: "40px",
+                boxSizing: "border-box",
+                borderRadius: "39px",
+              }}
+            >
+              <CardContent
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexDirection: "column",
+                  padding: "30px 30px",
+                }}
+              >
+                <div style={{ margin: "0px" }}>
+                  <img
+                    src="/images/illus_5.png"
+                    style={{
+                      borderRadius: "56px",
+                      width: "350px",
+                    }}
+                  />
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "bold",
+                    fontSize: "24px",
+                    lineHeight: "36px",
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    // margin: "20px 0px",
+                  }}
+                >
+                  Why Code8?
+                </div>
+                <div
+                  style={{
+                    fontFamily: "Poppins",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontSize: "14px",
+                    lineHeight: 1.75,
+                    display: "flex",
+                    alignItems: "center",
+                    textAlign: "center",
+                    color: "#000000",
+                    margin: "10px 0px",
+                  }}
+                >
+                  Code8 is an experiential  learning platform driven by the energy 
+                  of code and ideas to harness the power of innovation in learners.
+                  We are building a culture to work on projects while getting upskilled
+                   with industry relevant learnings and experience.
+
+                </div>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "40px",
+              }}
+            >
+              <img src="images/baloon.png" />
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+ 
       {/* What drives us */}
        <Whatdrivesus/>
       {/* Why Code8 */}

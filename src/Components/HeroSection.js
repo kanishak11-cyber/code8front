@@ -31,7 +31,7 @@ function HeroSection({
             <div className='col'>
               <div className='home__hero-text-wrapper'>
                 <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
+                <h1 className={lightText ? 'heading' : 'heading dark'} >
                   {headline}
                 </h1>
                 <p

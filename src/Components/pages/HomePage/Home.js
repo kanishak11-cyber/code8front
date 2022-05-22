@@ -15,349 +15,39 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Portfolio from "../Portfolio/Portfolio";
 import Ourcommunity from "../Ourcommunity/Ourcommunity";
+import Triointro from "../../Triointro/Triointro";
+import Stats from "../../Stats/Stats";
+import Aboutcode8 from "../AboutCode8/Aboutcode8";
 
 function Home() {
   return (
     <>
       <HeroSection {...homeObjOne} />
-      <div style={{ float: "right", marginTop: "-80px", marginRight: "108px" }}>
+      {/* <div style={{ float: "right", marginTop: "-80px", marginRight: "108px" }}>
         <Button buttonSize="btn--large" buttonColor="blue" className="button">
           Join our community for free
         </Button>
-      </div>
-      <HeroSection {...homeObjTwo} />
+      </div> */}
+      {/* {Trio Introduction} */}
+      <Triointro/>
+      {/* <HeroSection {...homeObjTwo} /> */}
 
-      <div style={{ float: "right", marginTop: "-80px", marginRight: "360px" }}>
+     <Aboutcode8/>      
+
+      {/* <div style={{ float: "right", marginTop: "-80px", marginRight: "360px" }}>
         <Button buttonSize="btn--large" buttonColor="blue">
           <span style={{ display: "flex" }}>
             Read more <ArrowForwardIcon style={{ marginLeft: "7px" }} />
           </span>
         </Button>
-      </div>
+      </div> */}
 
-      {/* Why What */}
-      <svg
-        style={{ marginBottom: "-20px" }}
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#089ee8"
-          fill-opacity="1"
-          d="M0,64L48,74.7C96,85,192,107,288,112C384,117,480,107,576,85.3C672,64,768,32,864,16C960,0,1056,0,1152,10.7C1248,21,1344,43,1392,53.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-      <div style={{ margin: "40px 0px", background: "#089ee8" }}>
-        <Grid container spacing={4} style={{ padding: "0px 30px" }}>
-          <Grid item xs={4}>
-            <Card
-              sx={{
-                minWidth: "100%",
-                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
-                background: "#F5F5F5",
-                boxSizing: "border-box",
-                borderRadius: "39px",
-              }}
-            >
-              <CardContent
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexDirection: "column",
-                  padding: "30px",
-                }}
-              >
-                <div style={{ margin: "0px" }}>
-                  <img
-                    src="/images/illustration_why we do.png"
-                    style={{
-                      borderRadius: "56px",
-                      width: "350px",
-                    }}
-                  />
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "bold",
-                    fontSize: "24px",
-                    lineHeight: "36px",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    margin: "0px",
-                  }}
-                >
-                  Why We Do?
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
-                    fontSize: "14px",
-                    lineHeight: 1.75,
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    margin: "10px 0px",
-                  }}
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  cras est nisl enim, pellentesque lorem dolor est habitant.
-                  Vitae nunc, dolor gravida duis. At et, quam est donec.
-                  Consectetur morbi et dignissim sed amet erat augue quis. Et,
-                  aliquam ac turpis vestibulum vulputate tellus. Sed sit mauris
-                  suspendisse imperdiet lectus ultrices eget ornare interdum.
-                  Neque ultricies ornare nunc, pulvinar malesuada odio pharetra.
-                </div>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={4}>
-            <Card
-              sx={{
-                minWidth: "100%",
-                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
-                background: "#F5F5F5",
-
-                boxSizing: "border-box",
-                borderRadius: "39px",
-              }}
-            >
-              <CardContent
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexDirection: "column",
-                  padding: "30px 30px",
-                }}
-              >
-                <div style={{ margin: "0px" }}>
-                  <img
-                    src="/images/illus_3.png"
-                    style={{
-                      borderRadius: "56px",
-                      width: "350px",
-                    }}
-                  />
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "bold",
-                    fontSize: "24px",
-                    lineHeight: "36px",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    margin: "0px",
-                  }}
-                >
-                  What We Do?
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
-                    fontSize: "14px",
-                    lineHeight: 1.75,
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    margin: "10px 0px",
-                  }}
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  cras est nisl enim, pellentesque lorem dolor est habitant.
-                  Vitae nunc, dolor gravida duis. At et, quam est donec.
-                  Consectetur morbi et dignissim sed amet erat augue quis. Et,
-                  aliquam ac turpis vestibulum vulputate tellus. Sed sit mauris
-                  suspendisse imperdiet lectus ultrices eget ornare interdum.
-                  Neque ultricies ornare nunc, pulvinar malesuada odio pharetra.
-                </div>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={4}>
-            <Card
-              sx={{
-                minWidth: "100%",
-                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
-                background: "#F5F5F5",
-
-                boxSizing: "border-box",
-                borderRadius: "39px",
-              }}
-            >
-              <CardContent
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexDirection: "column",
-                  padding: "30px 30px",
-                }}
-              >
-                <div style={{ margin: "0px" }}>
-                  <img
-                    src="/images/illus_4.png"
-                    style={{
-                      borderRadius: "56px",
-                      width: "350px",
-                    }}
-                  />
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "bold",
-                    fontSize: "24px",
-                    lineHeight: "36px",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    margin: "0px",
-                  }}
-                >
-                  How will you learn?
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
-                    fontSize: "14px",
-                    lineHeight: 1.75,
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    margin: "10px 0px",
-                  }}
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  cras est nisl enim, pellentesque lorem dolor est habitant.
-                  Vitae nunc, dolor gravida duis. At et, quam est donec.
-                  Consectetur morbi et dignissim sed amet erat augue quis. Et,
-                  aliquam ac turpis vestibulum vulputate tellus. Sed sit mauris
-                  suspendisse imperdiet lectus ultrices eget ornare interdum.
-                  Neque ultricies ornare nunc, pulvinar malesuada odio pharetra.
-                </div>
-              </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
-        <Grid container spacing={2}>
-          <Grid item xs={4}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                marginTop: "40px",
-              }}
-            >
-              <img src="images/ladder.png" />
-            </div>
-          </Grid>
-          <Grid item xs={4}>
-            <Card
-              sx={{
-                minWidth: "100%",
-                filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
-                background: "#F5F5F5",
-
-                marginTop: "40px",
-                boxSizing: "border-box",
-                borderRadius: "39px",
-              }}
-            >
-              <CardContent
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexDirection: "column",
-                  padding: "30px 30px",
-                }}
-              >
-                <div style={{ margin: "0px" }}>
-                  <img
-                    src="/images/illus_5.png"
-                    style={{
-                      borderRadius: "56px",
-                      width: "350px",
-                    }}
-                  />
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "bold",
-                    fontSize: "24px",
-                    lineHeight: "36px",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    // margin: "20px 0px",
-                  }}
-                >
-                  Why Code8?
-                </div>
-                <div
-                  style={{
-                    fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
-                    fontSize: "14px",
-                    lineHeight: 1.75,
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#000000",
-                    margin: "10px 0px",
-                  }}
-                >
-                  Code8 is an experiential  learning platform driven by the energy 
-                  of code and ideas to harness the power of innovation in learners.
-                  We are building a culture to work on projects while getting upskilled
-                   with industry relevant learnings and experience.
-
-                </div>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={4}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                marginTop: "40px",
-              }}
-            >
-              <img src="images/baloon.png" />
-            </div>
-          </Grid>
-        </Grid>
-      </div>
+       {/* Stats */}
+       
+      <Stats/>
 
       {/* Portfolio */}
-      <Portfolio />
+      {/* <Portfolio /> */}
       {/* Our Reach */}
       <div>
         <h1
@@ -373,7 +63,7 @@ function Home() {
         >
           Our reach
         </h1>
-        <h3
+        {/* <h3
           style={{
             display: "flex",
             alignItems: "center",
@@ -385,7 +75,7 @@ function Home() {
         >
           <img id="icon" src="/images/Logo.png"></img>
           Community
-        </h3>
+        </h3> */}
         {/* 1st container */}
         <Grid
           container
@@ -639,144 +329,8 @@ function Home() {
         </Grid>
       </div>
 
-      {/* Events Gallery */}
-      <h2 style={{
-        paddingTop: "1rem",
-        textAlign: "center",
-        fontWeight: "bold"
-      }}>Events Gallery</h2>
-      <h2 style={{
-        paddingBottom: "1.5rem",
-        textAlign: "center",
-        fontWeight: "normal"
-      }}>Some Clicks From Previous Events</h2>
-      <section className=" py-4 my-8" style={{
-        fontFamily: "poppins",
-        textAlign: "center",
-        padding:'2rem 0rem',
-        background: 'linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)',
-      }}>
-
-        <FontAwesomeIcon icon={faChevronRight} style={{
-          height: "3rem",
-          width: "3rem",
-          float: "left",
-          marginLeft: "4.4rem",
-          marginTop: '11.4rem'
-        }} />
-
-
-        <div className="container">
-          <FontAwesomeIcon icon={faChevronRight} style={{
-            height: "3rem",
-            width: "3rem",
-            float: "right",
-            marginTop: '11.4rem',
-          }} />
-          <div className="row">
-            <div className="col-md-6 col-lg-4">
-              <div className="card my-2" style={{
-                width: "18rem",
-                border: "none",
-                margin:"5px 10px"
-                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
-              }}>
-                <div className="card-thumbnail ">
-                  <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="card my-2" style={{
-                width: "18rem",
-                border: "none",
-                margin:"5px 10px"
-                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
-              }}>
-                <div className="card-thumbnail" >
-                  <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
-                  </a>
-                </div>
-
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="card my-2" style={{
-                width: "18rem",
-                border: "none",
-                margin:"5px 10px"
-                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
-              }}>
-                <div className="card-thumbnail" >
-                  <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
-                  </a>
-                </div>
-
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="card my-2" style={{
-                width: "18rem",
-                border: "none",
-                margin:"5px 10px"
-                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
-              }}>
-                <div className="card-thumbnail">
-                  <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
-                  </a>
-                </div>
-
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="card my-2" style={{
-                width: "18rem",
-                border: "none",
-                margin:"5px 10px"
-                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
-              }}>
-                <div className="card-thumbnail" >
-                  <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
-                  </a>
-                </div>
-
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="card my-2" style={{
-                width: "18rem",
-                border: "none",
-                margin:"5px 10px"
-                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
-              }}>
-                <div className="card-thumbnail">
-                  <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
-                  </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div></div>
-
-      {/* Our Community */}
-      <Ourcommunity />
-      {/* Testimonial */}
-      <div>
+            {/* Testimonial */}
+            <div>
         <h1
           style={{
             display: "flex",
@@ -993,6 +547,149 @@ function Home() {
           </div>
         </div>
       </div>
+
+      {/* Events Gallery */}
+     
+      <section className=" py-4 my-8" style={{
+        fontFamily: "poppins",
+        textAlign: "center",
+        padding:'2rem 0rem',
+        background: 'linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)',
+      }}>
+           
+           <h2 style={{
+        paddingTop: "1rem",
+        textAlign: "center",
+        fontWeight: "bold",
+        margin:"1rem 0",
+        fontSize:"2.4rem",
+        fontFamily: "'Poppins', sans-serif",
+      }}> Explore us in pictures </h2>
+      {/* <h2 style={{
+        paddingBottom: "1.5rem",
+        textAlign: "center",
+        fontWeight: "normal",
+        fontFamily: "'Poppins', sans-serif",
+      }}>Some Clicks From Previous Events</h2> */}
+
+        <FontAwesomeIcon icon={faChevronRight} style={{
+          height: "3rem",
+          width: "3rem",
+          float: "left",
+          marginLeft: "4.4rem",
+          marginTop: '11.4rem'
+        }} />
+
+
+        <div className="container">
+          <FontAwesomeIcon icon={faChevronRight} style={{
+            height: "3rem",
+            width: "3rem",
+            float: "right",
+            marginTop: '11.4rem',
+          }} />
+          <div className="row">
+            <div className="col-md-6 col-lg-4">
+              <div className="card my-2" style={{
+                width: "18rem",
+                border: "none",
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+              }}>
+                <div className="card-thumbnail ">
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6 col-lg-4">
+              <div className="card my-2" style={{
+                width: "18rem",
+                border: "none",
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+              }}>
+                <div className="card-thumbnail" >
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div className="col-md-6 col-lg-4">
+              <div className="card my-2" style={{
+                width: "18rem",
+                border: "none",
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+              }}>
+                <div className="card-thumbnail" >
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div className="col-md-6 col-lg-4">
+              <div className="card my-2" style={{
+                width: "18rem",
+                border: "none",
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+              }}>
+                <div className="card-thumbnail">
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div className="col-md-6 col-lg-4">
+              <div className="card my-2" style={{
+                width: "18rem",
+                border: "none",
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+              }}>
+                <div className="card-thumbnail" >
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div className="col-md-6 col-lg-4">
+              <div className="card my-2" style={{
+                width: "18rem",
+                border: "none",
+                margin:"5px 10px"
+                // boxShadow: "rgba(0, 0, 0, 0.5) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+              }}>
+                <div className="card-thumbnail">
+                  <a href="https://code8.ggeeks.me">
+                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div></div>
+
+      {/* Our Community */}
+      <Ourcommunity />
 
     </>
   );

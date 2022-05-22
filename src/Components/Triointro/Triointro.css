@@ -1,0 +1,92 @@
+.Triointro{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 1.4rem 0;
+    font-size: 1.2rem;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+}
+
+.Triointro-Head{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    /* text-shadow: 2px 2px #089ee8; */
+}
+
+.Explore-sections{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+}
+
+.Intro-body{
+    flex-basis: 300px;
+    flex-grow: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e7fcf8;
+    /* background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8); */
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
+    height: 100%;
+    gap: 2rem;
+    border: solid 1px #bfded8;
+    margin: 1rem;
+}
+
+.Intro-body-head{
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0cb4d4;
+}
+
+.Intro-body-head i{
+    font-size: 5rem;
+    /* color: #0cb4d4; */
+    text-align: center;
+    margin: 0.8rem;
+}
+
+.Intro-Body-Text{
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+.Explore{
+    font-size: 1.25rem;
+    padding: 0.3rem 0.9rem;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+    color: rgb(239, 238, 238);
+    border-radius: 40px;
+    cursor: pointer;
+    border: solid 2px #00b7d5;
+}
+
+.Explore:hover{
+    color:transparent;
+    background-clip:text;
+    -webkit-background-clip: text;
+}
+
+.Explore i{
+    margin: 10px;
+}
+
+.Triointro p{
+    width: 55vw;
+    text-align: center;
+}

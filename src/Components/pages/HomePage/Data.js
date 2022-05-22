@@ -3,10 +3,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   // topLine: 'Exclusive Access',
-  headline: 'Connect To Innovate',
-  description:
-    'To provide students with project-based learning opportunities so that they can expand their exposure and upskill themselves to match the industry standards.',
-  buttonLabel: 'Know More',
+  headline: 'Doing Projects made easy, professionaly !',
+  description:'Learn, Build and conquer like a pro with us.Join the community of thousands of likemind professionals.',
+  buttonLabel: 'Join our Community',
   imgStart: '',
   img: '/images/illustration_homepage.png',
   
