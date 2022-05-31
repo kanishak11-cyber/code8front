@@ -1,0 +1,57 @@
+.Features{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    margin: 10vh 0;
+}
+
+.Features-head{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 3vh 0;
+}
+
+.Features-holder{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.Feature{
+    height: 150px;
+    flex-basis: 200px;
+    flex-grow: 0.2;
+    border: solid 3px #089ee8;
+    border-radius: 30px;
+    padding: 3rem 2rem;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.Feature::after{
+ content: "";
+ position: absolute;
+ height: 150px;
+ width: 100%;
+ border-radius: 30px;
+ top: -1%;
+ left: 0%;
+ z-index: -1;
+ transform: rotateZ(-6deg);
+}
+
+.Red::after{
+    background-color: rgba(232, 8, 8, 0.35);
+}
+
+.Yellow::after{
+    background-color: rgba(202, 232, 8, 0.35);
+}
+
+.Blue::after{
+    background-color: rgb(8, 158, 232, 0.35);
+}

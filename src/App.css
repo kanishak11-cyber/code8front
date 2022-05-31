@@ -79,7 +79,8 @@
 
 .aboutpg {
   display: flex;
-  padding: 90px;
+  flex-direction: column;
+  padding: 5vh 4vw;
   padding-top: 15px;
   font-size: 20px;
   line-height: 1.75;

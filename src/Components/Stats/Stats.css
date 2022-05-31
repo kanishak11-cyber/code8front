@@ -16,7 +16,7 @@
 .Stats-holder{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     margin: 1.2rem;
 }

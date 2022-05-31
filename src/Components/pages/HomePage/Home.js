@@ -18,6 +18,7 @@ import Ourcommunity from "../Ourcommunity/Ourcommunity";
 import Triointro from "../../Triointro/Triointro";
 import Stats from "../../Stats/Stats";
 import Aboutcode8 from "../AboutCode8/Aboutcode8";
+import Ouroffering from "../../Ouroffering/Ouroffering";
 
 function Home() {
   return (
@@ -29,7 +30,8 @@ function Home() {
         </Button>
       </div> */}
       {/* {Trio Introduction} */}
-      <Triointro/>
+      <Ouroffering Heading={'Explore our programs'}/>
+      {/* <Triointro/> */}
       {/* <HeroSection {...homeObjTwo} /> */}
 
      <Aboutcode8/>      

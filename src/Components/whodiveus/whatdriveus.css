@@ -1,63 +1,38 @@
 .Whatdrivesus{
     width: 100vw;
     font-family: 'Roboto', sans-serif;
-}
-.whatdrivecontent{
-    /* background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8); */
-    background: #089ee8;
-    padding: 2.5rem 2rem;
-    text-align: center;
-}
-/* 
-.whatdrivecontent h1{
-    color: #0FBED8;
-} */
-
-.wds{
-    width: 75vw;
-    margin: 2rem auto;
+    margin: 18vh 0;
 }
 .w-card-holder{
     position: relative;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem 0;
     align-items: center;
     justify-content: space-evenly;
 }
-.custom-shape-divider-top-1649615606 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: -1;
-}
-
-.custom-shape-divider-top-1649615606 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 220px;
-}
-
-.custom-shape-divider-top-1649615606 .shape-fill {
-    fill: #089ee8;
-
-}
-
 .w-card{
-    background-color: #0FBED8;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
     flex-basis: 300px;
     flex-grow: 0.25;
     text-align: center;
     border-radius: 20px;
-    padding: 1rem 0.7rem;
+    padding: 1.4rem 0.7rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
+}
+
+.w-card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    border: solid 2px #00b7d5;
 }
 .w-reason{
     font-weight: 800;
@@ -66,12 +41,21 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    color: white;
+}
+
+.w-card-content{
+    font-size: 1.2rem;
 }
 
 .w-card-head{
     font-size: 5rem;
-    background-color: aliceblue;
     color: blueviolet;
+    background-color: rgb(244, 244, 250);
+    /* background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8); */
+    /* color: transparent; */
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
     position: absolute;
     top: -60px;
     height:100px;
