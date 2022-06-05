@@ -211,7 +211,7 @@ window.addEventListener('resize',showButton1);
             // onMouseLeave={onMouseLeave2}
             onClick={extendElement2}>
             <Link
-              to='/courses'
+              to='/learn'
               className='nav-links'
              >
               Learn
@@ -266,10 +266,10 @@ window.addEventListener('resize',showButton1);
         {/* <LoginButton /> */}
         {/* <SignUpButton /> */}
         <div className='btn-mobile' >
-          {button1 && <Button buttonStyle='btn--primary' buttonSize='btn--medium' buttonStyle='btn--mobile' onClick={handleClickOpen} >Login</Button>}
+          {button1 && <Button buttonStyle='btn--primary btn--mobile' buttonSize='btn--medium' onClick={handleClickOpen} >Login</Button>}
         </div>
         <div className='btn-mobile' >
-          {button1 && <Button buttonStyle='btn--primary' buttonSize='btn--medium' buttonStyle='btn--mobile' onClick={handleClickOpen2}>Sign Up</Button>}
+          {button1 && <Button buttonStyle='btn--primary btn--mobile' buttonSize='btn--medium' onClick={handleClickOpen2}>Sign Up</Button>}
         </div>
       </nav>
       <Dialog open={open2} onClose={handleClose2}         fullWidth='yes'
@@ -282,7 +282,7 @@ window.addEventListener('resize',showButton1);
            </span>
            <span style={{display:"flex"}}>
              <div style = {{"fontFamily":"Poppins","fontStyle":"normal","fontWeight":"bold",marginRight:"18px","fontSize":"16px","lineHeight":"36px","display":"flex","alignItems":"center","color":"#000000"}}>New to Code?</div>
-             <Button buttonStyle='btn--primary' buttonStyle="sizee" buttonSize='btn--small' buttonStyle='btn--mobile' >Sign Up</Button>
+             <Button buttonStyle='btn--primary sizee' buttonSize='btn--small' buttonStyl >Sign Up</Button>
            </span>
          </div> 
          <div style={{display:"flex",justifyContent:"center",alignContent:"center"}}>
@@ -310,7 +310,7 @@ window.addEventListener('resize',showButton1);
   "color": "#407BFF",
 }}>Forget Password?</span>
          </div>
-         <Button buttonStyle='btn--primary' buttonStyle="sizee" buttonSize='btn--small' stylee="stylee"  >Login</Button>
+         <Button buttonStyle='btn--primary sizee' buttonSize='btn--small' stylee="stylee"  >Login</Button>
          <div style={{display:"flex",justifyContent:"center",alignItems:"center",margin:"20px 0px 0px 0px"}}>
         <hr
         style={{
@@ -346,7 +346,7 @@ window.addEventListener('resize',showButton1);
            </span>
            <span style={{display:"flex"}}>
              <div style = {{"fontFamily":"Poppins","fontStyle":"normal","fontWeight":"bold",marginRight:"18px","fontSize":"16px","lineHeight":"36px","display":"flex","alignItems":"center","color":"#000000"}}>New to Code?</div>
-             <Button buttonStyle='btn--primary' buttonStyle="sizee" buttonSize='btn--small' buttonStyle='btn--mobile' >Sign Up</Button>
+             <Button buttonStyle='btn--primary sizee btn--mobile' buttonSize='btn--small' >Sign Up</Button>
            </span>
          </div> 
          <div style={{display:"flex",justifyContent:"center",alignContent:"center"}}>
@@ -374,7 +374,7 @@ window.addEventListener('resize',showButton1);
   "color": "#407BFF",
 }}>Forget Password?</span>
          </div>
-         <Button buttonStyle='btn--primary' buttonStyle="sizee" buttonSize='btn--small' stylee="stylee"  >Login</Button>
+         <Button buttonStyle='btn--primary sizee' buttonSize='btn--small' stylee="stylee"  >Login</Button>
          <div style={{display:"flex",justifyContent:"center",alignItems:"center",margin:"20px 0px 0px 0px"}}>
         <hr
         style={{

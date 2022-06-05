@@ -4,12 +4,24 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
 import CardContent from "@mui/material/CardContent";
+import About2 from './AboutCode8/About2'
+import Stats2 from "../Stats/Stats2";
+
+
+import { Link } from 'react-router-dom'
+
+
+import './css/learncss.css'
+import './css/animation.css'
+import Features2 from "./Features2";
+import Features3 from '../Features/Features3'
+
 
 export default function Courses() {
   return (
     <>
       {/* Boost your career */}
-      <div
+      <div className="learnPage"
         style={{
           // background: "linear-gradient(45deg ,#2AF59B 45% ,#0FBED8 10% ,#1BD78B 45%)",
           // backgroundImage:`url("/images/courses-bg.png")`,
@@ -18,112 +30,46 @@ export default function Courses() {
         }}
       >
         <div class="grid-container">
-          <div class="grid-item">
+          <div class="grid-item learn-content">
             <h1
               style={{
                 display: "flex",
                 alignItems: "center",
                 paddingLeft: "90px",
                 marginTop: "100px",
-                fontSize: "64px",
+                fontSize: "3rem",
                 fontFamily: "poppins",
                 fontWeight: "400",
-                color: "#1BD78B",
+                color: "black",
               }}
             >
-              Boost your career with our courses!
+              Learn from mentors you want, 
+              <br />
+              the career you deserve!
             </h1>
-
             <p className="coursepg" style={{ color: 'black' }}>
-              We believe that every student, irrespective of their<br></br>{" "}
-              college or branch, can make it big. All of our courses<br></br>
-              are FREE while never compromising on quality.<br></br>We cover
-              every topic in detail with a hands-on<br></br>approach and mentor
-              you with career.
+              We partner with mentors from companies like Amazon, PayTm, Deloitte, TCE, Hitachi, Cisco
+to provide you with industry relevant cohort based courses.
+<br/>
+Get the company like experiential learning right from your college and Hone your skills like never before.
             </p>
+            <div className="flex justify-content-center">
+<Link className="btn" to="/register">
+<span className="btn-content">Register to get notify for our next cohort
+{/* <hr />
+<p>Learn what you can’t at your college</p> */}
+</span>
+    <span className="icon"><i className="fa fa-arrow-right" aria-hidden="true"></i></span>
+</Link></div>
           </div>
 
-          <div class="grid-item">
+          <div className="grid-item">
             <img src="/images/courses-hero-img.png"></img>
           </div>
         </div>
       </div>
 
-      {/* Features */}
-      <div style={{ marginTop: 50 }}>
-        <h1 className="build-head">Features</h1>
-        <p
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            fontSize: 24,
-            fontFamily: "Poppins",
-          }}
-        >
-          What makes our courses special?
-        </p>
-
-        <div class="grid-container-home">
-          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
-            <div className="features-class">
-              <img style={{ display: "flex" }} src="/images/brain.png"></img>
-            </div>
-
-            <h1 className="courses-features-h1">Structured Learning</h1>
-
-            <p className="courses-features-para">
-              Learning made easy. Complete <br></br> syllabus is covered while
-              never<br></br>
-              compromising on quality.
-            </p>
-          </div>
-
-          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
-            <div className="features-class">
-              <img style={{ display: "flex" }} src="/images/Notes.png"></img>
-            </div>
-
-            <h1 className="courses-features-h1">Notes</h1>
-
-            <p className="courses-features-para">
-              Get complete notes for all<br></br>
-              lectures so that you can focus on<br></br>learning and
-              practising..
-            </p>
-          </div>
-
-          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
-            <div className="features-class">
-              <img style={{ display: "flex" }} src="/images/Projects.png"></img>
-            </div>
-
-            <h1 className="courses-features-h1">Projects</h1>
-
-            <p className="courses-features-para">
-              Learn by doing and apply your<br></br>
-              knowledge via projects and open<br></br>source contributions.
-            </p>
-          </div>
-        </div>
-
-        <div class="grid-container-home">
-          <div className="grid-item"></div>
-          <div class="grid-item" style={{background:"#F5F5F5",margin:"1rem",borderRadius:"27px",padding:"0.7rem  1rem"}}>
-            <div className="features-class">
-              <img
-                style={{ display: "flex" }}
-                src="/images/completion.png"
-              ></img>
-            </div>
-
-            <h1 className="courses-features-h1">Certificate of completion</h1>
-
-            <p className="courses-features-para">
-              Get Certificate on the successful<br></br>completion of a course
-            </p>
-          </div>
-        </div>
-      </div>
+      <Features2/>
 
       {/* Courses */}
 
@@ -136,9 +82,12 @@ export default function Courses() {
 
         <p style={{ display: "flex", alignItems: 'center', justifyContent: "center", color: 'white', lineHeight: '2', fontSize: '20px', letterSpacing: '3px' }} >Explore a wide range of courses!!</p>
 
+
+
+
         <div class="grid-container-Courses-project">
 
-          <div class="grid-item">
+          {/* <div class="grid-item">
             <div className="course-card-container">
               <Card
                 className="course-card"
@@ -277,10 +226,10 @@ export default function Courses() {
                 <CardActions></CardActions>
               </Card>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div class="grid-container-Courses-project">
+        {/* <div class="grid-container-Courses-project">
 
           <div class="grid-item">
             <div className="course-card-container">
@@ -352,12 +301,16 @@ export default function Courses() {
               </Card>
             </div>
           </div>
+ </div> */}
 
+<div className="coming-soon glow-on-hover">
+  <h1>
+  Coming Soon...</h1>
+</div>
 
-
-        </div>
 
       </div>
+  <About2/>
 
 
       {/* Why Code8 */}
@@ -378,34 +331,14 @@ export default function Courses() {
           <img src="/images/code8.png"></img>
         </h3>
       </div>
+      <Features3/>
 
-      <div class="hello">
-        <div class="information">
-          <div
-            class="list"
-            style={{ background: " linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8) ", color: "white" }}
-          >
-            <h3
-              style={{
-                fontWeight: "normal",
-                fontSize: "48px",
-                fontStyle: "normal",
-              }}
-            >
-              Our Offerings
-            </h3>
-            <ul>
-              <li>Project-based Learning</li>
-              <li>Start-up & Incubator Network</li>
-              <li>Soft Skill Development</li>
-              <li>Placement Preparation</li>
-              <li>Academic Guidance</li>
-              <li>Career Mapping</li>
-            </ul>
-          </div>
-          <div class="text-info">
+      <div class="s2-hello">
+        <div class="stats2-information">
+          <Stats2/>
+          <div class="mentor-text-info">
             <p>
-              learn from mentors from top tech companies.  ( the learning you need, the skills you want, the career you deserve)
+              Learn from mentors from top tech companies.  ( the learning you need, the skills you want, the career you deserve)
               We partner with mentors from companies like amazon, paytm, deloitte, tcs, hitachi, cisco
               To provide you with industry relevant cohort based courses
               Get the company like experiential learning right from your college.
@@ -413,10 +346,12 @@ export default function Courses() {
 
             </p>
             <br></br>
-
+            <div className="register-now">
+              Register now and get notify for our upcoming courses
+              <br />
             <Button buttonSize="btn--large" buttonColor="blue">
-              Join our community for FREE!
-            </Button>
+            Register
+            </Button></div>
           </div>
         </div>
       </div>

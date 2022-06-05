@@ -1,26 +1,30 @@
-.Features{
+.Features {
     font-family: 'Poppins';
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 1.5rem;
     margin: 10vh 0;
+    width: 100%;
 }
 
-.Features-head{
+.Features-head {
     font-size: 3rem;
     font-weight: 600;
     margin: 3vh 0;
+    display: flex;
 }
 
-.Features-holder{
+.Features-holder {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
     gap: 2rem;
+    width: 100%;
 }
 
-.Feature{
+.Feature {
     height: 150px;
     flex-basis: 200px;
     flex-grow: 0.2;
@@ -30,28 +34,33 @@
     position: relative;
     font-size: 1.5rem;
     font-weight: 500;
+    min-width: 30%
 }
 
-.Feature::after{
- content: "";
- position: absolute;
- height: 150px;
- width: 100%;
- border-radius: 30px;
- top: -1%;
- left: 0%;
- z-index: -1;
- transform: rotateZ(-6deg);
+.Feature::after {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    border-radius: 30px;
+    top: -1%;
+    left: 0%;
+    z-index: -1;
+    transform: rotateZ(-6deg);
 }
 
-.Red::after{
+.Red::after {
     background-color: rgba(232, 8, 8, 0.35);
 }
 
-.Yellow::after{
+.Yellow::after {
     background-color: rgba(202, 232, 8, 0.35);
 }
 
-.Blue::after{
+.Blue::after {
     background-color: rgb(8, 158, 232, 0.35);
+}
+
+.Green::after {
+    background-color: rgba(0, 255, 60, 0.35);
 }
