@@ -12,7 +12,7 @@ import { MdFingerprint } from 'react-icons/md';
 
 function Footer() {
   return (
-    <div>
+    <>
     <div className='footer-container'>
      <section className='social-media-wrap'>
           <div className='footer-logo'>
@@ -118,7 +118,7 @@ function Footer() {
     </div>
     <div className="bottom-footer-container">
     </div>
-    </div>
+    </>
   );
 }
 

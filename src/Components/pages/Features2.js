@@ -4,14 +4,15 @@ import React from 'react'
 export default function Features2() {
   return (
    
-<div style={{ marginTop: 50 }}>
+<div className="features">
   <h1 className='build-head'>Features</h1>
   <p
     style={{
       display: 'flex',
       justifyContent: 'center',
       fontSize: 24,
-      fontFamily: 'Poppins'
+      fontFamily: 'Poppins',
+      textAlign: 'center'
     }}
   >
     What makes our courses special?

@@ -5,15 +5,23 @@
     /* font-family: 'PT Sans', sans-serif; */
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.grid-container-home {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+@media only screen and (min-width: 791px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .grid-container-home {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100vw;
+        overflow: hidden;
+    }
+    .bg-built-nextpro {
+        margin-top: 70px;
+        background-color: rgba(25, 120, 165, 0.7);
+        padding-bottom: 2rem;
+    }
 }
 
 
@@ -293,10 +301,8 @@
     grid-template-columns: auto auto;
 }
 
-.bg-built-nextpro {
-    margin-top: 70px;
-    background-color: rgba(25, 120, 165, 0.7);
-    ;
+.MuiGrid-root {
+    overflow: hidden;
 }
 
 .built-card {
@@ -454,4 +460,36 @@
 
 .button :hover {
     box-shadow: 3px 5px rgb(25, 120, 165, 0.5), 6px 7px rgb(25, 120, 165, 0.4), 9px 9px rgb(25, 120, 165, 0.3);
+}
+
+.features {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 790px) {
+    .features {
+        margin-top: 0;
+    }
+    .features .build-head {
+        font-size: 3.2rem;
+    }
+    .grid-container-home {
+        margin-top: 0;
+    }
+    .bg-built-nextpro {
+        margin-top: 0;
+    }
+    .explore-courses h1 {
+        font-size: 2.4rem;
+        padding-top: 1rem;
+        line-height: unset;
+    }
+    .explore-courses p {
+        text-align: center;
+        line-height: unset;
+        padding: 1rem 1rem;
+    }
+    .explore-courses {
+        padding-bottom: 2rem;
+    }
 }
