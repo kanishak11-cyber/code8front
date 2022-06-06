@@ -13,6 +13,21 @@
         width: 60%;
     }
     
+    @media only screen and (min-width: 791px) {
+        .learn-grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+    
+    .grid-container-Courses-project {
+        justify-content: center;
+        /* margin-top: 50px; */
+        padding-right: 60px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
     .learnPage {
         overflow: hidden;
     }
@@ -173,6 +188,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    
+    .coursepg {
+        color: black;
+    }
+    
+    .learn-more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 20px;
+        font-family: "poppins";
+        font-weight: 400;
     }
     
     @media only screen and (max-width: 790px) {

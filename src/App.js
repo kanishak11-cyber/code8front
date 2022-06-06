@@ -6,7 +6,7 @@ import AboutUs from './Components/pages/AboutUs';
 import Home from './Components/pages/HomePage/Home';
 import Footer from './Components/Footer'; 
 import Built from './Components/pages/Built';
-import Courses from './Components/pages/Courses';
+import Courses from './Components/pages/LearnPage/Courses';
 import Community from './Components/pages/Community';
 import Findnext from './Components/FindNextProject/Findnext';
 

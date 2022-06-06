@@ -12,6 +12,7 @@ export default function AboutUs() {
       <div className="grid-container">
         <div className="grid-item">
           <h1
+          className = "who-we-are"
             style={{
               display: "flex",
               alignItems: "center",
