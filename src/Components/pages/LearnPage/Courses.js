@@ -54,30 +54,12 @@ export default function Courses () {
 
       {/* Courses */}
 
-      <div
-        className='bg-built-nextpro explore-courses'
-        style={{
-          background: 'linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)'
-        }}
-      >
-        <h1
-          className='build-head'
-          style={{ PaddingTop: '20px', color: 'white', textAlign: 'center'}}
-        >
+      <div className='bg-built-nextpro explore-courses'>
+        <h1 className='build-head learn-bh' >
           Explore Courses
         </h1>
 
-        <p
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: 'white',
-            lineHeight: '2',
-            fontSize: '20px',
-            letterSpacing: '3px'
-          }}
-        >
+        <p>
           Explore a wide range of courses!!
         </p>
 
@@ -90,18 +72,7 @@ export default function Courses () {
 
       {/* Why Code8 */}
       <div class='why-code8-heading'>
-        <h3
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            marginTop: 40,
-            fontSize: 80,
-            fontSize: 64,
-            fontFamily: 'poppins',
-            fontWeight: 400
-          }}
-        >
+        <h3>
           Why
           <img src='/images/code8.png'></img>
         </h3>

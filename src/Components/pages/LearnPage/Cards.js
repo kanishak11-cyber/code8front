@@ -52,9 +52,9 @@ export default function Cards() {
                       fontFamily: "Poppins",
                     }}
                   >
-                    Learn Data structures and Algorithms right<br></br>from the basics and become an<br></br>accomplished programmer
-                    using Java, one<br></br>of the most popular programming<br></br>languages in the world and brighten your<br></br>
-                    chances of making it to the Top Tech<br></br>organisations as an Intern or SDE.
+                    Learn Data structures and Algorithms right<br/>from the basics and become an<br/>accomplished programmer
+                    using Java, one<br/>of the most popular programming<br/>languages in the world and brighten your<br/>
+                    chances of making it to the Top Tech<br/>organisations as an Intern or SDE.
                   </Typography>
 
                   <h3
@@ -86,17 +86,8 @@ export default function Cards() {
                   <img style={{ display: "block", marginLeft: 'auto', marginRight: 'auto' }} src="/images/C++.png"></img>
 
                   <Typography
-                    style={{
-                      fontSize: "28px",
-                      color: "black",
-                      marginTop: "50px",
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: 'center',
-                      textAlign: '-webkit-center',
-                      fontFamily: "Poppins",
-                      fontWeight: "400",
-                    }}
+                  className="mui-typography"
+                    
                     color="#fff"
                     gutterBottom
                   >
