@@ -17,7 +17,7 @@ function Footer() {
      <section className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img src="images/Logo.png"></img>
+            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
             </Link>
           </div>
           <p>Compiling ideas into reality</p>

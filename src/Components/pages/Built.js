@@ -13,7 +13,7 @@ export default function Built() {
       {/* What is build */}
       <div className="builttop">
       <img
-          src=".\images\Build Illustration (1) 1.png"
+          src="https://github.com/KapadiaShubham/code8-media/blob/master/build/Build-Illustration1.png?raw=true"
           style={{
             display:"flex",
             alignItems: "center",
@@ -146,7 +146,7 @@ export default function Built() {
                   <div>
                     <img
                       className="whybuild-img"
-                      src="/images/why_build_circle.png"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
                     ></img>
                     <h1 className="whybuild-card-head">Integrity</h1>
                     <h1 className="whybuild-card-p">
@@ -176,7 +176,7 @@ export default function Built() {
                   <div>
                     <img
                       className="whybuild-img"
-                      src="/images/why_build_circle.png"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
                     ></img>
                     <h1 className="whybuild-card-head">Integrity</h1>
                     <h1 className="whybuild-card-p">
@@ -220,7 +220,7 @@ export default function Built() {
                   <div>
                     <img
                       className="whybuild-img"
-                      src="/images/why_build_circle.png"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
                     ></img>
                     <h1 className="whybuild-card-head">Integrity</h1>
                     <h1 className="whybuild-card-p">
@@ -250,7 +250,7 @@ export default function Built() {
                   <div>
                     <img
                       className="whybuild-img"
-                      src="/images/why_build_circle.png"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
                     ></img>
                     <h1 className="whybuild-card-head">Integrity</h1>
                     <h1 className="whybuild-card-p">
@@ -277,7 +277,7 @@ export default function Built() {
 
         <div class="grid-container-built ">
           <div class="grid-item">
-            <img id="img-built1" src="/images/rectangle.png"></img>
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
           </div>
 
           <div class="grid-item">
@@ -285,7 +285,7 @@ export default function Built() {
           </div>
 
           <div class="grid-item">
-            <img id="img-built1" src="/images/rectangle.png"></img>
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
           </div>
         </div>
 
@@ -296,7 +296,7 @@ export default function Built() {
 
         <div class="grid-container-built ">
           <div class="grid-item">
-            <img id="img-built1" src="/images/rectangle.png"></img>
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
           </div>
 
           <div class="grid-item">
@@ -304,7 +304,7 @@ export default function Built() {
           </div>
 
           <div class="grid-item">
-            <img id="img-built1" src="/images/rectangle.png"></img>
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
           </div>
         </div>
       </div>
@@ -552,7 +552,7 @@ export default function Built() {
             fontWeight: 400,
           }}
         >
-          <img id="icon" src="/images/Logo.png"></img>
+          <img id="icon" src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
           Library
         </h1>
 
@@ -952,7 +952,7 @@ export default function Built() {
               }}
             >
               Built by
-              <img src="/images/Logo.png"></img>
+              <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
             </h1>
 
             <p

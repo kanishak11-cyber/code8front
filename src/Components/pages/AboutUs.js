@@ -33,7 +33,7 @@ export default function AboutUs() {
         </div>
 
         <div className="grid-item">
-          <img id="img-ab" src="/images/abo.png"></img>
+          <img id="img-ab" src="https://github.com/KapadiaShubham/code8-media/blob/master/about-us/abo.png?raw=true"></img>
         </div>
       </div>
 
