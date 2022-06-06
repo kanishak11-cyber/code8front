@@ -10,10 +10,13 @@ import Courses from './Components/pages/LearnPage/Courses';
 import Community from './Components/pages/Community';
 import Findnext from './Components/FindNextProject/Findnext';
 
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
+
 
 function App() {
   return (
-    <Router>
+    <>
+    <ScrollToTop/>
       <Navbar />
       <Switch><Route path='/' exact component={Home} />
         <Route path='/about-us' component={AboutUs}/>
@@ -23,7 +26,7 @@ function App() {
         <Route path='/production' component = {Findnext}/>
       </Switch>
       <Footer />
-    </Router>
+    </>
   );
 }
 

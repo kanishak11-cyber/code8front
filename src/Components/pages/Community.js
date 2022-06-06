@@ -21,7 +21,7 @@ export default function Community() {
             justifyContent: "center",
             width: "50%",
           }}
-          src="/images/Join-Us.png"
+          src="https://github.com/KapadiaShubham/code8-media/blob/master/community/Join-Us.png?raw=true"
         ></img>
 
         <div className="builtpara">
@@ -69,7 +69,7 @@ export default function Community() {
         <div class="grid-item">
           <img
             style={{ marginTop: "120px", paddingRight: "100px" }}
-            src="/images/ambassdaor.png"
+            src="https://github.com/KapadiaShubham/code8-media/blob/master/community/ambassador.png?raw=true"
           ></img>
         </div>
       </div>
@@ -94,7 +94,7 @@ export default function Community() {
                   marginTop: "20px",
                   marginBottom: "40px",
                 }}
-                src="/images/events-img.png"
+                src="https://github.com/KapadiaShubham/code8-media/blob/master/images/events-img.png?raw=true"
               ></img>
             </Grid>
 
