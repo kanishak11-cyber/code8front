@@ -2,6 +2,17 @@
     width: 100vw;
     font-family: 'Poppins', sans-serif;
 }
+
+.Status{
+    text-align: center;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    font-weight: 700;
+    color: transparent;
+    margin: 10vh 0;
+}
 .levels{
     text-align: center;
     font-weight: 600;

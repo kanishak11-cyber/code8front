@@ -6,7 +6,7 @@ const Project = (props) => {
     const{domain ,bgc} = props;
 
     return (
-        <div className="project" style={{backgroundColor:bgc }}>
+        <div className="project" style={{background:bgc }}>
             <div className="Domain">
             {props.domain}
             </div>

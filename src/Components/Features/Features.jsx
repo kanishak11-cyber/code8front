@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Features.css"
 
 const Features = () => {
+  useEffect(() => {
+  }, [])
+  
   return (
     <div className='Features'>
        <div className="Features-head">

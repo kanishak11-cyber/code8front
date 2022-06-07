@@ -1,0 +1,47 @@
+.Howitworks{
+    font-family: 'Poppins', sans-serif;
+    padding: 4vh 2.5vw;
+}
+
+.procedur-step{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1vh 1.2vw;
+    gap: 1.2rem;
+}
+.Procedure-holder{
+    margin: 5px 0;
+}
+
+.step-number{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+}
+
+.procedure-description{
+    color: white;
+    border-radius: 0px  20px 20px 0px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+    padding: 10px;
+    width: 40vw;
+    height: 60px;
+    overflow: hidden;
+}
+
+.Howitworks-head{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}

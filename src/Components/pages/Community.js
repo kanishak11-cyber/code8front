@@ -7,6 +7,8 @@ import "../pages/Ourcommunity/Ourcommunity.css";
 import Mentor from "../mentors/Mentor";
 import Mentorstats from "../Stats/Mentorstats";
 import Features from "../Features/Features";
+import Ouroffering from "../Ouroffering/Ouroffering";
+import Ourcommunity from "./Ourcommunity/Ourcommunity";
 
 export default function Community() {
   return (
@@ -127,6 +129,9 @@ export default function Community() {
       </div>
       {/* Mentors Stats */}
       <Mentorstats />
+
+      {/* Our offerings */}
+      <Ourcommunity/>
     </div>
   );
 }
