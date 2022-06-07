@@ -14,8 +14,12 @@ export default function Built() {
     <>
       {/* What is build */}
       <div className="builttop">
+
         <img
           src=".\images\Build Illustration (1) 1.png"
+          />
+      <img
+          src="https://github.com/KapadiaShubham/code8-media/blob/master/build/Build-Illustration1.png?raw=true"
           style={{
             display: "flex",
             alignItems: "center",
@@ -114,6 +118,200 @@ export default function Built() {
       </div>
 
       <Howitworks />
+      {/* Why build projects with us */}
+
+      <div>
+        <h1 className="build-head">Why build projects with us?</h1>
+        {/* div 1 */}
+        <div style={{ padding: "20px 164px 0px 295px" }}>
+          <Grid
+            container
+            spacing={2}
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+          >
+            {/* 1.1 card */}
+            <Grid item xs={6}>
+              <Card
+                sx={{
+                  width: "400px",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
+                  boxSizing: "border-box",
+                  boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
+                  borderRadius: "56px",
+                  marginTop: "80px",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <CardContent className="build-card-content">
+                  <div>
+                    <img
+                      className="whybuild-img"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
+                    ></img>
+                    <h1 className="whybuild-card-head">Integrity</h1>
+                    <h1 className="whybuild-card-p">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi cras est nisl enim, pellentesque lorem dolor est
+                      habitant. Vitae nunc, dolor gravida duis. At et, quam est
+                      donec. Consectetur morbi et dignissim sed amet erat augue
+                      quis. Et, aliquam ac turpis vestibulum vulputate tellus.
+                    </h1>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
+            {/* 1.2 card */}
+            <Grid item xs={6}>
+              <Card
+                sx={{
+                  width: "400px",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
+                  boxSizing: "border-box",
+                  boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
+                  borderRadius: "56px",
+                  marginTop: "80px",
+                }}
+              >
+                <CardContent className="build-card-content">
+                  <div>
+                    <img
+                      className="whybuild-img"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
+                    ></img>
+                    <h1 className="whybuild-card-head">Integrity</h1>
+                    <h1 className="whybuild-card-p">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi cras est nisl enim, pellentesque lorem dolor est
+                      habitant. Vitae nunc, dolor gravida duis. At et, quam est
+                      donec. Consectetur morbi et dignissim sed amet erat augue
+                      quis. Et, aliquam ac turpis vestibulum vulputate tellus.
+                    </h1>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Grid>
+        </div>
+
+        {/* div 2 */}
+        <div style={{ padding: "30px 164px 50px 295px" }}>
+          <Grid
+            container
+            spacing={2}
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+          >
+            {/* 2.1 card */}
+            <Grid item xs={6}>
+              <Card
+                sx={{
+                  width: "400px",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
+                  boxSizing: "border-box",
+                  boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
+                  borderRadius: "56px",
+                  marginTop: "80px",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <CardContent className="build-card-content">
+                  <div>
+                    <img
+                      className="whybuild-img"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
+                    ></img>
+                    <h1 className="whybuild-card-head">Integrity</h1>
+                    <h1 className="whybuild-card-p">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi cras est nisl enim, pellentesque lorem dolor est
+                      habitant. Vitae nunc, dolor gravida duis. At et, quam est
+                      donec. Consectetur morbi et dignissim sed amet erat augue
+                      quis. Et, aliquam ac turpis vestibulum vulputate tellus.
+                    </h1>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
+            {/* 2.2 card */}
+            <Grid item xs={6}>
+              <Card
+                sx={{
+                  width: "400px",
+                  background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)",
+                  boxSizing: "border-box",
+                  boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)",
+                  borderRadius: "56px",
+                  marginTop: "80px",
+                }}
+              >
+                <CardContent className="build-card-content">
+                  <div>
+                    <img
+                      className="whybuild-img"
+                      src="https://github.com/KapadiaShubham/code8-media/blob/master/build/why_build_circle.png?raw=true"
+                    ></img>
+                    <h1 className="whybuild-card-head">Integrity</h1>
+                    <h1 className="whybuild-card-p">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi cras est nisl enim, pellentesque lorem dolor est
+                      habitant. Vitae nunc, dolor gravida duis. At et, quam est
+                      donec. Consectetur morbi et dignissim sed amet erat augue
+                      quis. Et, aliquam ac turpis vestibulum vulputate tellus.
+                    </h1>
+                  </div>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Grid>
+        </div>
+      </div>
+
+      {/* How it works */}
+      <div>
+        <h1 className="build-head"
+        >
+          How it works?
+        </h1>
+
+        <div class="grid-container-built ">
+          <div class="grid-item">
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
+          </div>
+
+          <div class="grid-item">
+            <img id="img-arrow" src="/images/arrow.png"></img>
+          </div>
+
+          <div class="grid-item">
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
+          </div>
+        </div>
+
+        <img
+          style={{ width: "auto", paddingLeft: "1154px", marginTop: "60px" }}
+          src="/images/arrow2.png"
+        ></img>
+
+        <div class="grid-container-built ">
+          <div class="grid-item">
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
+          </div>
+
+          <div class="grid-item">
+            <img id="img-arrow" src="/images/arrow3.png"></img>
+          </div>
+
+          <div class="grid-item">
+            <img id="img-built1" src="https://github.com/KapadiaShubham/code8-media/blob/master/images/rectangle.png?raw=true"></img>
+          </div>
+        </div>
+      </div>
+
 
       {/* Find your next project */}
       <div>
@@ -339,6 +537,390 @@ export default function Built() {
         </div>
       </div>
       <Stats />
+
+      {/* Code8 Library */}
+      <div style={{ marginTop: 50 }}>
+        <h1
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 40,
+            fontFamily: "poppins",
+            fontWeight: 400,
+          }}
+        >
+          <img id="icon" src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
+          Library
+        </h1>
+
+        <div>
+          <div class="grid-container-built-lib">
+            <div class="grid-item">
+              <div className="built-card-lib-container">
+                <Card
+                  className="code8-lib-card"
+                  sx={{
+                    overflow: "inherit",
+                    filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                    border: "2px solid #1978A5",
+                  }}
+                >
+                  <CardContent>
+                    <img
+                      style={{ marginLeft: -50 }}
+                      id="img-abs-lib"
+                      src="/images/codingpic.png"
+                    ></img>
+
+                    <div class="grid-container-built-project">
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/wordpress.png"
+                          ></img>
+                          <p>Wordpress</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/angular.png"
+                          ></img>
+                          <p>Angular</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/react-js.png"
+                          ></img>
+                          <p>React</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                  <CardActions></CardActions>
+                </Card>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div className="built-card-lib-container">
+                <Card
+                  className="code8-lib-card"
+                  sx={{
+                    overflow: "inherit",
+                    filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                    border: "2px solid #1978A5",
+                  }}
+                >
+                  <CardContent>
+                    <img
+                      style={{ marginLeft: -50 }}
+                      id="img-abs-lib"
+                      src="/images/app-dev.png"
+                    ></img>
+
+                    <div class="grid-container-built-project">
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/android.png"
+                          ></img>
+                          <p>Wordpress</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/kotlin.png"
+                          ></img>
+                          <p>Angular</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/Flutter.png"
+                          ></img>
+                          <p>React</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                  <CardActions></CardActions>
+                </Card>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div className="built-card-lib-container">
+                <Card
+                  className="code8-lib-card"
+                  sx={{
+                    overflow: "inherit",
+                    filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                    border: "2px solid #1978A5",
+                  }}
+                >
+                  <CardContent>
+                    <img
+                      style={{ marginLeft: -50 }}
+                      id="img-abs-lib"
+                      src="/images/cloud.png"
+                    ></img>
+
+                    <div class="grid-container-built-project">
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/aws.png"
+                          ></img>
+                          <p>Wordpress</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/azure.png"
+                          ></img>
+                          <p>Angular</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/gcloud.png"
+                          ></img>
+                          <p>React</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                  <CardActions></CardActions>
+                </Card>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div className="built-card-lib-container">
+                <Card
+                  className="code8-lib-card"
+                  sx={{
+                    overflow: "inherit",
+                    filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                    border: "2px solid #1978A5",
+                  }}
+                >
+                  <CardContent>
+                    <img
+                      style={{ marginLeft: -50 }}
+                      id="img-abs-lib"
+                      src="/images/database.png"
+                    ></img>
+
+                    <div class="grid-container-built-project">
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/ethereum.png"
+                          ></img>
+                          <p>Wordpress</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/bitcoin.png"
+                          ></img>
+                          <p>Angular</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/Hyperledger.png"
+                          ></img>
+                          <p>React</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                  <CardActions></CardActions>
+                </Card>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div className="built-card-lib-container">
+                <Card
+                  className="code8-lib-card"
+                  sx={{
+                    overflow: "inherit",
+                    filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                    border: "2px solid #1978A5",
+                  }}
+                >
+                  <CardContent>
+                    <img
+                      style={{ marginLeft: -50 }}
+                      id="img-abs-lib"
+                      src="/images/database.png"
+                    ></img>
+
+                    <div class="grid-container-built-project">
+                      <div class="grid-item">
+                        <h1
+                          style={{
+                            display: "flex",
+                            marginTop: -50,
+                            fontSize: 30,
+                          }}
+                        >
+                          Blockchain
+                        </h1>
+
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/ethereum.png"
+                          ></img>
+                          <p>Wordpress</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/bitcoin.png"
+                          ></img>
+                          <p>Angular</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/Hyperledger.png"
+                          ></img>
+                          <p>React</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                  <CardActions></CardActions>
+                </Card>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div className="built-card-lib-container">
+                <Card
+                  className="code8-lib-card"
+                  sx={{
+                    overflow: "inherit",
+                    filter: "drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.25))",
+                    border: "2px solid #1978A5",
+                  }}
+                >
+                  <CardContent>
+                    <img
+                      style={{ marginLeft: -50 }}
+                      id="img-abs-lib"
+                      src="/images/database.png"
+                    ></img>
+
+                    <div class="grid-container-built-project">
+                      <div class="grid-item">
+                        <h1
+                          style={{
+                            display: "flex",
+                            marginTop: -50,
+                            fontSize: 30,
+                          }}
+                        >
+                          AI/ML
+                        </h1>
+
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/ethereum.png"
+                          ></img>
+                          <p>Wordpress</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/bitcoin.png"
+                          ></img>
+                          <p>Angular</p>
+                        </div>
+                      </div>
+
+                      <div class="grid-item">
+                        <div style={{ marginLeft: 50 }}>
+                          <img
+                            style={{ display: "flex" }}
+                            id="img"
+                            src="/images/Hyperledger.png"
+                          ></img>
+                          <p>React</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                  <CardActions></CardActions>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Built by Code8 */}
       <div style={{}}>
         <div class="grid-container">
@@ -368,7 +950,7 @@ export default function Built() {
               }}
             >
               Built by
-              <img src="/images/Logo.png"></img>
+              <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
             </h1>
 
             <p

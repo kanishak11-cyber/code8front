@@ -75,7 +75,7 @@ function Home() {
             fontWeight: 400,
           }}
         >
-          <img id="icon" src="/images/Logo.png"></img>
+          <img id="icon" src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
           Community
         </h3> */}
         {/* 1st container */}
@@ -371,7 +371,7 @@ function Home() {
                   <img
                     style={{ display: "flex", marginLeft: 85 }}
                     id="img-home"
-                    src="/images/profile.png"
+                    src="https://github.com/KapadiaShubham/code8-media/blob/master/home/icons/profile.png?raw=true"
                   ></img>
 
                   <Typography
@@ -394,7 +394,7 @@ function Home() {
                   <img
                     style={{ display: "flex", marginLeft: 50 }}
                     id="img-rating"
-                    src="/images/rating.png"
+                    src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true"
                   ></img>
 
                   <Typography
@@ -434,7 +434,7 @@ function Home() {
                   <img
                     style={{ display: "flex", marginLeft: 85 }}
                     id="img-home"
-                    src="/images/profile.png"
+                    src="https://github.com/KapadiaShubham/code8-media/blob/master/home/icons/profile.png?raw=true"
                   ></img>
 
                   <Typography
@@ -457,7 +457,7 @@ function Home() {
                   <img
                     style={{ display: "flex", marginLeft: 50 }}
                     id="img-rating"
-                    src="/images/rating.png"
+                    src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true"
                   ></img>
 
                   <Typography
@@ -497,7 +497,7 @@ function Home() {
                   <img
                     style={{ display: "flex", marginLeft: 85 }}
                     id="img-home"
-                    src="/images/profile.png"
+                    src="https://github.com/KapadiaShubham/code8-media/blob/master/home/icons/profile.png?raw=true"
                   ></img>
 
                   <Typography
@@ -520,7 +520,7 @@ function Home() {
                   <img
                     style={{ display: "flex", marginLeft: 50 }}
                     id="img-rating"
-                    src="/images/rating.png"
+                    src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true"
                   ></img>
 
                   <Typography
@@ -600,7 +600,7 @@ function Home() {
               }}>
                 <div className="card-thumbnail ">
                   <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                   </a>
                 </div>
               </div>
@@ -615,7 +615,7 @@ function Home() {
               }}>
                 <div className="card-thumbnail" >
                   <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                   </a>
                 </div>
 
@@ -631,7 +631,7 @@ function Home() {
               }}>
                 <div className="card-thumbnail" >
                   <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                   </a>
                 </div>
 
@@ -647,7 +647,7 @@ function Home() {
               }}>
                 <div className="card-thumbnail">
                   <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                   </a>
                 </div>
 
@@ -663,7 +663,7 @@ function Home() {
               }}>
                 <div className="card-thumbnail" >
                   <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                   </a>
                 </div>
 
@@ -679,7 +679,7 @@ function Home() {
               }}>
                 <div className="card-thumbnail">
                   <a href="https://code8.ggeeks.me">
-                  <img src="/images/Event1.jpeg" className="img-fluid" alt="thumbnail" />
+                  <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                   </a>
                 </div>
 

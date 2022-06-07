@@ -12,6 +12,7 @@ export default function AboutUs() {
       <div className="grid-container">
         <div className="grid-item">
           <h1
+          className = "who-we-are"
             style={{
               display: "flex",
               alignItems: "center",
@@ -33,7 +34,7 @@ export default function AboutUs() {
         </div>
 
         <div className="grid-item">
-          <img id="img-ab" src="/images/abo.png"></img>
+          <img id="img-ab" src="https://github.com/KapadiaShubham/code8-media/blob/master/about-us/abo.png?raw=true"></img>
         </div>
       </div>
 

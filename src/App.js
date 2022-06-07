@@ -6,24 +6,27 @@ import AboutUs from './Components/pages/AboutUs';
 import Home from './Components/pages/HomePage/Home';
 import Footer from './Components/Footer'; 
 import Built from './Components/pages/Built';
-import Courses from './Components/pages/Courses';
+import Courses from './Components/pages/LearnPage/Courses';
 import Community from './Components/pages/Community';
 import Findnext from './Components/FindNextProject/Findnext';
+
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 
 
 function App() {
   return (
-    <Router>
+    <>
+    <ScrollToTop/>
       <Navbar />
       <Switch><Route path='/' exact component={Home} />
         <Route path='/about-us' component={AboutUs}/>
         <Route path='/built' component={Built}/>
-        <Route path='/courses' component={Courses}/>
+        <Route path='/learn' component={Courses}/>
         <Route path='/community' component = {Community}/>
         <Route path='/production' component = {Findnext}/>
       </Switch>
       <Footer />
-    </Router>
+    </>
   );
 }
 
