@@ -1,25 +1,35 @@
 import React from 'react'
 import "./whatdriveus.css"
-
+const Card = (props) => {
+    return (
+        <div className={`w-card ${props.index==0? "":"not-first-card"}`}>
+            <img src={props.imgLink} alt="" />
+            <div className="w-reason">{props.title}</div>
+            <div className="w-card-content">
+                {props.content}
+            </div>
+        </div>
+    )
+}
+const data = [
+    {
+        title: "Vision",
+        imgLink: "/images/Vision.png",
+        content: "To provide industry relevant skills and exposure to every engineer in making."
+    },
+    {
+        title: "Mission",
+        imgLink: "/images/Mission.jpg",
+        content: "Upskilling young geniuses to create a better world through technology."
+    }
+]
 const Whatdrivesus = () => {
     return (
         <div className='Whatdrivesus'>
             <div className="w-card-holder">
-                <div className="w-card">
-                    <img src="/images/Vision.png" alt="" />
-                    <div className="w-reason">Vision</div>
-                    <div className="w-card-content">
-                        To provide industry relevant skills and exposure to every engineer in making.
-                    </div>
-                </div>
-                <div className="w-card">
-                    <img src="/images/Mission.jpg" alt="" />
-                    <div className="w-reason">Mission</div>
-                    <div className="w-card-content">
-                        Upskilling young geniuses to create a better world through technology.
-                    </div>
-                </div>
-
+                {data.map((item, index) => {
+                    return <Card key={index} index={index} title={item.title} imgLink={item.imgLink} content={item.content} />
+                })}
             </div>
         </div>
     )
