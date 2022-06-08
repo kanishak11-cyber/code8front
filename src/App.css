@@ -238,7 +238,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 3rem;
     line-height: 96px;
     margin-top: 25px;
 }
@@ -338,11 +338,17 @@
 }
 
 .builttop {
-    padding: 50px 80px;
+    /* padding: 50px 80px; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
+}
+
+.builttop img {
+  height: auto;
+  width: 52%;
 }
 
 .courses-features-h1 {
@@ -464,6 +470,9 @@
     .grid-container-home {
         margin-top: 0;
     }
+    .build-head{
+        font-size: 2.3rem;
+    }
     .bg-built-nextpro {
         margin-top: 0;
     }
@@ -480,4 +489,11 @@
     .explore-courses {
         padding-bottom: 2rem;
     }
+}
+
+@media only screen and (max-width: 750px) {
+    .builttop img {
+        height: auto;
+        width: 95%;
+      }
 }
