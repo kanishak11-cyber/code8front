@@ -4,6 +4,7 @@ import { Button } from "../Button";
 import Whatdrivesus from "../whodiveus/Whatdrivesus";
 import Wahtwhy from "../WhatWhy/Wahtwhy";
 import Ouroffering from "../Ouroffering/Ouroffering";
+import classes from "./css/aboutus.module.css";
 
 export default function AboutUs() {
   return (
@@ -12,29 +13,29 @@ export default function AboutUs() {
       <div className="grid-container">
         <div className="grid-item">
           <h1
-          className = "who-we-are"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              paddingLeft: "90px",
-              marginTop: "100px",
-              fontSize: 64,
-              fontFamily: "poppins",
-              fontWeight: 400,
-            }}
+          className = {`who-we-are ${classes.heading}`}
+            // style={{
+            //   display: "flex",
+            //   alignItems: "center",
+            //   paddingLeft: "90px",
+            //   marginTop: "100px",
+            //   fontSize: 64,
+            //   fontFamily: "poppins",
+            //   fontWeight: 400,
+            // }}
           >
             Who we are?
           </h1>
 
-          <p className="aboutpg">
+          <p className={`aboutpg ${classes.aboutpg}`}>
             Code8 is an experiential  learning platform driven by the energy of code and ideas to harness the power of innovation in learners.
             We are building a culture to work on projects while getting upskilled with industry relevant learnings and experience.
 
           </p>
         </div>
 
-        <div className="grid-item">
-          <img id="img-ab" src="https://github.com/KapadiaShubham/code8-media/blob/master/about-us/abo.png?raw=true"></img>
+        <div className={`grid-item ${classes.infographics}`}>
+          <img id="img-ab" className={classes.whorweimg} src="https://github.com/KapadiaShubham/code8-media/blob/master/about-us/abo.png?raw=true"></img>
         </div>
       </div>
 
