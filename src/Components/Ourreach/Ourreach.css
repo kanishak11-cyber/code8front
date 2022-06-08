@@ -1,0 +1,29 @@
+.Ourreach{
+    font-family: 'Poppins';
+    text-align: center;
+}
+.Ourreach-head{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 96px;
+}
+
+.reach-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.reaches{
+    flex-basis: 250px;
+    flex-grow: 0.15;
+    margin: 4vh 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.9rem;
+    border-radius: 15px;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+}

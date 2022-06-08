@@ -1,0 +1,34 @@
+.Testimonial{
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.Testimonial-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 6vh 0;
+}
+
+#img-rating {
+    width: 70%;
+}
+
+#img-home{
+    position: relative;
+}
+
+.testimonial-card{
+    position: relative;    flex-basis: 250px;
+    flex-grow: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1.1rem;
+    background: #c6d9e2;
+    padding: 1.2rem;
+    border-radius: 25px;
+}
