@@ -1,0 +1,55 @@
+.features2 {
+    margin-top: 50px;
+}
+
+.features2>p {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.features2 .grid-container-home .grid-item {
+    background-color: #F5F5F5;
+    margin: 1rem;
+    border-radius: 27px;
+    padding: 0.7rem 1rem;
+}
+
+@media only screen and (max-width: 790px) {
+    .features2 {
+        margin-top: 0;
+    }
+    .features2 .flex .grid-item:first-child {
+        display: none;
+    }
+    .features2 .flex .grid-item:last-child {
+        display: none;
+    }
+    .features2 .build-head {
+        font-size: 3.2rem;
+    }
+    .grid-container-home {
+        margin-top: 0;
+    }
+    .build-head {
+        font-size: 2.3rem;
+    }
+    .bg-built-nextpro {
+        margin-top: 0;
+    }
+    .explore-courses h1 {
+        font-size: 2.4rem;
+        padding-top: 1rem;
+        line-height: unset;
+    }
+    .explore-courses p {
+        text-align: center;
+        line-height: unset;
+        padding: 1rem 1rem;
+    }
+    .explore-courses {
+        padding-bottom: 2rem;
+    }
+}

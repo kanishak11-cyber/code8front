@@ -1,33 +1,19 @@
 import React from 'react'
 
+import './Features2.css'
+
 
 export default function Features2() {
   return (
    
-<div className="features">
+<div className="features2">
   <h1 className='build-head'>Features</h1>
-  <p
-    style={{
-      display: 'flex',
-      justifyContent: 'center',
-      fontSize: 24,
-      fontFamily: 'Poppins',
-      textAlign: 'center'
-    }}
-  >
+  <p>
     What makes our courses special?
   </p>
 
   <div class='grid-container-home'>
-    <div
-      class='grid-item'
-      style={{
-        background: '#F5F5F5',
-        margin: '1rem',
-        borderRadius: '27px',
-        padding: '0.7rem  1rem'
-      }}
-    >
+    <div class='grid-item'>
       <div className='features-class'>
         <img style={{ display: 'flex' }} src='/images/brain.png'></img>
       </div>
@@ -39,15 +25,7 @@ export default function Features2() {
       </p>
     </div>
 
-    <div
-      class='grid-item'
-      style={{
-        background: '#F5F5F5',
-        margin: '1rem',
-        borderRadius: '27px',
-        padding: '0.7rem  1rem'
-      }}
-    >
+    <div className='grid-item'>
       <div className='features-class'>
         <img style={{ display: 'flex' }} src='/images/Notes.png'></img>
       </div>
@@ -60,15 +38,7 @@ export default function Features2() {
       </p>
     </div>
 
-    <div
-      class='grid-item'
-      style={{
-        background: '#F5F5F5',
-        margin: '1rem',
-        borderRadius: '27px',
-        padding: '0.7rem  1rem'
-      }}
-    >
+    <div className='grid-item'>
       <div className='features-class'>
         <img style={{ display: 'flex' }} src='/images/Projects.png'></img>
       </div>

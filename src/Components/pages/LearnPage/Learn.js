@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 import './learncss.css'
 import './buttonCSS/test-button.css'
-import Features2 from '../Features2'
+import Features2 from './Features2'
 import Features3 from '../../Features/Features3'
 import Cards from './Cards' // Currently commented and coming soon
 
@@ -44,7 +44,7 @@ export default function Courses () {
             </div>
           </div>
 
-          <div className='grid-item'>
+          <div className='learn-img'>
             <img src='https://github.com/KapadiaShubham/code8-media/blob/master/learn/learnpage-first-img.png/?raw=true'></img>
           </div>
         </div>

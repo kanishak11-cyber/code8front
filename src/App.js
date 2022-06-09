@@ -6,8 +6,8 @@ import AboutUs from './Components/pages/AboutUs';
 import Home from './Components/pages/HomePage/Home';
 import Footer from './Components/Footer'; 
 import Built from './Components/pages/Built';
-import Courses from './Components/pages/LearnPage/Courses';
-import Community from './Components/pages/Community';
+import Courses from './Components/pages/LearnPage/Learn';
+import Community from './Components/pages/Community-page/Community';
 import Findnext from './Components/FindNextProject/Findnext';
 
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'

@@ -71,7 +71,6 @@
     margin-top: 110px;
 }
 
-
 .aboutpg {
     display: flex;
     flex-direction: column;
@@ -339,8 +338,8 @@
 }
 
 .builttop img {
-  height: auto;
-  width: 52%;
+    height: auto;
+    width: 52%;
 }
 
 .courses-features-h1 {
@@ -462,7 +461,7 @@
     .grid-container-home {
         margin-top: 0;
     }
-    .build-head{
+    .build-head {
         font-size: 2.3rem;
     }
     .bg-built-nextpro {
@@ -487,5 +486,5 @@
     .builttop img {
         height: auto;
         width: 95%;
-      }
+    }
 }
