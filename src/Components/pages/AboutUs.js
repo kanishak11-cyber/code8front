@@ -12,7 +12,7 @@ export default function AboutUs() {
       <div className="grid-container">
         <div className="grid-item">
           <h1
-          className={classes.heading}
+          className = {`who-we-are ${classes.heading}`}
             // style={{
             //   display: "flex",
             //   alignItems: "center",
@@ -26,15 +26,15 @@ export default function AboutUs() {
             Who we are?
           </h1>
 
-          <p className={`${classes.content}  aboutpg`}>
+          <p className={`aboutpg ${classes.aboutpg}`}>
             Code8 is an experiential  learning platform driven by the energy of code and ideas to harness the power of innovation in learners.
             We are building a culture to work on projects while getting upskilled with industry relevant learnings and experience.
 
           </p>
         </div>
 
-        <div className="grid-item">
-          <img id="img-ab" src="/images/abo.png"></img>
+        <div className={`grid-item ${classes.infographics}`}>
+          <img id="img-ab" className={classes.whorweimg} src="https://github.com/KapadiaShubham/code8-media/blob/master/about-us/abo.png?raw=true"></img>
         </div>
       </div>
 

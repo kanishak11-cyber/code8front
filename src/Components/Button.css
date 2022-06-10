@@ -119,3 +119,12 @@
   border: none;
 }
 
+@media only screen and (max-width:780px) {
+  .btn{
+    margin: 10px;
+  }
+  .btn--large{
+    padding: 10px;
+  }
+}
+

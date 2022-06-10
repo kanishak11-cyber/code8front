@@ -5,10 +5,7 @@ const About2 = () => {
   return (
     <div className='Aboutcode8'>
       <div className='About-heading'
-      style={{
-          width: '70%',
-          textAlign: 'center'
-      }}>
+      >
         {/* Enabling community led peer to peer learning like never before.. */}
         Get the company like experiential learning right from your college and Hone your skills like never before
       </div>

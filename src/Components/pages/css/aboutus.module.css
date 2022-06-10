@@ -1,4 +1,3 @@
-
 .heading{
     display: flex;
     align-items: center;
@@ -7,32 +6,29 @@
     font-size: 64px;
     font-family: poppins;
     font-weight: 400;
-}
-@media screen and (max-width: 800px) {
+    }
+    .infographics{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @media screen and (max-width: 800px) {
     .heading{
-        font-size: 2.5rem;
-        padding-left: 4vw;
+    font-size: 2.5rem;
+    padding-left: 4vw;
+    }
+    .aboutpg{
+        font-size: 1rem;
     }
     .content{
-        font-size: 1.1rem;
+    font-size: 1.1rem;
     }
-  /* .aboutus-container {
-    padding: 0;
-  }
-  .aboutus-container .aboutus-content {
-    padding: 0;
-  }
-  .aboutus-container .aboutus-content .aboutus-content-title {
-    padding: 0;
-  }
-  .aboutus-container .aboutus-content .aboutus-content-title h1 {
-    font-size: 2.5rem;
-  }
-  .aboutus-container .aboutus-content .aboutus-content-title h2 {
-    font-size: 1.5rem;
-  }
-  .aboutus-container .aboutus-content .aboutus-content-title h3 {
-    font-size: 1.2rem;
-  }
-     */
+    .whorweimg{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .whorweimg{
+        margin-top: 50px;
+    }
 }

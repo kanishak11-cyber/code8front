@@ -1,23 +1,34 @@
-.Mentorstats{
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
-    margin: 5rem 0;
-    padding: 2rem 0;
-}
-.Mstat{
-    background-color: aliceblue;
-}
-
-.MSdata{
-    font-size: 3.4rem;
-    font-weight: 450;
-    margin-bottom: 10px;
-    border-bottom: solid 0.8px rgb(8, 158, 232, 0.8);
-}
-
-.MSmetadata{
-    text-align: center;
-    padding: 2vh 1.2vw;
-    font-size: 1.12rem;
-    font-weight: 500;
-}
+    .Mentorstats {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(136deg, #56a8d0, #00b7d5, #089ee8);
+        /* margin: 5rem 0; */
+        padding: 2rem 0;
+    }
+    
+    .Mstat {
+        background-color: aliceblue;
+    }
+    
+    .MSdata {
+        font-size: 3.4rem;
+        font-weight: 450;
+        margin-bottom: 10px;
+        border-bottom: solid 0.8px rgb(8, 158, 232, 0.8);
+    }
+    
+    .MSmetadata {
+        text-align: center;
+        padding: 2vh 1.2vw;
+        font-size: 1.12rem;
+        font-weight: 500;
+        height: 7rem;
+    }
+    
+    @media only screen and (max-width: 790px) {
+        .Mstat .MSmetadata {
+            height: 6rem;
+        }
+        .Mstat {
+            margin-bottom: 1rem
+        }
+    }

@@ -159,7 +159,7 @@ window.addEventListener('resize',showButton1);
       <nav className='navbar'>
       {/* logo */}
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu1}>
-         <img src="images/Logo.png"></img>
+         <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
         </Link>
 
       {/* Home */}
@@ -278,7 +278,7 @@ window.addEventListener('resize',showButton1);
         <DialogContent>
          <div style={{display:"flex",justifyContent:"space-between"}}>
            <span>
-           <img src="/images/x-mark 1.png" onClick={handleClose2} style={{cursor:"pointer"}} />
+           <img src="https://github.com/KapadiaShubham/code8-media/blob/master/images/x-mark%201.png?raw=true" onClick={handleClose2} style={{cursor:"pointer"}} />
            </span>
            <span style={{display:"flex"}}>
              <div style = {{"fontFamily":"Poppins","fontStyle":"normal","fontWeight":"bold",marginRight:"18px","fontSize":"16px","lineHeight":"36px","display":"flex","alignItems":"center","color":"#000000"}}>New to Code?</div>
@@ -342,7 +342,7 @@ window.addEventListener('resize',showButton1);
         <DialogContent>
          <div style={{display:"flex",justifyContent:"space-between"}}>
            <span>
-           <img src="/images/x-mark 1.png" onClick={handleClose} style={{cursor:"pointer"}} />
+           <img src="https://github.com/KapadiaShubham/code8-media/blob/master/images/x-mark%201.png?raw=true" onClick={handleClose} style={{cursor:"pointer"}} />
            </span>
            <span style={{display:"flex"}}>
              <div style = {{"fontFamily":"Poppins","fontStyle":"normal","fontWeight":"bold",marginRight:"18px","fontSize":"16px","lineHeight":"36px","display":"flex","alignItems":"center","color":"#000000"}}>New to Code?</div>
