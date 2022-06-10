@@ -33,7 +33,7 @@
     background: #c6d9e2;
     padding: 1.2rem;
     border-radius: 25px;
-    max-width: 300px;
+    max-width: 400px;
     height: 550px;
     overflow-y: auto;
 }
@@ -75,4 +75,16 @@
     /* border-radius: 2px; */
        /* scroll thumb and track */ 
   }
-  
+  .mySwiper{
+    position: relative;
+    padding-bottom: 20px !important;
+}
+.swiper-pagination-bullets{
+    position: absolute;
+    bottom: -6px !important; 
+    /* bottom: -20px !important; */
+}
+.myswiperslide{
+    display: flex;
+    justify-content: center;
+}

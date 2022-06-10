@@ -1,14 +1,22 @@
 import React from 'react'
 import "./Testimonial.css"
 
+import { Navigation, Autoplay, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
+
+// Import Swiper styles
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+
 const Card = (props) => {
     return (
         <div className="testimonial-card">
-            <img id="img-home" style={{borderRadius: "50%"}} src={props.image_url} ></img>
+            <img id="img-home" style={{ borderRadius: "50%" }} src={props.image_url} ></img>
             <div className="Name-holder">
                 {props.name}
             </div>
-            {props.orgnaization&&<p className='organization'>{props.orgnaization}</p>}
+            {props.orgnaization && <p className='organization'>{props.orgnaization}</p>}
             {/* <img id="img-rating" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true" ></img> */}
             <div className="Testimonial-exp">
                 {props.description}
@@ -63,72 +71,28 @@ const Testimonial = () => {
             <h2>
                 Some amazing Experience from Techie Around.
             </h2>
-
             <div className="Testimonial-holder">
-                {/* <div className="testimonial-card">
-                    <img id="img-home" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/icons/profile.png?raw=true" ></img>
-                    <div className="Name-holder">
-                        Anirudh
-                    </div>
-                    <img id="img-rating" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true" ></img>
-                    <div className="Testimonial-exp">
-                        Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
-                        elit.<br></br> Morbi cras est nisl enim,<br></br>{" "}
-                        pellentesque em dolor est <br></br>
-                        habitant. Vitae nunc, dolor<br></br> gravida duis. At et,
-                        quam est <br></br>donec. Consectetur morbi et<br></br>{" "}
-                        dignissim sed amet erat<br></br> augue quis.
-                    </div>
-                </div>
-                <div className="testimonial-card">
-                    <img id="img-home" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/icons/profile.png?raw=true" ></img>
-                    <div className="Name-holder">
-                        Anirudh
-                    </div>
-                    <img id="img-rating" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true" ></img>
-                    <div className="Testimonial-exp">
-                        Lorem ipsum dolor sit amet,consectetur adipiscing
-                        elit. Morbi cras est nisl enim,{" "}
-                        pellentesque em dolor est 
-                        habitant. Vitae nunc, dolor gravida duis. At et,
-                        quam est donec. Consectetur morbi et{" "}
-                        dignissim sed amet erat augue quis.
-                    </div>
-                </div>
-                <div className="testimonial-card">
-                    <img id="img-home" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/icons/profile.png?raw=true" ></img>
-                    <div className="Name-holder">
-                        Anirudh
-                    </div>
-                    <img id="img-rating" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true" ></img>
-                    <div className="Testimonial-exp">
-                        Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
-                        elit.<br></br> Morbi cras est nisl enim,<br></br>{" "}
-                        pellentesque em dolor est <br></br>
-                        habitant. Vitae nunc, dolor<br></br> gravida duis. At et,
-                        quam est <br></br>donec. Consectetur morbi et<br></br>{" "}
-                        dignissim sed amet erat<br></br> augue quis.
-                    </div>
-                </div> */}
-                {/* <Swiper
-                    pagination={true}
-                    loop={true}
-                    //  navigation={true}
-                    // navigation={{
-                    //     nextEl: '.custom-swiper-button-next',
-                    //     prevEl: '.custom-swiper-button-prev',
-                    // }}
+                <Swiper
+                    modules={[Autoplay, Pagination, A11y]}
+                    spaceBetween={50}
+                    slidesPerView={3}
+                    navigation={false}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
-                    modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"> */}
-                {data.map((item, index) => {
-                    return (
-                            <Card key={index} name={item.name} orgnaization={item.orgnaization} image_url={item.image_url} description={item.description} />
-                    )
-                })}
+                    // autoplay={false}
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    className={"mySwiper"}>
+                    {data.map((item, index) => {
+                        return (
+                            <SwiperSlide className='myswiperslide'>
+                                <Card key={index} name={item.name} orgnaization={item.orgnaization} image_url={item.image_url} description={item.description} />
+                            </SwiperSlide>
+                        )
+                    })}
+                </Swiper>
                 {/* </Swiper> */}
             </div>
 
