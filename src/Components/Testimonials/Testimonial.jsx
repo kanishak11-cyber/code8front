@@ -1,34 +1,14 @@
 import React from 'react'
 import "./Testimonial.css"
-// import 'swiper/css';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
-// Import Swiper styles
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// swiper bundle styles
-// import 'swiper/swiper-bundle.min.css'
 
-// swiper core styles
-// import 'swiper/swiper.min.css'
-
-// modules styles
-// import 'swiper/components/navigation/navigation.min.css'
-// import 'swiper/components/pagination/pagination.min.css'
-
-// import 'swiper/modules/navigation/navigation.min.css'
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 const Card = (props) => {
     return (
         <div className="testimonial-card">
-            <img id="img-home" src={props.image_url} ></img>
+            <img id="img-home" style={{borderRadius: "50%"}} src={props.image_url} ></img>
             <div className="Name-holder">
                 {props.name}
             </div>
+            {props.orgnaization&&<p className='organization'>{props.orgnaization}</p>}
             {/* <img id="img-rating" src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/rating.png?raw=true" ></img> */}
             <div className="Testimonial-exp">
                 {props.description}
@@ -38,19 +18,26 @@ const Card = (props) => {
 }
 const data = [
     {
-        name: "Aman (team Upanyaas)",
+        name: "Aman",
+        orgnaization: "Team Upanyaas",
+        image_url: "https://i.imgur.com/oHXxXRI.jpg",
         description: "I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad that we at upanyas decided to work with you. It’s really great how easy it was for us to get hands on good engineers and everyone and Code8 made sure that the onboarding was as smooth as possible. Cheers to you guys. Looking forward to work with the team in the near future as well."
     },
     {
-        name: "Gurtaran Singh (Gaming Geeks)",
+        name: "Gurtaran Singh",
+        orgnaization: "Gaming Geeks",
+        image_url: "https://i.imgur.com/AUTr7Ym.jpg",
         description: "Working with Code8 was very amazing and informative.  Gaming Geeks collaborated with Code8 on the Web Game Dev Bootcamp that took place from February 24 to March 2, 2022. Prior to the event, we felt it would be difficult for both teams to make one decision because we were two different communities managed by members of different age groups, different experiences, but the Code8 team was brilliant in unity, teamwork and hard work.  Our whole team is very grateful to Code8 as they have worked not only for the event, but they also give a lot of talks and advice to our team. In the end, I would like to say that If we got another chance to collaborate with the Team, we will be more than happy to do so."
     },
     {
-        name: "Aaditya (Befikra Community)",
+        name: "Aaditya",
+        orgnaization: "Befikra Community",
+        image_url: "https://i.imgur.com/r3oBDMR.jpg",
         description: "My experience with Code8 have been amazing and the founders are so cool and they have helped us grow in our domain in the ecosystem they provide. They have also previously conducted hackathons and events on blockchain development which were really awesome. I am happy to be part of Code8 community. Wishing more growth to code8 and to learn more from the community."
     },
     {
         name: "Vikas Rai",
+        image_url: "https://i.imgur.com/rifOyjI.jpg",
         description: `Hello everyone, I'm Vikas Rai. Recently I attended TezIndia Blockchain Bootcamp 1.0. The Bootcamp was amazing. I didn't have any previous knowledge about Web 3.0. So this Bootcamp was very helpful to get to know about Web 3.0 and also get familiarized with Tezos Blockchain.
 
         The mentor was very knowledgeable and explained everything nicely.
@@ -123,7 +110,7 @@ const Testimonial = () => {
                         dignissim sed amet erat<br></br> augue quis.
                     </div>
                 </div> */}
-                <Swiper
+                {/* <Swiper
                     pagination={true}
                     loop={true}
                     //  navigation={true}
@@ -136,15 +123,13 @@ const Testimonial = () => {
                         disableOnInteraction: false,
                     }}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper">
+                    className="mySwiper"> */}
                 {data.map((item, index) => {
                     return (
-                        <SwiperSlide>
-                            <Card key={index} name={item.name} image_url="https://github.com/KapadiaShubham/code8-media/blob/master/home/icons/profile.png?raw=true" description={item.description} />
-                        </SwiperSlide>
+                            <Card key={index} name={item.name} orgnaization={item.orgnaization} image_url={item.image_url} description={item.description} />
                     )
                 })}
-                </Swiper>
+                {/* </Swiper> */}
             </div>
 
         </div>

@@ -37,6 +37,17 @@
     height: 550px;
     overflow-y: auto;
 }
+.Name-holder{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.organization{
+    font-weight: bold;
+    color: gray;
+    display: block;
+    margin-top: -10px;
+    /* margin-bottom: -10px; */
+}
 .testimonial-card::-webkit-scrollbar {
     /* width: 20px !important; */
     display: unset !important;
