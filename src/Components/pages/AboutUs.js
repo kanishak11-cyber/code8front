@@ -5,7 +5,6 @@ import Whatdrivesus from "../whodiveus/Whatdrivesus";
 import Wahtwhy from "../WhatWhy/Wahtwhy";
 import Ouroffering from "../Ouroffering/Ouroffering";
 import classes from "./css/aboutus.module.css";
-
 export default function AboutUs() {
   return (
     <div>
