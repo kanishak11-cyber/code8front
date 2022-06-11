@@ -9,7 +9,7 @@ import Features from '../../Features/Features'
 
 import './community.css'
 
-import BuiltTop from './BuiltTop'
+// import BuiltTop from './BuiltTop'
 import MobileSAP from './MobileSAP'
 import SAP from './SAP'
 import EventsDiv from './EventsDiv'
@@ -18,7 +18,7 @@ export default function Community () {
   return (
     <div className='community'>
       {/* Join Us */}
-      <BuiltTop />
+      {/* <BuiltTop /> */}
 
       <SAP />
 
