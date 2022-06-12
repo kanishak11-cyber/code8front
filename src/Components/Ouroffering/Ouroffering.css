@@ -2,7 +2,6 @@
     font-size: 4rem;
     font-weight: 600;
     width: 100%;
-    margin: 3vh 0;
     color: #089ee8;
 }
 .Ouroffering{
@@ -13,8 +12,6 @@
     flex-wrap: wrap;
     font-family: 'Poppins',sans-serif;
     text-align: center;
-    margin: 6vh 0;
-    padding: 5vh 0;
 }
 
 .Offering{
@@ -26,15 +23,14 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 1.2rem;
-    border: solid 2px #00b7d5;
     border-radius: 30px;
-    padding: 2vh 2vw;
-    background: #e5fcff;
+    padding: 0.5vh 1.5vw;
+    box-shadow: 7px 5px 6px 1px #25d0ed;
 }
 
 .Offer-name{
-    margin: 2vh 0;
-    font-size: 1.4rem;
+    margin: 1vh 0;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #089ee8;
 }
@@ -45,17 +41,21 @@
 }
 
 .Offer-head img{
-    height: 100%;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
 }
 .offerings-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 1.2rem;
+    gap: 1rem;
     padding: 10px 20px;
 }
+
+.offer-content{
+    font-size: 0.9rem;
+}
+
 @media screen and (max-width: 750px) {
     .offerings-wrapper{
         flex-direction: column;
