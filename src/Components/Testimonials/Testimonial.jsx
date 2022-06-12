@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Testimonial.css"
-
+import  { useState, useEffect } from 'react';
 import { Navigation, Autoplay, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
@@ -60,6 +60,23 @@ const data = [
     }
 ]
 const Testimonial = () => {
+    const [matches900, setMatches900] = useState(
+        window.matchMedia("(max-width: 900px)").matches
+      )
+      const [matches550, setMatches550] = useState( 
+        window.matchMedia("(mmax-width: 550px)").matches
+      )
+      useEffect(() => {
+        window
+        .matchMedia("(max-width: 900px) and (min-width: 550px)")
+        .addEventListener('change', e => setMatches900( e.matches ));
+        window
+        .matchMedia("(max-width: 550px)")
+        .addEventListener('change', e => setMatches550( e .matches ));
+      }, []);
+      useEffect(()=>{
+            console.log(matches550, matches900)
+      }, [matches550, matches900])
     return (
         <div className='Testimonial'>
 
@@ -75,7 +92,7 @@ const Testimonial = () => {
                 <Swiper
                     modules={[Autoplay, Pagination, A11y]}
                     spaceBetween={50}
-                    slidesPerView={3}
+                    slidesPerView={ !matches900&&!matches550? 3: matches900?2:1}
                     navigation={false}
                     autoplay={{
                         delay: 2500,
