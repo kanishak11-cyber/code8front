@@ -59,20 +59,17 @@
 }
 
 .home__hero-subtitle {
-<<<<<<< HEAD
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.75;
   text-align: center;
-=======
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.75;
->>>>>>> a1e213a8aab7281ee2e6f2f085d6ccd1ef107d96
 }
 
 .home__hero-img-wrapper {
@@ -112,9 +109,7 @@ img {
 img:hover {
     cursor: pointer;
     transform: scale(1.05);
-}
-
-<<<<<<< HEAD
+} 
 @media screen and (max-width: 790px) {
   .home__hero-text-wrapper {
     padding-bottom: 65px;
@@ -127,7 +122,6 @@ img:hover {
     flex-basis: 100%;
   }
 }
-=======
 @media screen and (max-width: 991px) {
     .container {
         padding-right: 30px;
@@ -144,4 +138,4 @@ img:hover {
         flex-basis: 100%;
     }
 }
->>>>>>> a1e213a8aab7281ee2e6f2f085d6ccd1ef107d96
+

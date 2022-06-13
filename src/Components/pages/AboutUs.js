@@ -13,15 +13,9 @@ export default function AboutUs() {
         <div className="grid-item">
           <h1
           className = {`who-we-are ${classes.heading}`}
-            // style={{
-            //   display: "flex",
-            //   alignItems: "center",
-            //   paddingLeft: "90px",
-            //   marginTop: "100px",
-            //   fontSize: 64,
-            //   fontFamily: "poppins",
-            //   fontWeight: 400,
-            // }}
+            style={{
+              color: '#089ee8'
+            }}
           >
             Who we are?
           </h1>

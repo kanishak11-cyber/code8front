@@ -487,4 +487,10 @@
         height: auto;
         width: 95%;
     }
+    .courses-features-h1{
+        font-size: 24px;
+    }
+    .courses-features-para {
+        font-size: 18px;
+    }
 }
