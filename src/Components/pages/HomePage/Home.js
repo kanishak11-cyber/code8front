@@ -22,6 +22,7 @@ import Ouroffering from "../../Ouroffering/Ouroffering";
 import Eventgallery from "../../Eventgallery/Eventgallery";
 import Testimonial from "../../Testimonials/Testimonial";
 import Ourreach from "../../Ourreach/Ourreach";
+import OurPartners from "./OurPartners/OurPartners";
 
 function Home() {
   return (
@@ -46,6 +47,10 @@ function Home() {
 
       {/* Events Gallery */}
       <Eventgallery />
+
+      <OurPartners/>
+      
+
 
       {/* Our Community */}
       <Ourcommunity />
