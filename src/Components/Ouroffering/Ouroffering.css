@@ -12,11 +12,12 @@
     flex-wrap: wrap;
     font-family: 'Poppins',sans-serif;
     text-align: center;
+    margin: 4vh 0;
 }
 
 .Offering{
-    flex-basis: 280px;
-    flex-grow: 0.2;
+    flex-basis: 230px;
+    flex-grow: 0.03;
     display: flex;
     height: max-content;
     align-items: center;

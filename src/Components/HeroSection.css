@@ -64,6 +64,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1.75;
+  text-align: center;
 }
 
 .home__hero-img-wrapper {
@@ -103,18 +104,13 @@ img:hover{
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 991px) {
-  .container {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
   .home__hero-text-wrapper {
     padding-bottom: 65px;
   }
-
+  .container {
+    padding: 0 10px;
+  }
   .col {
     max-width: 100%;
     flex-basis: 100%;

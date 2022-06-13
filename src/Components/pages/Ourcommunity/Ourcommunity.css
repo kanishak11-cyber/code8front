@@ -33,9 +33,11 @@
     border: solid 50px rgb(0, 119, 181 , 0.5);
 }
 .o-community{
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2.3rem;
+    font-weight: 600;
     margin: 2rem 0;
+    padding: 1.1rem;
+    color:  #089ee8;
 }
 
 .O-comm-sponsor-holder{

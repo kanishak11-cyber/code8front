@@ -18,7 +18,7 @@ export default function Features2() {
         <img style={{ display: 'flex' }} src='/images/brain.png'></img>
       </div>
 
-      <h1 className='courses-features-h1'>Industry relevent curriculum</h1>
+      <h2 className='courses-features-h1'>Industry relevent curriculum</h2>
 
       <p className='courses-features-para'>
         That keeps you ahead in career.
@@ -30,7 +30,7 @@ export default function Features2() {
         <img style={{ display: 'flex' }} src='/images/Notes.png'></img>
       </div>
 
-      <h1 className='courses-features-h1'>Project based experiential learning</h1>
+      <h2 className='courses-features-h1'>Project based experiential learning</h2>
 
       <p className='courses-features-para'>
         Specially designed to provide you with relevant experience and hands-on.
@@ -43,7 +43,7 @@ export default function Features2() {
         <img style={{ display: 'flex' }} src='/images/Projects.png'></img>
       </div>
 
-      <h1 className='courses-features-h1'>Community driven collaborative learning</h1>
+      <h2 className='courses-features-h1'>Community driven collaborative learning</h2>
 
       <p className='courses-features-para'>
         Take the community advantage to learn beyond classroom lectures.
@@ -77,7 +77,7 @@ export default function Features2() {
         <img style={{ display: 'flex' }} src='/images/completion.png'></img>
       </div>
 
-      <h1 className='courses-features-h1'>Skill validation and certificates</h1>
+      <h2 className='courses-features-h1'>Skill validation and certificates</h2>
 
       <p className='courses-features-para'>
        Get your skills validated and become certified by industry professionals.
