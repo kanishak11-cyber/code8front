@@ -73,9 +73,14 @@
     flex-grow: 0.1;
 }
 
+.o-s-card a{
+    width: 100%;
+    height: 100%;
+}
 .o-s-card img{
     height: 90%;
     width: 90%;
+    margin: auto;
     object-fit: cover;
 }
 

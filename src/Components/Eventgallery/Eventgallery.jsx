@@ -16,9 +16,6 @@ const Eventgallery = () => {
                             <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                         </a> */}
                     </div>
-                    <div className="description-of-event">
-
-                    </div>
                 </div>
                 <div className="Frame">
                     <div className="event-image">
@@ -26,90 +23,31 @@ const Eventgallery = () => {
                             <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
                         </a>
                     </div>
-                    <div className="description-of-event">
-
+                </div>
+                <div className="Frame">
+                    <div className="event-image">
+                        <a href="https://code8.ggeeks.me">
+                            <img src="/images/Event2.jpeg" className="img-fluid" alt="thumbnail" />
+                        </a>
                     </div>
                 </div>
                 <div className="Frame">
                     <div className="event-image">
                         <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
+                            <img src="/images/Event3.jpeg" className="img-fluid" alt="thumbnail" />
                         </a>
-                    </div>
-                    <div className="description-of-event">
-
                     </div>
                 </div>
                 <div className="Frame">
                     <div className="event-image">
                         <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
+                            <img src="/images/Event4.jpeg" className="img-fluid" alt="thumbnail" />
                         </a>
                     </div>
-                    <div className="description-of-event">
-
-                    </div>
                 </div>
-                <div className="Frame">
-                    <div className="event-image">
-                        <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
-                        </a>
-                    </div>
-                    <div className="description-of-event">
-
-                    </div>
-                </div>
-                <div className="Frame">
-                    <div className="event-image">
-                        <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
-                        </a>
-                    </div>
-                    <div className="description-of-event">
-
-                    </div>
-                </div>
-                <div className="Frame">
-                    <div className="event-image">
-                        <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
-                        </a>
-                    </div>
-                    <div className="description-of-event">
-
-                    </div>
-                </div>
-                <div className="Frame">
-                    <div className="event-image">
-                        <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
-                        </a>
-                    </div>
-                    <div className="description-of-event">
-
-                    </div>
-                </div>
-                <div className="Frame">
-                    <div className="event-image">
-                        <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
-                        </a>
-                    </div>
-                    <div className="description-of-event">
-
-                    </div>
-                </div>
-                <div className="Frame">
-                    <div className="event-image">
-                        <a href="https://code8.ggeeks.me">
-                            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/home/img/Event1.jpeg?raw=true" className="img-fluid" alt="thumbnail" />
-                        </a>
-                    </div>
-                    <div className="description-of-event">
-
-                    </div>
-                </div>
+                
+                
+            
             </div>
         </div>
     )
