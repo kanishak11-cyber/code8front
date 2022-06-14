@@ -19,6 +19,7 @@
     align-items: flex-start;
     justify-content: space-around;
     margin: 0.8rem;
+    gap: 1.3rem;
 }
 
 .stats-block{

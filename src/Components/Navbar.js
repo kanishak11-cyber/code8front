@@ -159,7 +159,7 @@ window.addEventListener('resize',showButton1);
       <nav className='navbar'>
       {/* logo */}
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu1}>
-         <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
+         <img src="/images/code8logo.png"></img>
         </Link>
 
       {/* Home */}

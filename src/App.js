@@ -9,13 +9,14 @@ import Built from './Components/pages/Built';
 import Courses from './Components/pages/LearnPage/Learn';
 import Community from './Components/pages/Community-page/Community';
 import Findnext from './Components/FindNextProject/Findnext';
-
+import { ParallaxProvider } from 'react-scroll-parallax';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 
 
 function App() {
   return (
     <>
+    <ParallaxProvider>
     <ScrollToTop/>
       <Navbar />
       <Switch><Route path='/' exact component={Home} />
@@ -26,6 +27,7 @@ function App() {
         <Route path='/production' component = {Findnext}/>
       </Switch>
       <Footer />
+    </ParallaxProvider>
     </>
   );
 }

@@ -4,7 +4,7 @@
 }
 
 .Project-template{
-    height: 100%;
+    height: 370px;
     flex-basis: 240px;
     flex-grow: 0.2;
     background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
@@ -40,4 +40,10 @@
 .Progrct-link{
     color: #089ee8;
     font-size: 1.4rem;
+}
+
+@media only screen and (max-width:540px) {
+    .Project-template{
+        height: 100%;
+    }
 }

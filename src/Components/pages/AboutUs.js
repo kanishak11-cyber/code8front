@@ -5,6 +5,7 @@ import Whatdrivesus from "../whodiveus/Whatdrivesus";
 import Wahtwhy from "../WhatWhy/Wahtwhy";
 import Ouroffering from "../Ouroffering/Ouroffering";
 import classes from "./css/aboutus.module.css";
+import Mentorstats from "../Stats/Mentorstats";
 export default function AboutUs() {
   return (
     <div>
@@ -35,21 +36,22 @@ export default function AboutUs() {
       {/* What drives us */}
       <Whatdrivesus />
 
+
       {/* {WHAT we do Why We do} */}
       <Wahtwhy />
 
       {/* Why Code8 */}
       {/* <div className="why-code8-heading">
         <h3
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            marginTop: 40,
-            fontSize: 80,
-            fontSize: 64,
-            fontFamily: "poppins",
-            fontWeight: 400,
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          marginTop: 40,
+          fontSize: 80,
+          fontSize: 64,
+          fontFamily: "poppins",
+          fontWeight: 400,
           }}
         >
           Why
@@ -61,6 +63,7 @@ export default function AboutUs() {
 
       <Ouroffering Heading={'Our offerings'} />
 
+      <Mentorstats/>
     </div>
   );
 }

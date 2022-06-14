@@ -9,7 +9,7 @@ const Howitworks = () => {
 
     var tl = gsap.timeline();
     tl.fromTo(".step-number",{ y:-40 ,opacity:0,rotationZ:-127,scrollTrigger:'.step-number'},{duration:1,stagger:0.6,y:0,opacity:1,rotationZ:0})
-    gsap.fromTo(".procedure-description",{width:0},{duration:1,stagger:0.7,width:'100%'})
+    gsap.fromTo(".procedure-description",{y:-40,opacity:0},{duration:1,stagger:0.7,y:0,opacity:1})
   },[])
   
 

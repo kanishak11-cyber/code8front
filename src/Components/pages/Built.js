@@ -15,7 +15,6 @@ export default function Built() {
     <>
       {/* What is build */}
       <div className="builttop">
-        <img src="https://github.com/KapadiaShubham/code8-media/blob/master/build/Build-Illustration1.png?raw=true" />
         <div className="builtpara">
           <div className="build-head">
             What is Build?
@@ -48,6 +47,7 @@ export default function Built() {
             </Button>
           </div>
         </div>
+        <img src="https://github.com/KapadiaShubham/code8-media/blob/master/build/Build-Illustration1.png?raw=true" />
       </div>
 
       {/* Still writing */}
