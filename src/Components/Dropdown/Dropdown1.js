@@ -1,27 +1,27 @@
 import React, { useState } from 'react';
-import { MenuItems3 } from './MenuItems3';
+import { MenuItems1 } from './MenuItems/MenuItems1';
 import './Dropdown1.css';
 import { Link } from 'react-router-dom';
 
-function Dropdown3(props) {
-  const [click3, setClick3] = useState(false);
+function Dropdown(props) {
+  const [click, setClick] = useState(false);
 
-  const handleClick3 = () => setClick3(!click3);
+  const handleClick = () => setClick(!click);
 
   return (
     <>
       <ul
         // onClick={handleClick}
         onClick={props.onCloseMobileMenu}
-        className={click3 ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
-        {MenuItems3.map((item, index) => {
+        {MenuItems1.map((item, index) => {
           return (
             <li key={index}>
               <Link
                 className={item.cName}
                 to={item.path}
-                onClick={() => setClick3(false)}
+                onClick={() => setClick(false)}
               >
                 {item.title}
               </Link>
@@ -33,4 +33,4 @@ function Dropdown3(props) {
   );
 }
 
-export default Dropdown3;
+export default Dropdown;
