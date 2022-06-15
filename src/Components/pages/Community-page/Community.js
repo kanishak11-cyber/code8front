@@ -8,8 +8,6 @@ import Mentorstats from '../../Stats/Mentorstats'
 import Features from '../../Features/Features'
 
 import './community.css'
-
-// import BuiltTop from './BuiltTop'
 import MobileSAP from './MobileSAP'
 import SAP from './SAP'
 import EventsDiv from './EventsDiv'

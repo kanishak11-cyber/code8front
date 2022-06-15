@@ -6,7 +6,8 @@ import {
   FaFacebook,
   FaInstagram,
   FaDiscord,
-  FaLinkedin
+  FaLinkedin,
+  FaWhatsapp
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 
@@ -20,8 +21,6 @@ function Footer() {
             <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
             </Link>
           </div>
-          <p>Compiling ideas into reality</p>
-          <h2>Join for Free</h2>
      </section>
       <section className='footer-subscription'>
         <h2 className='footer-subscription-heading'>
@@ -36,51 +35,46 @@ function Footer() {
               placeholder='Your Email'
             />
             <br/>
-            {/* <div> */}
-            <Button buttonStyle='btn--sub' >Subscribe</Button>
-            {/* </div> */}
           </form>
         </div>
         <section className='social-media'>
         
           <div className='social-icons'>
-            <Link
+            <a
               className='social-icon-link'
-              to='/'
+              href='https://chat.whatsapp.com/Dy5uAVlpzFj3ent90TMjeW'
               target='_blank'
               aria-label='Facebook'
             >
-              <FaFacebook />
-            </Link>
+              <FaWhatsapp/>
+            </a>
 
-            <Link
+            <a
               className='social-icon-link'
-              to='/'
+              href='https://instagram.com/codeate.in?igshid=YmMyMTA2M2Y='
               target='_blank'
               aria-label='Instagram'
             >
               <FaInstagram />
-            </Link>
+            </a>
 
-            <Link
+            <a
               className='social-icon-link'
-              to={
-                '/'
-              }
+              href='http://dsc.gg/code8'
               target='_blank'
               aria-label='Discord'
             >
             <FaDiscord />
-            </Link>
+            </a>
 
-            <Link
+            <a
               className='social-icon-link'
-              to='/'
+              href='https://www.linkedin.com/company/code8-connect'
               target='_blank'
               aria-label='LinkedIn'
             >
               <FaLinkedin />
-            </Link>
+            </a>
           </div> 
         </section>
       </section>
@@ -89,19 +83,16 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Our Offerings</h2>
-            <Link to='/sign-up'>Project-Based Learning</Link>
-            <Link to='/'>Start-up & Incubator network</Link>
-            <Link to='/'>Soft skill development</Link>
-            <Link to='/'>Placement preparation</Link>
-            <Link to='/'>Academic guidance</Link>
-            <Link to='/'>Career mapping</Link>
+            <Link to='/sign-up'></Link>
+            <Link to='/'>Build</Link>
+            <Link to='/'>Learn</Link>
+            <Link to='/'>Community</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Quick Links</h2>
             <Link to='/'>Home</Link>
             <Link to='/'>About</Link>
             <Link to='/'>Blogs</Link>
-            <Link to='/'>Resources</Link>
             <Link to='/'>Contact</Link>
           </div>
         </div>

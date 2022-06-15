@@ -27,9 +27,8 @@ export default function MobileSAP () {
         </div>
       </div>
 
-      <div class=''>
+      <div className='Sap-image'>
         <img
-          className='ambassador-img'
           src='https://github.com/KapadiaShubham/code8-media/blob/master/community/ambassador.png?raw=true'
         ></img>
       </div>

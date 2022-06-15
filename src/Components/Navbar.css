@@ -49,12 +49,12 @@ margin:"0px 0px 15px 0px"
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
-  width: 165px;
+  width: 140px;
   height: inherit;
 }
 
 .navbar-logo img {
-  height: 100%;
+  height: 90%;
   width: 100%;
   object-fit: fill;
 }
@@ -201,4 +201,28 @@ margin:"0px 0px 15px 0px"
   .navbar button {
     display: none;
   }
+}
+
+.Popup{
+  position:absolute;
+  top: 80px;
+  right: 10px;
+  background: rgb(0, 183, 213 , 0.6);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.popup-head{
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.4rem 1rem;
+  background: rgb(0, 183, 213 );
+}
+.popup-body{
+  padding: 0.8rem;
+}
+.popup-body p{
+  color: white;
 }

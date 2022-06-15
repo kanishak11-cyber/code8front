@@ -11,11 +11,7 @@ const Wahtwhy = () => {
         </div>
         <div className="what-card-text">
           <div className="what-head">
-            <Parallax translateX={[100,-45]}><span>Why</span></Parallax>
-            <Parallax translateX={[120,-10]}><span>we</span></Parallax>
-            <Parallax translateX={[140,40]}><span>do</span> </Parallax>
-            <Parallax translateX={[180,200]}> <span>?</span></Parallax>
-         
+            <Parallax translateX={[100,-120]}><span>Why we do ?</span></Parallax>         
           </div>
           Projects and doing stuff in real world is a great way to get upskilled
           and we believe in providing such opportunities to students at their
@@ -28,10 +24,7 @@ const Wahtwhy = () => {
         </div>
         <div className="what-card-text">
           <div className="what-head">
-          <Parallax translateX={[100,-45]}><span>What</span></Parallax>
-            <Parallax translateX={[120,-10]}><span>we</span></Parallax>
-            <Parallax translateX={[140,40]}><span>do</span> </Parallax>
-            <Parallax translateX={[180,200]}> <span>?</span></Parallax>
+          <Parallax translateX={[100,-120]}><span>What we do ?</span></Parallax>
           </div>
           We provide students, experiential learning opportunities with our
           build, lean and community programs to gain more industry relevent
