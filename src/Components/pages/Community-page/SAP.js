@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../../Button'
+import "./community.css"
 
 
 export default function SAP () {
@@ -26,9 +27,8 @@ export default function SAP () {
           </div>
         </div>
 
-        <div class=''>
+        <div className='Sap-image'>
           <img
-            className='ambassador-img'
             src='https://github.com/KapadiaShubham/code8-media/blob/master/community/ambassador.png?raw=true'
             alt='Community'
           />

@@ -45,6 +45,27 @@ const Eventgallery = () => {
                         </a>
                     </div>
                 </div>
+                <div className="Frame">
+                    <div className="event-image">
+                        <a href="https://code8.ggeeks.me">
+                            <img src="/images/Event5.jpeg" className="img-fluid" alt="thumbnail" />
+                        </a>
+                    </div>
+                </div>
+                <div className="Frame">
+                    <div className="event-image">
+                        <a href="https://code8.ggeeks.me">
+                            <img src="/images/Event6.jpeg" className="img-fluid" alt="thumbnail" />
+                        </a>
+                    </div>
+                </div>
+                <div className="Frame">
+                    <div className="event-image">
+                        <a href="https://code8.ggeeks.me">
+                            <img src="/images/Event7.jpeg" className="img-fluid" alt="thumbnail" />
+                        </a>
+                    </div>
+                </div>
                 
                 
             

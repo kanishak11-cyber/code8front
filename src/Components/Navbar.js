@@ -1,22 +1,23 @@
-import React, { useState } from 'react';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import Dropdown1 from './Dropdown1';
-import Dropdown2 from './Dropdown2';
-import Dropdown3 from './Dropdown3';
-import Dropdown4 from './Dropdown4';
-import Dropdown from '@restart/ui/esm/Dropdown';
-import TextField from '@mui/material/TextField';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
-
+import React, { useState } from "react";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import Dropdown1 from "./Dropdown1";
+import Dropdown2 from "./Dropdown2";
+import Dropdown3 from "./Dropdown3";
+import Dropdown4 from "./Dropdown4";
+import Dropdown from "@restart/ui/esm/Dropdown";
+import TextField from "@mui/material/TextField";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
+import DialogTitle from "@mui/material/DialogTitle";
+import { FaCross, FaExclamationCircle } from "react-icons/fa";
 
 function Navbar() {
-  const [open2, setOpen2] =useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [pop, setpop] = useState(true);
 
   const handleClickOpen2 = () => {
     setOpen2(true);
@@ -25,7 +26,7 @@ function Navbar() {
   const handleClose2 = () => {
     setOpen2(false);
   };
-  const [open, setOpen] =useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -34,16 +35,15 @@ function Navbar() {
   const handleClose = () => {
     setOpen(false);
   };
-  const[button1,setButton1]=useState(true);
+  const [button1, setButton1] = useState(true);
   const showButton1 = () => {
-    if(window.innerWidth<=960){
+    if (window.innerWidth <= 960) {
       setButton1(false);
-    }else{
+    } else {
       setButton1(true);
     }
   };
-window.addEventListener('resize',showButton1);
-
+  window.addEventListener("resize", showButton1);
 
   // Dropdown1
   const [click1, setClick1] = useState(false);
@@ -54,7 +54,7 @@ window.addEventListener('resize',showButton1);
 
   const extendElement1 = () => {
     dropdown1 ? setDropdown1(false) : setDropdown1(true);
-  }
+  };
 
   const onMouseEnter1 = () => {
     if (window.innerWidth < 960) {
@@ -70,9 +70,9 @@ window.addEventListener('resize',showButton1);
     } else {
       setDropdown1(false);
     }
-  }
+  };
 
-    // Dropdown2
+  // Dropdown2
   const [click2, setClick2] = useState(false);
   const [dropdown2, setDropdown2] = useState(false);
 
@@ -81,7 +81,7 @@ window.addEventListener('resize',showButton1);
 
   const extendElement2 = () => {
     dropdown1 ? setDropdown2(false) : setDropdown2(true);
-  }
+  };
 
   const onMouseEnter2 = () => {
     if (window.innerWidth < 960) {
@@ -108,7 +108,7 @@ window.addEventListener('resize',showButton1);
 
   const extendElement3 = () => {
     dropdown3 ? setDropdown3(false) : setDropdown3(true);
-  }
+  };
 
   const onMouseEnter3 = () => {
     if (window.innerWidth < 960) {
@@ -135,7 +135,7 @@ window.addEventListener('resize',showButton1);
 
   const extendElement4 = () => {
     dropdown4 ? setDropdown4(false) : setDropdown4(true);
-  }
+  };
 
   const onMouseEnter4 = () => {
     if (window.innerWidth < 960) {
@@ -153,32 +153,30 @@ window.addEventListener('resize',showButton1);
     }
   };
 
-
   return (
     <>
-      <nav className='navbar'>
-      {/* logo */}
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu1}>
-         <img src="/images/code8logo.png"></img>
+      <nav className="navbar">
+        {/* logo */}
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu1}>
+          <img src="/images/code8logo.png"></img>
         </Link>
 
-      {/* Home */}
-        <div className='menu-icon' onClick={handleClick1}>
-          <i className={click1 ? 'fas fa-times' : 'fas fa-bars'} />
+        {/* Home */}
+        <div className="menu-icon" onClick={handleClick1}>
+          <i className={click1 ? "fas fa-times" : "fas fa-bars"} />
         </div>
-        <ul className={click1 ? 'nav-menu active' : 'nav-menu'}>
-
-          <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu1}>
+        <ul className={click1 ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu1}>
               Home
             </Link>
           </li>
 
           {/* About us */}
-          <li className='nav-item'>
+          <li className="nav-item">
             <Link
-              to='/about-us'
-              className='nav-links'
+              to="/about-us"
+              className="nav-links"
               onClick={closeMobileMenu1}
             >
               About Us
@@ -187,218 +185,344 @@ window.addEventListener('resize',showButton1);
 
           {/* Library */}
           <li
-            className='nav-item'
+            className="nav-item"
             // onMouseEnter={onMouseEnter1}
             // onMouseLeave={onMouseLeave1}
             onClick={extendElement1}
-            >
+          >
             <Link
-              to='/built'
-              className='nav-links'
+              to="/built"
+              className="nav-links"
               // onClick={closeMobileMenu1}
-             >
-               Build
-             {/* <i className='fas fa-caret-down' /> */}
+            >
+              Build
+              {/* <i className='fas fa-caret-down' /> */}
             </Link>
             {/* {dropdown && <Dropdown />}  */}
-            {dropdown1 && <Dropdown1 onCloseMobileMenu={closeMobileMenu1} /> }
+            {dropdown1 && <Dropdown1 onCloseMobileMenu={closeMobileMenu1} />}
           </li>
 
           {/* Resources */}
           <li
-            className='nav-item'
+            className="nav-item"
             // onMouseEnter={onMouseEnter2}
             // onMouseLeave={onMouseLeave2}
-            onClick={extendElement2}>
-            <Link
-              to='/learn'
-              className='nav-links'
-             >
+            onClick={extendElement2}
+          >
+            <Link to="/learn" className="nav-links">
               Learn
               {/* <i className='fas fa-caret-down' /> */}
             </Link>
-            {dropdown2 && <Dropdown2 onCloseMobileMenu={closeMobileMenu2} /> }
+            {dropdown2 && <Dropdown2 onCloseMobileMenu={closeMobileMenu2} />}
           </li>
 
           {/* Community */}
           <li
-            className='nav-item'
+            className="nav-item"
             // onMouseEnter={onMouseEnter4}
             // onMouseLeave={onMouseLeave4}
-            onClick={extendElement4}>
-            <Link
-              to='/community'
-              className='nav-links'
-              >
-              Community 
+            onClick={extendElement4}
+          >
+            <Link to="/community" className="nav-links">
+              Community
               {/* <i className='fas fa-caret-down' /> */}
             </Link>
-            {dropdown4 && <Dropdown4 onCloseMobileMenu={closeMobileMenu4} /> }
+            {dropdown4 && <Dropdown4 onCloseMobileMenu={closeMobileMenu4} />}
           </li>
           {/* Updates */}
-          <li
-            className='nav-item'
+          {/* <li
+            className="nav-item"
             onMouseEnter={onMouseEnter3}
             onMouseLeave={onMouseLeave3}
-            onClick={extendElement3}>
-            <Link
-              to='/resources'
-              className='nav-links'
-             >
+            onClick={extendElement3}
+          >
+            <Link to="/resources" className="nav-links">
               Resources
-               <i className='fas fa-caret-down' />
+              <i className="fas fa-caret-down" />
             </Link>
-            {dropdown3 && <Dropdown3 onCloseMobileMenu={closeMobileMenu3} /> }
-          </li>
-
+            {dropdown3 && <Dropdown3 onCloseMobileMenu={closeMobileMenu3} />}
+          </li> */}
 
           <li>
             <Link
-              to='/sign-up'
-              className='nav-links-mobile'
+              to="/sign-up"
+              className="nav-links-mobile"
               onClick={closeMobileMenu1}
             >
               Sign Up
             </Link>
           </li>
-
         </ul>
         {/* <LoginButton /> */}
         {/* <SignUpButton /> */}
-        <div className='btn-mobile' >
-          {button1 && <Button buttonStyle='btn--primary btn--mobile' buttonSize='btn--medium' onClick={handleClickOpen} >Login</Button>}
+        <div className="btn-mobile">
+          {button1 && (
+            <Button
+              buttonStyle="btn--primary btn--mobile"
+              buttonSize="btn--medium"
+              onClick={handleClickOpen}
+            >
+              Login
+            </Button>
+          )}
         </div>
-        <div className='btn-mobile' >
-          {button1 && <Button buttonStyle='btn--primary btn--mobile' buttonSize='btn--medium' onClick={handleClickOpen2}>Sign Up</Button>}
+        <div className="btn-mobile">
+          {button1 && (
+            <Button
+              buttonStyle="btn--primary btn--mobile"
+              buttonSize="btn--medium"
+              onClick={handleClickOpen2}
+            >
+              Sign Up
+            </Button>
+          )}
         </div>
+        {pop && <div className="Popup">
+          <div className="popup-head">
+            <div className="close-button">
+              <i class="fa-solid fa-xmark" onClick={()=>{setpop(false)}}></i>
+            </div>
+          </div>
+          <div className="popup-body">
+            <p>Let opportunities land in your inbox.</p>
+            <p>Sign up now for free.</p>
+          </div>
+        </div>}
       </nav>
-      <Dialog open={open2} onClose={handleClose2}         fullWidth='yes'
-        maxWidth='sm'
->
+      <Dialog open={open2} onClose={handleClose2} fullWidth="yes" maxWidth="sm">
         <DialogContent>
-         <div style={{display:"flex",justifyContent:"space-between"}}>
-           <span>
-           <img src="https://github.com/KapadiaShubham/code8-media/blob/master/images/x-mark%201.png?raw=true" onClick={handleClose2} style={{cursor:"pointer"}} />
-           </span>
-           <span style={{display:"flex"}}>
-             <div style = {{"fontFamily":"Poppins","fontStyle":"normal","fontWeight":"bold",marginRight:"18px","fontSize":"16px","lineHeight":"36px","display":"flex","alignItems":"center","color":"#000000"}}>New to Code?</div>
-             <Button buttonStyle='btn--primary sizee' buttonSize='btn--small' buttonStyl >Sign Up</Button>
-           </span>
-         </div> 
-         <div style={{display:"flex",justifyContent:"center",alignContent:"center"}}>
-           <span style={{margin:'10px 0px',"fontFamily": "Poppins",
-  "fontStyle": "normal",
-  "fontWeight": "bold",
-  "fontSize": "35px",
-  "lineHeight": "72px",
-  "display": "flex",
-  "alignItems": "center",
-  "color": "#000000"}}>Welcome Back</span>
-         </div>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <span>
+              <img
+                src="https://github.com/KapadiaShubham/code8-media/blob/master/images/x-mark%201.png?raw=true"
+                onClick={handleClose2}
+                style={{ cursor: "pointer" }}
+              />
+            </span>
+            <span style={{ display: "flex" }}>
+              <div
+                style={{
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "bold",
+                  marginRight: "18px",
+                  fontSize: "16px",
+                  lineHeight: "36px",
+                  display: "flex",
+                  alignItems: "center",
+                  color: "#000000",
+                }}
+              >
+                New to Code?
+              </div>
+              <Button
+                buttonStyle="btn--primary sizee"
+                buttonSize="btn--small"
+                buttonStyl
+              >
+                Sign Up
+              </Button>
+            </span>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignContent: "center",
+            }}
+          >
+            <span
+              style={{
+                margin: "10px 0px",
+                fontFamily: "Poppins",
+                fontStyle: "normal",
+                fontWeight: "bold",
+                fontSize: "35px",
+                lineHeight: "72px",
+                display: "flex",
+                alignItems: "center",
+                color: "#000000",
+              }}
+            >
+              Welcome Back
+            </span>
+          </div>
 
-         <div>
-           <TextField label="Email" fullWidth  style={{margin:"15px 0px"}}  />
-           <TextField label="Password" fullWidth   style={{margin:"15px 0px 5px 0px"}} />
-<span style= {{
-  "fontFamily": "Poppins",
-  "fontStyle": "normal",
-  "fontWeight": "normal",
-  "fontSize": "15px",
-  "lineHeight": "36px",
-  "display": "flex",
-  "justifyContent": "end",
-  "color": "#407BFF",
-}}>Forget Password?</span>
-         </div>
-         <Button buttonStyle='btn--primary sizee' buttonSize='btn--small' stylee="stylee"  >Login</Button>
-         <div style={{display:"flex",justifyContent:"center",alignItems:"center",margin:"20px 0px 0px 0px"}}>
-        <hr
-        style={{
-            color: 'black',
-            height: 3,
-            backgroundColor:"black",
-            width:"48%"
-        }}
-    />
-    <span>OR</span>
-    <hr
-        style={{
-            color: 'black',
-            height: 3,
-            
-            backgroundColor:"black",
-            width:"48%"
-        }}
-    />
-        </div>
+          <div>
+            <TextField label="Email" fullWidth style={{ margin: "15px 0px" }} />
+            <TextField
+              label="Password"
+              fullWidth
+              style={{ margin: "15px 0px 5px 0px" }}
+            />
+            <span
+              style={{
+                fontFamily: "Poppins",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontSize: "15px",
+                lineHeight: "36px",
+                display: "flex",
+                justifyContent: "end",
+                color: "#407BFF",
+              }}
+            >
+              Forget Password?
+            </span>
+          </div>
+          <Button
+            buttonStyle="btn--primary sizee"
+            buttonSize="btn--small"
+            stylee="stylee"
+          >
+            Login
+          </Button>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "20px 0px 0px 0px",
+            }}
+          >
+            <hr
+              style={{
+                color: "black",
+                height: 3,
+                backgroundColor: "black",
+                width: "48%",
+              }}
+            />
+            <span>OR</span>
+            <hr
+              style={{
+                color: "black",
+                height: 3,
+
+                backgroundColor: "black",
+                width: "48%",
+              }}
+            />
+          </div>
         </DialogContent>
-        <DialogActions>
-          
-        </DialogActions>
+        <DialogActions></DialogActions>
       </Dialog>
-      <Dialog open={open} onClose={handleClose}         fullWidth='yes'
-        maxWidth='sm'
->
+      <Dialog open={open} onClose={handleClose} fullWidth="yes" maxWidth="sm">
         <DialogContent>
-         <div style={{display:"flex",justifyContent:"space-between"}}>
-           <span>
-           <img src="https://github.com/KapadiaShubham/code8-media/blob/master/images/x-mark%201.png?raw=true" onClick={handleClose} style={{cursor:"pointer"}} />
-           </span>
-           <span style={{display:"flex"}}>
-             <div style = {{"fontFamily":"Poppins","fontStyle":"normal","fontWeight":"bold",marginRight:"18px","fontSize":"16px","lineHeight":"36px","display":"flex","alignItems":"center","color":"#000000"}}>New to Code?</div>
-             <Button buttonStyle='btn--primary sizee btn--mobile' buttonSize='btn--small' >Sign Up</Button>
-           </span>
-         </div> 
-         <div style={{display:"flex",justifyContent:"center",alignContent:"center"}}>
-           <span style={{margin:'10px 0px',"fontFamily": "Poppins",
-  "fontStyle": "normal",
-  "fontWeight": "bold",
-  "fontSize": "35px",
-  "lineHeight": "72px",
-  "display": "flex",
-  "alignItems": "center",
-  "color": "#000000"}}>Welcome Back</span>
-         </div>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <span>
+              <img
+                src="https://github.com/KapadiaShubham/code8-media/blob/master/images/x-mark%201.png?raw=true"
+                onClick={handleClose}
+                style={{ cursor: "pointer" }}
+              />
+            </span>
+            <span style={{ display: "flex" }}>
+              <div
+                style={{
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "bold",
+                  marginRight: "18px",
+                  fontSize: "16px",
+                  lineHeight: "36px",
+                  display: "flex",
+                  alignItems: "center",
+                  color: "#000000",
+                }}
+              >
+                New to Code?
+              </div>
+              <Button
+                buttonStyle="btn--primary sizee btn--mobile"
+                buttonSize="btn--small"
+              >
+                Sign Up
+              </Button>
+            </span>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignContent: "center",
+            }}
+          >
+            <span
+              style={{
+                margin: "10px 0px",
+                fontFamily: "Poppins",
+                fontStyle: "normal",
+                fontWeight: "bold",
+                fontSize: "35px",
+                lineHeight: "72px",
+                display: "flex",
+                alignItems: "center",
+                color: "#000000",
+              }}
+            >
+              Welcome Back
+            </span>
+          </div>
 
-         <div>
-           <TextField label="Email" fullWidth  style={{margin:"15px 0px"}}  />
-           <TextField label="Password" fullWidth   style={{margin:"15px 0px 5px 0px"}} />
-<span style= {{
-  "fontFamily": "Poppins",
-  "fontStyle": "normal",
-  "fontWeight": "normal",
-  "fontSize": "15px",
-  "lineHeight": "36px",
-  "display": "flex",
-  "justifyContent": "end",
-  "color": "#407BFF",
-}}>Forget Password?</span>
-         </div>
-         <Button buttonStyle='btn--primary sizee' buttonSize='btn--small' stylee="stylee"  >Login</Button>
-         <div style={{display:"flex",justifyContent:"center",alignItems:"center",margin:"20px 0px 0px 0px"}}>
-        <hr
-        style={{
-            color: 'black',
-            height: 3,
-            backgroundColor:"black",
-            width:"48%"
-        }}
-    />
-    <span>OR</span>
-    <hr
-        style={{
-            color: 'black',
-            height: 3,
-            
-            backgroundColor:"black",
-            width:"48%"
-        }}
-    />
-        </div>
+          <div>
+            <TextField label="Email" fullWidth style={{ margin: "15px 0px" }} />
+            <TextField
+              label="Password"
+              fullWidth
+              style={{ margin: "15px 0px 5px 0px" }}
+            />
+            <span
+              style={{
+                fontFamily: "Poppins",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontSize: "15px",
+                lineHeight: "36px",
+                display: "flex",
+                justifyContent: "end",
+                color: "#407BFF",
+              }}
+            >
+              Forget Password?
+            </span>
+          </div>
+          <Button
+            buttonStyle="btn--primary sizee"
+            buttonSize="btn--small"
+            stylee="stylee"
+          >
+            Login
+          </Button>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "20px 0px 0px 0px",
+            }}
+          >
+            <hr
+              style={{
+                color: "black",
+                height: 3,
+                backgroundColor: "black",
+                width: "48%",
+              }}
+            />
+            <span>OR</span>
+            <hr
+              style={{
+                color: "black",
+                height: 3,
+
+                backgroundColor: "black",
+                width: "48%",
+              }}
+            />
+          </div>
         </DialogContent>
-        <DialogActions>
-          
-        </DialogActions>
+        <DialogActions></DialogActions>
       </Dialog>
     </>
   );
