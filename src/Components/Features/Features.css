@@ -26,12 +26,12 @@
             }
             
             .Feature {
-                height: 150px;
+                height: auto;
                 flex-basis: 200px;
                 flex-grow: 0.2;
                 border: solid 3px #089ee8;
                 border-radius: 30px;
-                padding: 3rem 2rem;
+                padding: 2rem 2rem;
                 position: relative;
                 font-size: 1.5rem;
                 font-weight: 500;

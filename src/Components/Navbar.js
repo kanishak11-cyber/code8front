@@ -285,7 +285,7 @@ function Navbar() {
           </div>
           <div className="popup-body">
             <p>Let opportunities land in your inbox.</p>
-            <p>Sign up now for free.</p>
+            <div onClick={handleClickOpen2} style={{cursor:"pointer"}}> Sign up now for free. </div>
           </div>
         </div>}
       </nav>
