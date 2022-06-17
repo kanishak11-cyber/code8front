@@ -1,4 +1,4 @@
-            .Features {
+            .Featuresc {
                 font-family: 'Poppins';
                 display: flex;
                 flex-direction: column;
@@ -8,15 +8,16 @@
                 width: 100%;
             }
             
-            .Features-head {
+            .Featuresc-head {
                 font-size: 3rem;
                 font-weight: 600;
-                margin: 3vh 0;
+                margin: 3vh auto;
                 display: flex;
                 color:  #089ee8;
+                text-align: center;
             }
             
-            .Features-holder {
+            .Featuresc-holder {
                 display: flex;
                 flex-wrap: wrap;
                 align-items: flex-start;
@@ -67,11 +68,12 @@
             }
             
             @media only screen and (max-width: 790px) {
-                .Features {
+                .Featuresc {
                     margin-bottom: 3rem;
                     margin-top: 2rem;
                 }
                 .Feature {
+                    height: auto;
                     font-size: 1rem;
                 }
             }

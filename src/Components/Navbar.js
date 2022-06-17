@@ -101,41 +101,15 @@ function Navbar() {
 
   // Dropdown3
   const [click3, setClick3] = useState(false);
-  const [dropdown3, setDropdown3] = useState(false);
 
   const handleClick3 = () => setClick3(!click3);
   const closeMobileMenu3 = () => setClick3(false);
 
-  const extendElement3 = () => {
-    dropdown3 ? setDropdown3(false) : setDropdown3(true);
-  };
-
-  const onMouseEnter3 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown3(false);
-    } else {
-      setDropdown3(true);
-    }
-  };
-
-  const onMouseLeave3 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown3(false);
-    } else {
-      setDropdown3(false);
-    }
-  };
-
-  // Dropdown4
   const [click4, setClick4] = useState(false);
   const [dropdown4, setDropdown4] = useState(false);
 
   const handleClick4 = () => setClick4(!click4);
   const closeMobileMenu4 = () => setClick4(false);
-
-  const extendElement4 = () => {
-    dropdown4 ? setDropdown4(false) : setDropdown4(true);
-  };
 
   const onMouseEnter4 = () => {
     if (window.innerWidth < 960) {
@@ -158,7 +132,7 @@ function Navbar() {
       <nav className="navbar">
         {/* logo */}
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu1}>
-          <img src="/images/code8logo.png"></img>
+          <img src="/images/Frame1.png"></img>
         </Link>
 
         {/* Home */}
@@ -193,35 +167,28 @@ function Navbar() {
             <Link
               to="/built"
               className="nav-links"
-              // onClick={closeMobileMenu1}
+              onClick={closeMobileMenu1}
             >
               Build
               {/* <i className='fas fa-caret-down' /> */}
             </Link>
             {/* {dropdown && <Dropdown />}  */}
-            {dropdown1 && <Dropdown1 onCloseMobileMenu={closeMobileMenu1} />}
           </li>
 
           {/* Resources */}
           <li
             className="nav-item"
-            // onMouseEnter={onMouseEnter2}
-            // onMouseLeave={onMouseLeave2}
-            onClick={extendElement2}
+            onClick={closeMobileMenu1}
           >
             <Link to="/learn" className="nav-links">
               Learn
-              {/* <i className='fas fa-caret-down' /> */}
             </Link>
-            {dropdown2 && <Dropdown2 onCloseMobileMenu={closeMobileMenu2} />}
           </li>
 
           {/* Community */}
           <li
             className="nav-item"
-            // onMouseEnter={onMouseEnter4}
-            // onMouseLeave={onMouseLeave4}
-            onClick={extendElement4}
+            onClick={closeMobileMenu1}
           >
             <Link to="/community" className="nav-links">
               Community
@@ -230,18 +197,6 @@ function Navbar() {
             {dropdown4 && <Dropdown4 onCloseMobileMenu={closeMobileMenu4} />}
           </li>
           {/* Updates */}
-          {/* <li
-            className="nav-item"
-            onMouseEnter={onMouseEnter3}
-            onMouseLeave={onMouseLeave3}
-            onClick={extendElement3}
-          >
-            <Link to="/resources" className="nav-links">
-              Resources
-              <i className="fas fa-caret-down" />
-            </Link>
-            {dropdown3 && <Dropdown3 onCloseMobileMenu={closeMobileMenu3} />}
-          </li> */}
 
           <li>
             <Link

@@ -7,7 +7,7 @@ export const homeObjOne = {
   description:'Learn, Build and conquer like a pro with us.Join the community of thousands of likemind professionals.',
   buttonLabel: 'Join our Community',
   imgStart: '',
-  img: 'https://github.com/KapadiaShubham/code8-media/blob/master/home/img/illustration_homepage.png?raw=true',
+  img: '/images/Home.jpeg',
   
   alt: 'Credit Card'
 };

@@ -47,7 +47,7 @@ export default function Built() {
             </Button>
           </div>
         </div>
-        <img src="https://github.com/KapadiaShubham/code8-media/blob/master/build/Build-Illustration1.png?raw=true" />
+        <img src="/images/build.jpeg" />
       </div>
 
       {/* Still writing */}
