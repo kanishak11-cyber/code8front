@@ -1,10 +1,9 @@
 import React from 'react';
 import './HeroSection.css';
-import { Button } from './Button';
+import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 
 function HeroSection({
-  lightBg,
   topLine,
   lightText,
   lightTextDesc,
@@ -18,29 +17,31 @@ function HeroSection({
   return (
     <>
       <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
+        className='home__hero-section'
       >
+        {/* <div style={{height: '50vh'}}>
+
+
+        <iframe
+  src='https://my.spline.design/calculatorcopy-760e7456d58f24a49646759e2b5d4c33/'
+  frameborder='0'
+  width='100%'
+  height='100%'
+></iframe>
+        </div> */}
+
         <div className='container'>
           <div
             className='row home__hero-row'
-            style={{
-              display: 'flex',
-              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
-            }}
           >
             <div className='col'>
               <div className='home__hero-text-wrapper'>
                 <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'} >
+                <h1 className='heading'>
                   {headline}
                 </h1>
                 <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                  style={{textAlign:"justify"}}
+                  className='home__hero-subtitle'
                 >
                   {description}
                 </p>

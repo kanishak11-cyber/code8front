@@ -51,12 +51,12 @@
         font-family: 'Poppins';
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         grid-gap: 1.5rem;
         gap: 1.5rem;
         margin: 10vh 0;
         width: 100%;
-        padding: 0 5.5rem;
+        padding: 0 2rem;
     }
     
     .community .builttop {
@@ -148,7 +148,11 @@
             border: solid 1rem rgb(0, 119, 181, 0.5);
         }
         .community-h1 {
+<<<<<<< HEAD
             font-size: 2.2rem;
+=======
+            font-size: 2.1rem;
+>>>>>>> ea244f6c340de694b06fac5cfe26c8e7e55e9f22
             margin-top: 0;
             padding-left: 1.5rem;
         }

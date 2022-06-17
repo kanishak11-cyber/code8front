@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Dropdown1 from "./Dropdown1";
-import Dropdown2 from "./Dropdown2";
-import Dropdown3 from "./Dropdown3";
-import Dropdown4 from "./Dropdown4";
+import Dropdown1 from "./Dropdown/Dropdown1";
+import Dropdown2 from "./Dropdown/Dropdown2";
+import Dropdown3 from "./Dropdown/Dropdown3";
+import Dropdown4 from "./Dropdown/Dropdown4";
 import Dropdown from "@restart/ui/esm/Dropdown";
 import TextField from "@mui/material/TextField";
 import Dialog from "@mui/material/Dialog";
@@ -240,7 +240,7 @@ function Navbar() {
           </div>
           <div className="popup-body">
             <p>Let opportunities land in your inbox.</p>
-            <p>Sign up now for free.</p>
+            <div onClick={handleClickOpen2} style={{cursor:"pointer"}}> Sign up now for free. </div>
           </div>
         </div>}
       </nav>
