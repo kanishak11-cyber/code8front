@@ -29,7 +29,7 @@ export default function SAP () {
 
         <div className='Sap-image'>
           <img
-            src='https://github.com/KapadiaShubham/code8-media/blob/master/community/ambassador.png?raw=true'
+            src='/images/Learn.jpeg'
             alt='Community'
           />
         </div>

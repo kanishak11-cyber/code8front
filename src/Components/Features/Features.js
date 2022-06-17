@@ -6,11 +6,11 @@ const Features = () => {
   }, [])
   
   return (
-    <div className='Features'>
-       <div className="Features-head">
+    <div className='Featuresc'>
+       <div className="Featuresc-head">
        Features
        </div>
-       <div className="Features-holder">
+       <div className="Featuresc-holder">
          <div className="Feature Red">Attend free boot camps and learning sessions</div>
          <div className="Feature Blue">Collaborate and build cool project</div>
          <div className="Feature Yellow">Build professional network</div>
