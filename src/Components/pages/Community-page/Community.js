@@ -18,7 +18,7 @@ export default function Community () {
       {/* Join Us */}
       {/* <BuiltTop /> */}
 
-      <SAP />
+      {/* <SAP /> */}
 
       <MobileSAP />
       
