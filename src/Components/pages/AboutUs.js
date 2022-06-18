@@ -15,7 +15,8 @@ export default function AboutUs() {
           <h1
           className = {`who-we-are ${classes.heading}`}
             style={{
-              color: '#089ee8'
+              color: '#089ee8',
+              fontWeight:"600"
             }}
           >
             Who we are?

@@ -51,7 +51,7 @@ export default function Built() {
       </div>
 
       {/* Still writing */}
-      <div style={{ background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)", margin: "10vh 0" }} className="Still-writing">
+      <div style={{ background: "linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)", margin: "10vh 0" , padding:"4vh 0"}} className="Still-writing">
         <div class="grid-container">
           <img src="/images/still_writing.png" style={{height:"auto",width:"85%",margin:"auto"}}></img>
           <div class="grid-item">

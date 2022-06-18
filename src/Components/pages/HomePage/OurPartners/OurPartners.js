@@ -42,7 +42,7 @@ export default function OurPartners () {
           <h3>Startups</h3>
           <div className='row'>
             <OurPartnersItem
-              link='https://github.com/KapadiaShubham/code8-media/blob/master/home/Our%20Partners/yas.jpeg?raw=true'
+              link='/images/Upanyas.jpeg'
               name='YAS'
             />
             <OurPartnersItem
@@ -52,6 +52,10 @@ export default function OurPartners () {
             <OurPartnersItem
               link='https://github.com/KapadiaShubham/code8-media/blob/master/home/Our%20Partners/lm-basket.jpeg?raw=true'
               name='LM Basket'
+            />
+            <OurPartnersItem
+              link='/images/Careerbot.jpeg'
+              name='Careerbot'
             />
           </div>
         </div>

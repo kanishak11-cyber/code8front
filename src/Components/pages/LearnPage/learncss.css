@@ -84,8 +84,8 @@
     margin-top: 100px;
     font-size: 3rem;
     font-family: poppins;
-    font-weight: 400;
-    color: black;
+    font-weight: 700;
+    color: #009cd0;
 }
 
 .learnPage .btn .btn-content {
@@ -282,6 +282,7 @@
     .learn-page-h1 {
         margin-top: 0;
         padding-left: 0;
+        font-weight: 500;
         font-size: 2rem
     }
     .learnPage {

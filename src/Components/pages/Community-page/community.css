@@ -17,7 +17,6 @@
     .community .margin-div {
         display: flex;
         align-items: center;
-        /* align-content: center; */
         justify-content: center;
         margin-top: 30px;
     }
@@ -112,10 +111,6 @@
     .community .sap>div {
         margin-top: 6.2rem;
     }
-
-    .Sap-image img{
-      width: 100%;
-    }
     
     @media only screen and (min-width: 791px) {
         .community .grid-container {
@@ -148,11 +143,7 @@
             border: solid 1rem rgb(0, 119, 181, 0.5);
         }
         .community-h1 {
-<<<<<<< HEAD
-            font-size: 2.2rem;
-=======
             font-size: 2.1rem;
->>>>>>> ea244f6c340de694b06fac5cfe26c8e7e55e9f22
             margin-top: 0;
             padding-left: 1.5rem;
         }

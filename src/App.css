@@ -228,7 +228,7 @@
     justify-content: center;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 3rem;
     line-height: 96px;
     margin-top: 25px;
@@ -331,7 +331,7 @@
 .builttop {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -343,7 +343,6 @@
 
 .builttop img {
     height: auto;
-    width: 52%;
 }
 
 .courses-features-h1 {
@@ -490,6 +489,9 @@
     .builttop img {
         height: auto;
         width: 95%;
+    }
+    .build-head{
+        font-weight: 500;
     }
     .courses-features-h1{
         font-size: 24px;
