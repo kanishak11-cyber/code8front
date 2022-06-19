@@ -18,7 +18,6 @@ import { FaCross, FaExclamationCircle } from "react-icons/fa";
 function Navbar() {
   const [open2, setOpen2] = useState(false);
   const [pop, setpop] = useState(true);
-
   const handleClickOpen2 = () => {
     setOpen2(true);
   };
@@ -160,22 +159,15 @@ function Navbar() {
           {/* Library */}
           <li
             className="nav-item"
-            // onMouseEnter={onMouseEnter1}
-            // onMouseLeave={onMouseLeave1}
             onClick={extendElement1}
           >
             <Link
               to="/built"
               className="nav-links"
-              onClick={closeMobileMenu1}
-            >
+              onClick={closeMobileMenu1}>
               Build
-              {/* <i className='fas fa-caret-down' /> */}
             </Link>
-            {/* {dropdown && <Dropdown />}  */}
           </li>
-
-          {/* Resources */}
           <li
             className="nav-item"
             onClick={closeMobileMenu1}
@@ -268,41 +260,17 @@ function Navbar() {
                   color: "#000000",
                 }}
               >
-                New to Code?
+                New to Code8 ?
               </div>
-              <Button
+              {/* <Button
                 buttonStyle="btn--primary sizee"
                 buttonSize="btn--small"
                 buttonStyl
               >
                 Sign Up
-              </Button>
+              </Button> */}
             </span>
           </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignContent: "center",
-            }}
-          >
-            <span
-              style={{
-                margin: "10px 0px",
-                fontFamily: "Poppins",
-                fontStyle: "normal",
-                fontWeight: "bold",
-                fontSize: "35px",
-                lineHeight: "72px",
-                display: "flex",
-                alignItems: "center",
-                color: "#000000",
-              }}
-            >
-              Welcome Back
-            </span>
-          </div>
-
           <div>
             <TextField label="Email" fullWidth style={{ margin: "15px 0px" }} />
             <TextField
@@ -320,6 +288,7 @@ function Navbar() {
                 display: "flex",
                 justifyContent: "end",
                 color: "#407BFF",
+                cursor:"pointer"
               }}
             >
               Forget Password?
@@ -330,7 +299,7 @@ function Navbar() {
             buttonSize="btn--small"
             stylee="stylee"
           >
-            Login
+            Signin
           </Button>
           <div
             style={{
@@ -340,24 +309,6 @@ function Navbar() {
               margin: "20px 0px 0px 0px",
             }}
           >
-            <hr
-              style={{
-                color: "black",
-                height: 3,
-                backgroundColor: "black",
-                width: "48%",
-              }}
-            />
-            <span>OR</span>
-            <hr
-              style={{
-                color: "black",
-                height: 3,
-
-                backgroundColor: "black",
-                width: "48%",
-              }}
-            />
           </div>
         </DialogContent>
         <DialogActions></DialogActions>
@@ -386,14 +337,14 @@ function Navbar() {
                   color: "#000000",
                 }}
               >
-                New to Code?
+                New to Code8 ?
               </div>
-              <Button
+              {/* <Button
                 buttonStyle="btn--primary sizee btn--mobile"
                 buttonSize="btn--small"
               >
                 Sign Up
-              </Button>
+              </Button> */}
             </span>
           </div>
           <div
@@ -437,6 +388,7 @@ function Navbar() {
                 display: "flex",
                 justifyContent: "end",
                 color: "#407BFF",
+                cursor:"pointer"
               }}
             >
               Forget Password?
@@ -457,24 +409,6 @@ function Navbar() {
               margin: "20px 0px 0px 0px",
             }}
           >
-            <hr
-              style={{
-                color: "black",
-                height: 3,
-                backgroundColor: "black",
-                width: "48%",
-              }}
-            />
-            <span>OR</span>
-            <hr
-              style={{
-                color: "black",
-                height: 3,
-
-                backgroundColor: "black",
-                width: "48%",
-              }}
-            />
           </div>
         </DialogContent>
         <DialogActions></DialogActions>

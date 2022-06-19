@@ -20,17 +20,12 @@ export default function Courses () {
           <div class='grid-item learn-content'>
             <h1 className = 'learn-page-h1'
             >
-              Learn from mentors you want,
-              <br />
-              the career you deserve!
+             Learn skills that keeps you ahead, like never before.
             </h1>
             <p className='coursepg'>
               We partner with mentors from companies like Amazon, PayTm,
               Deloitte, TCE, Hitachi, Cisco to provide you with industry
               relevant cohort based courses.
-              <br />
-              Get the company like experiential learning right from your college
-              and Hone your skills like never before.
             </p>
             <div className='flex justify-content-center'>
               <Link className='btn' to='/learn'>
@@ -73,8 +68,8 @@ export default function Courses () {
       {/* Why Code8 */}
       <div class='why-code8-heading'>
         <h3>
-          Why
-          <img src='/images/code8.png'></img>
+          Why Us ?
+          {/* <img src='/images/code8.png'></img> */}
         </h3>
       </div>
       <Features3 />
@@ -83,17 +78,12 @@ export default function Courses () {
         <div class='stats2-information'>
           <Stats2 />
           <div class='mentor-text-info'>
-            <p>
-              Learn from mentors from top tech companies. ( the learning you
-              need, the skills you want, the career you deserve) We partner with
-              mentors from companies like amazon, paytm, deloitte, tcs, hitachi,
-              cisco To provide you with industry relevant cohort based courses
-              Get the company like experiential learning right from your
-              college. Hone your skills like never before.
-            </p>
+            <h3>
+               The learning you need, the skills you want, the career you deserve.
+            </h3>
             <br></br>
             <div className='register-now'>
-              Register now and get notify for our upcoming courses
+              Register now and get notify for our upcoming courses.
               <br />
               <Button buttonSize='btn--large' buttonColor='blue'>
                 Register

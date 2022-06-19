@@ -11,6 +11,8 @@ import './community.css'
 import MobileSAP from './MobileSAP'
 import SAP from './SAP'
 import EventsDiv from './EventsDiv'
+import Ourcommunity from '../Ourcommunity/Ourcommunity'
+import Ourreach from '../../Ourreach/Ourreach'
 
 export default function Community () {
   return (
@@ -27,6 +29,8 @@ export default function Community () {
       <EventsDiv/>
 
       <Mentorstats />
+ 
+      <Ourcommunity/>
     </div>
   )
 }

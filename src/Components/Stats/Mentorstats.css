@@ -6,6 +6,15 @@
     
     .Mstat {
         background-color: aliceblue;
+        height: 130px;
+        padding: 0.4rem;
+        line-height: 24px;
+    }
+
+    .Mstat img{
+        width: 70px;
+        height: 70;
+        margin: 0.4rem;
     }
     
     .MSdata {

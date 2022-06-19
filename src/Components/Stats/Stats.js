@@ -37,7 +37,7 @@ const Stats = () => {
                     <img src="https://financialit.net/sites/default/files/hitachi_vantara_0.jpg" alt="" />
                     </div>
                     <div className="stats-data-type">
-                      Hitachi Vanatara
+                      Hitachi Vantara
                     </div>
                 </div>
                 <div className="stats-block">
@@ -61,7 +61,7 @@ const Stats = () => {
                     <img src="https://brc.org.uk/media/675924/deloitte.png" alt="" />
                     </div>
                     <div className="stats-data-type">
-                     Delloite
+                     Deloitte
                     </div>
                 </div>
                 <div className="stats-block">

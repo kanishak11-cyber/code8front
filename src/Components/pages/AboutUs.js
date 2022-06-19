@@ -63,7 +63,8 @@ export default function AboutUs() {
       {/* Our offerings */}
 
       <Ouroffering Heading={'Our offerings'} />
-
+  
+     
       <Mentorstats/>
     </div>
   );

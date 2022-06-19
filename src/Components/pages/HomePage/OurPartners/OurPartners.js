@@ -43,7 +43,7 @@ export default function OurPartners () {
           <div className='row'>
             <OurPartnersItem
               link='/images/Upanyas.jpeg'
-              name='YAS'
+              name='Upanyas'
             />
             <OurPartnersItem
               link='https://github.com/KapadiaShubham/code8-media/blob/master/home/Our%20Partners/career-clap.jpeg?raw=true'
@@ -55,7 +55,7 @@ export default function OurPartners () {
             />
             <OurPartnersItem
               link='/images/Careerbot.jpeg'
-              name='Careerbot'
+              name='Careerboat'
             />
           </div>
         </div>

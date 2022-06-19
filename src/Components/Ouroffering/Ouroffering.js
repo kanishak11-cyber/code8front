@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from "react-router-dom";
 import './Ouroffering.css'
 import { gsap } from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
@@ -15,7 +16,7 @@ const OfferingCard=(props)=>{
         <div className='Offer-name'>{props.title}</div>
         <div className='offer-content'>{props.content}</div>
       </div>
-      <div className='Offer-bottom Explore'>{props.buttonTitle}<i className='fa-solid fa-angle-right'> </i></div>
+      <div className='Explore-more'> <Link to={props.linkpath}>{props.buttonTitle}<i className='fa-solid fa-angle-right'></i></Link></div>
     </div>
   )
 }
@@ -23,20 +24,23 @@ const data = [
   {
     title: 'Project based experiential learning',
     imgLink:'https://github.com/KapadiaShubham/code8-media/blob/master/home/img/illus_4.png?raw=true',
-    content: 'Our build program offers projects based learning opportunities in most industry relevant tech stack.It helps you hone your skills and let you validate your skills with our industry standard certification.',
-    buttonTitle: 'Explore build'
+    content: 'Our build program offers project-based learning opportunities in most industry-relevant tech stacks. It helps you hone your skills and let you validate your skills with our industry-standard certification.',
+    buttonTitle: 'Explore build',
+    linkpath:"/built"
   },
   {
     title: 'Learn what makes you truly industry ready',
     imgLink:'https://github.com/KapadiaShubham/code8-media/blob/master/home/img/illus_5.png?raw=true',
-    content: 'We offer a wide range of cohort based learning courses, which helps you gain extra edge on your learning with project based experiential learning advantage.',
-    buttonTitle: 'Explore learn'
+    content: 'We offer a wide range of cohort-based learning courses, which helps you gain extra edge on your learning with project-based experiential learning advantage.',
+    buttonTitle: 'Explore learn',
+    linkpath:"/learn"
   },
   {
-    title: 'Community',
+    title: 'Learn on the go',
     imgLink:'https://github.com/KapadiaShubham/code8-media/blob/master/home/img/illustration_about.png?raw=true',
-    content: 'Community driven peer to peer learning ecosystem Where you learn among peers from different colleges, share skills, collaborate on projects and what not.Our events, bootcamps and workshops keep you all updated with the latest learning trends and skills.',
-    buttonTitle: 'Join community'
+    content: 'Community-driven peer-to-peer learning ecosystem Where you learn among peers from different colleges, share skills, collaborate on projects. Our events, boot camps, and workshops keep you all updated with the latest learning trends and skills.',
+    buttonTitle: 'Join community',
+    linkpath:"/community"
   }
 ];
 const Ouroffering = props => {

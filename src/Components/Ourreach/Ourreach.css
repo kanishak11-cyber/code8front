@@ -20,7 +20,7 @@
 
 .reaches{
     flex-basis: 235px;
-    /* width: fit-content; */
+    height: 100px;
     flex-grow: 0.1;
     margin: 2vh 2vw;
     display: flex;

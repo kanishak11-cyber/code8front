@@ -9,45 +9,45 @@ const Ourreach = () => {
         <div className="reaches">
           <img src="/images/reach1.png" />
           <div className="reach-data">
-            <h1 className="reach-card-head">1K+</h1>
+            <h1 className="reach-card-head">2K+</h1>
             <h3 className="reach-card-p" style={{ width: "80px" }}>
-              Total Students
+              Community members
             </h3>
           </div>
         </div>
         <div className="reaches">
           <img src="/images/reach2.png" />
           <div className="reach-data">
-            <h1 className="reach-card-head">10+</h1>
+            <h1 className="reach-card-head">500+</h1>
             <h3 className="reach-card-p" style={{ width: "120px" }}>
-              Programs & Workshops
+             Opportunities created
             </h3>
           </div>
         </div>
         <div className="reaches">
           <img src="/images/reach3.png"/>
           <div className="reach-data">
-            <h1 className="reach-card-head">10</h1>
+            <h1 className="reach-card-head">50+</h1>
             <h3 className="reach-card-p" style={{ width: "80px" }}>
-              Projects Completed
+              Projects build
             </h3>
           </div>
         </div>
         <div className="reaches">
           <img src="/images/reach4.png"/>
           <div className="reach-data">
-            <h1 className="reach-card-head">10</h1>
+            <h1 className="reach-card-head">10+</h1>
             <h3 className="reach-card-p" style={{ width: "80px" }}>
-              Companies Associated
+              Companies
             </h3>
           </div>
         </div>
         <div className="reaches">
           <img src="/images/reach5.png"/>
           <div className="reach-data">
-            <h1 className="reach-card-head">10</h1>
+            <h1 className="reach-card-head">50+</h1>
             <h3 className="reach-card-p" style={{ width: "120px" }}>
-              Institutes Associated
+              Colleges
             </h3>
           </div>
         </div>

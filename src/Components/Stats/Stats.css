@@ -23,13 +23,14 @@
 }
 
 .stats-block{
+    text-align: center;
     flex-basis: 250px;
     flex-grow: 0.05;
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: center;
+    /* flex-direction: column; */
     padding: 0.7rem ;
 }
 

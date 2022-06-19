@@ -82,11 +82,11 @@ const Testimonial = () => {
 
             <div className='Testimonial-head'>
                 <h1>
-                    Testimonial
+                    Testimonials
                 </h1>
             </div>
             <h2>
-                Some amazing Experience from Techie Around.
+                Some amazing experiences from techies around.
             </h2>
             <div className="Testimonial-holder">
                 <Swiper

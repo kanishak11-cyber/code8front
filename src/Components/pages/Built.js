@@ -17,7 +17,7 @@ export default function Built() {
       <div className="builttop">
         <div className="builtpara">
           <div className="build-head">
-            What is Build?
+            Master your skill, one project at a time !
           </div>
           <div
             style={{
@@ -29,7 +29,6 @@ export default function Built() {
               textAlign: "center",
             }}
           >
-            Master your skills, one project at a time.
             We have created a wide range of build programs
             where you can hone your skill while working
             on projects.
@@ -68,15 +67,14 @@ export default function Built() {
                 padding: "1.1rem",
               }}
             >
-              Still writing “Hello World”? <br></br>
-              Build real-world projects
+              Still writing “Hello World”?
             </h1>
 
             <p
               style={{
                 fontFamily: "Poppins",
                 paddingLeft: "30px",
-                fontSize: "18px",
+                fontSize: "1.6rem",
                 lineHeight: "27px",
                 marginTop: "14px",
                 display: "flex",
@@ -85,9 +83,7 @@ export default function Built() {
                 width: "85%",
               }}
             >
-              Bridge the gap between learning and applying new skills through
-              projects designed by senior developers. More languages coming
-              soon!
+              start building real world projects with us.
             </p>
           </div>
         </div>
@@ -120,8 +116,8 @@ export default function Built() {
                 letterSpacing: "0.01em",
               }}
             >
-              Built by
-              <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true" style={{height:"10%",width:"20%"}}></img>
+              Build like a software engineer.
+              {/* <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true" style={{height:"10%",width:"20%"}}></img> */}
             </h1>
 
             <p
@@ -137,12 +133,10 @@ export default function Built() {
                 width: "70%",
               }}
             >
-              Build like a software engineer
               Go zero to one
-              From an idea to fully develop MVP
+              From an idea to fully develop MVP.
               Build MVP while working in a team.
               One on one realtime mentoring and project building experience like a tech company.
-              Solve real life problems
             </p>
           </div>
         </div>

@@ -230,8 +230,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 3rem;
-    line-height: 96px;
-    margin-top: 25px;
+    line-height: 50px;
+    margin: 25px 0;
 }
 
 .build-card-content {
@@ -466,6 +466,7 @@
     }
     .build-head {
         font-size: 2.3rem;
+        font-weight: 700;
     }
     .bg-built-nextpro {
         margin-top: 0;
@@ -489,9 +490,6 @@
     .builttop img {
         height: auto;
         width: 95%;
-    }
-    .build-head{
-        font-weight: 500;
     }
     .courses-features-h1{
         font-size: 24px;

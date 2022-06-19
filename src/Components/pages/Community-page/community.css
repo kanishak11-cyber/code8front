@@ -57,6 +57,10 @@
         width: 100%;
         padding: 0 2rem;
     }
+
+    .Sap-image img{
+        max-width: 100%;
+    }
     
     .community .builttop {
         /* padding: 50px 80px; */

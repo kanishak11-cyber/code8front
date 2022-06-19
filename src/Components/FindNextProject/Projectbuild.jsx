@@ -13,7 +13,7 @@ const Projectbuild = () => {
                 <div className="Project-content">
                 Find a beginner level project for you. Which requires entry level skills and short time to complete.
                 </div>
-                <div className="">
+                <div className="Progrct-link">
                   <a href="/production?level=Begginer"> Learn more </a>
                   <img
                       style={{ marginLeft: "15px" }}

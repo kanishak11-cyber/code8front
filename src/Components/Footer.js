@@ -15,13 +15,11 @@ function Footer() {
   return (
     <>
     <div className='footer-container'>
-     <section className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img src="https://github.com/KapadiaShubham/code8-media/blob/master/Logo.png?raw=true"></img>
+            <img src="/images/Frame1.png"></img>
             </Link>
           </div>
-     </section>
       <section className='footer-subscription'>
         <h2 className='footer-subscription-heading'>
           Newsletter
@@ -35,6 +33,7 @@ function Footer() {
               placeholder='Your Email'
             />
             <br/>
+            <button type="submit" className='btn btn--sub' style={{margin:"0"}}>Submit</button>
           </form>
         </div>
         <section className='social-media'>
@@ -83,17 +82,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Our Offerings</h2>
-            <Link to='/sign-up'></Link>
-            <Link to='/'>Build</Link>
-            <Link to='/'>Learn</Link>
-            <Link to='/'>Community</Link>
+            <Link to='/built'>Build</Link>
+            <Link to='/learn'>Learn</Link>
+            <Link to='/community'>Community</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Quick Links</h2>
             <Link to='/'>Home</Link>
-            <Link to='/'>About</Link>
-            <Link to='/'>Blogs</Link>
-            <Link to='/'>Contact</Link>
+            <Link to='/about-us'>About</Link>
+            <Link to='learn'>Blogs</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -101,7 +98,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <p className="p-address">Flat No. 117, Block C, Sunrise Residency, 
             Rukmini enclave, Bolarum, Hyderbad.(500010)</p>
-            <a href="mailto:contact.code8@gmail.com">contact.code8@gmail.com</a>
+            <a href="mailto:contact.code8@gmail.com">contact.us@codeate.in</a>
             <p>+91 8602444273</p>
           </div>
         </div>

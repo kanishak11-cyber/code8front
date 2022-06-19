@@ -93,7 +93,7 @@
         .footer-email-form h2 {
             margin-bottom: 2rem;
         }
-        
+
         .footer-input::placeholder {
             color: black;
             text-align: center;
@@ -111,14 +111,8 @@
             width: 100%;
         }
         
-        .social-media-wrap {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            /* width: 90%; */
-            max-width: 1000px;
-            margin: 0px auto 0 auto;
+        .footer-logo {
+            width: 230px;
         }
         
         .social-icons {
@@ -131,7 +125,6 @@
         .social-logo {
             color: black;
             justify-self: start;
-            /* margin-left: 20px; */
             cursor: pointer;
             text-decoration: none;
             font-size: 2rem;
@@ -140,6 +133,10 @@
             margin-bottom: 16px;
         }
         
+        .social-logo img{
+            width: 100%;
+        }
+
         .website-rights {
             color: black;
             margin-bottom: 16px;
