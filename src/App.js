@@ -11,6 +11,7 @@ import Community from './Components/pages/Community-page/Community';
 import Findnext from './Components/FindNextProject/Findnext';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
+import Chatbotcomponent from "./chatbotcomponents/chatbotcomponent/Chatbotcomponent"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/community' component = {Community}/>
         <Route path='/production' component = {Findnext}/>
       </Switch>
+      <Chatbotcomponent/>
       <Footer />
     </ParallaxProvider>
     </>

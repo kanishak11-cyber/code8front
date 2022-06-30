@@ -49,7 +49,9 @@ function Navbar() {
   const [dropdown1, setDropdown1] = useState(false);
 
   const handleClick1 = () => setClick1(!click1);
-  const closeMobileMenu1 = () => setClick1(false);
+  const closeMobileMenu1 = () =>{
+    setClick1(false);
+  } 
 
   const extendElement1 = () => {
     dropdown1 ? setDropdown1(false) : setDropdown1(true);
@@ -186,7 +188,7 @@ function Navbar() {
               Community
               {/* <i className='fas fa-caret-down' /> */}
             </Link>
-            {dropdown4 && <Dropdown4 onCloseMobileMenu={closeMobileMenu4} />}
+            {/* {dropdown4 && <Dropdown4 onCloseMobileMenu={closeMobileMenu4} />} */}
           </li>
           {/* Updates */}
 

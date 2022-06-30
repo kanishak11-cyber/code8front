@@ -28,7 +28,7 @@
 
 .Projectbuild-body{
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1.2rem;
