@@ -1,0 +1,30 @@
+.Domainpage{
+    font-family: 'poppins';
+}
+
+.Domainshead{
+    color: white;
+    background-color: #089ee8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10vh 4vw;
+}
+
+.domains-desc{
+    flex-basis: 300px;
+    flex-grow: 0.8;
+    padding: 0 2vw ;
+    font-size: 1.2rem;
+}
+
+.Domains-face{
+    flex-basis: 270px;
+    flex-grow: 0.3;
+}
+
+.Domains-face img{
+    object-fit: cover;
+    max-width: 100%;
+}

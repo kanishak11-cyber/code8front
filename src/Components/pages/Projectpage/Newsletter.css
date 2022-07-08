@@ -1,0 +1,45 @@
+.Newsletter{
+    background: rgb(8, 158, 232)  url("/images/Newsletter.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    width: 85%;
+    color: white;
+    padding: 15vh 4vw;
+    border-radius: 30px;
+    margin: 15vh auto;
+}
+
+.Newsletter h1{
+    font-size: 2.3rem;
+}
+
+.sub-invite{
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.sub-invite input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    color: black;
+    border-radius: 20px;
+}
+
+.sub-invite button{
+    font-size: 1.3rem;
+    background-color: rgb(8, 158, 232);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Newsletter .subscription{
+    margin: 4vh 0;
+}

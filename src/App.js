@@ -12,7 +12,9 @@ import Findnext from './Components/FindNextProject/Findnext';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 import Chatbotcomponent from "./chatbotcomponents/chatbotcomponent/Chatbotcomponent"
-
+import Projectpage from './Components/pages/Projectpage/Projectpage';
+import Projectcat from './Components/pages/Projectcat/Projectcat';
+import Domainpage from './Components/pages/Domainpage/Domainpage';
 
 function App() {
   return (
@@ -26,8 +28,11 @@ function App() {
         <Route path='/learn' component={Courses}/>
         <Route path='/community' component = {Community}/>
         <Route path='/production' component = {Findnext}/>
+        <Route path='/projects' component={Projectpage}/>
+        <Route path='/project-cat' component={Projectcat}/>
+        <Route path='/domains' component ={Domainpage} />
       </Switch>
-      <Chatbotcomponent/>
+      {/* <Chatbotcomponent/> */}
       <Footer />
     </ParallaxProvider>
     </>
