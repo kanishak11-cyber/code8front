@@ -15,6 +15,7 @@ import Chatbotcomponent from "./chatbotcomponents/chatbotcomponent/Chatbotcompon
 import Projectpage from './Components/pages/Projectpage/Projectpage';
 import Projectcat from './Components/pages/Projectcat/Projectcat';
 import Domainpage from './Components/pages/Domainpage/Domainpage';
+import DownloadProject from './Components/pages/Projectpage/DownloadProject';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
     <ParallaxProvider>
     <ScrollToTop/>
       <Navbar />
-      <Switch><Route path='/' exact component={Home} />
+      <Switch>
+        <Route path='/' exact component={Home} />
         <Route path='/about-us' component={AboutUs}/>
         <Route path='/built' component={Built}/>
         <Route path='/learn' component={Courses}/>
@@ -31,8 +33,9 @@ function App() {
         <Route path='/projects' component={Projectpage}/>
         <Route path='/project-cat' component={Projectcat}/>
         <Route path='/domains' component ={Domainpage} />
+        <Route path='/project-page' component={DownloadProject} />
       </Switch>
-      {/* <Chatbotcomponent/> */}
+      <Chatbotcomponent/>
       <Footer />
     </ParallaxProvider>
     </>

@@ -2,18 +2,11 @@ import React, { useState } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Dropdown1 from "./Dropdown/Dropdown1";
-import Dropdown2 from "./Dropdown/Dropdown2";
-import Dropdown3 from "./Dropdown/Dropdown3";
-import Dropdown4 from "./Dropdown/Dropdown4";
 import Dropdown from "@restart/ui/esm/Dropdown";
 import TextField from "@mui/material/TextField";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
-import { FaCross, FaExclamationCircle } from "react-icons/fa";
 
 function Navbar() {
   const [open2, setOpen2] = useState(false);
@@ -130,9 +123,9 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar-s">
         {/* logo */}
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu1}>
+        <Link to="/" className="navbar-s-logo" onClick={closeMobileMenu1}>
           <img src="/images/Frame1.png"></img>
         </Link>
 
@@ -415,6 +408,15 @@ function Navbar() {
         </DialogContent>
         <DialogActions></DialogActions>
       </Dialog>
+
+<div className="Mobi-navbar">
+  <div className="navicons"><Link to="/built"><i className="fa-solid fa-hammer"></i></Link> <div>Build</div></div>
+  <div className="navicons"><Link to="/community"><i className="fa-solid fa-people-group"></i></Link><div>Community</div></div>
+  <div className="navicons"><Link to="/"><i className="fa-solid fa-house"></i></Link><div>Home</div></div>
+  <div className="navicons"><Link to="/learn"><i className="fa-solid fa-book-open-reader"></i></Link><div>Learn</div></div>
+  <div className="navicons"><Link to="/about-us"><i className="fa-solid fa-magnifying-glass"></i></Link><div>About-Us</div></div>
+</div>
+
     </>
   );
 }

@@ -5,10 +5,13 @@ import "./Projectpage.css"
 import Projects from './Projects'
 
 const Projectpage = () => {
+    const queryurl = new URLSearchParams(window.location.search)
+
+    const level = queryurl.get('domain')
     return (<div className='Projectpage'>
         <div className="proj-head">
             <div className="proj-intro">
-                <div className='proj-page-heading'>Web Development Projects</div>
+                <div className='proj-page-heading'>{level} Projects</div>
                 <div className="proj-sub-intr">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sequi nam nulla et excepturi autem commodi eos tempore, doloribus, facilis ut rem.
                 </div>

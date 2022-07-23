@@ -13,11 +13,8 @@ const Findnext = (props) => {
       <div className='project-page-head'>Find your next project</div>
       <div className="levels"> {level} </div>
       <div className="Status">
-        Coming Soon
       </div>
-      {/* <Project domain=' Web Development 'bgc='linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)' />
-      <Project domain=' App Development' bgc='linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)' />
-      <Project domain=' Blockchain ' bgc='linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8)'/> */}
+    
     </div>
   )
 }

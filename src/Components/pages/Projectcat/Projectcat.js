@@ -5,6 +5,8 @@ import Explorecategories from '../Projectpage/Explorecategories'
 import Newsletter from '../Projectpage/Newsletter'
 
 const Projectcat = () => {
+    const urlquery = new URLSearchParams(window.location.search)
+    const level = urlquery.get("level")
     return (<div className='Projectcat'>
         <div className="Projectcat-head">
             <div className="Projectheadleft">
@@ -16,6 +18,9 @@ const Projectcat = () => {
                     <span><i className="fa-solid fa-magnifying-glass"></i></span>
                     <input type="text" placeholder='Search' />
                 </div>
+                <div className="Level">
+                    Level : {level}
+                </div>
             </div>
             <div className="Project-head-face">
                 <img src="/images/Projectpage2.png" alt="" />
@@ -24,13 +29,13 @@ const Projectcat = () => {
         <div className="Categories">
             <h1>Explore our categories</h1>
             <div className="Category-holder">
-                <Explorecategories topic={"Web Development"} image={"category3"} options={false}/>
-                <Explorecategories topic={"Android Development"} image={"category2"} options={false}/>
-                <Explorecategories topic={"Blockchain"} image={"category1"} options={false}/>
+                <Explorecategories topic={"Web Development"} image={"category3"} options={true} />
+                <Explorecategories topic={"Android Development"} image={"category2"} options={true} />
+                <Explorecategories topic={"Blockchain"} image={"category1"} options={true} />
             </div>
         </div>
-        <Talktoexpers/>
-        <Newsletter/>
+        <Talktoexpers />
+        <Newsletter />
     </div>
     )
 }

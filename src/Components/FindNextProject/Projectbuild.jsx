@@ -14,7 +14,7 @@ const Projectbuild = () => {
                 Find a beginner level project for you. Which requires entry level skills and short time to complete.
                 </div>
                 <div className="Progrct-link">
-                  <a href="/production?level=Begginer"> Learn more </a>
+                  <a href="/project-cat?level=Begginer"> Learn more </a>
                   <img
                       style={{ marginLeft: "15px" }}
                       src="/images/smallarrow.png"
@@ -30,7 +30,7 @@ const Projectbuild = () => {
                     project done.
                 </div>
                 <div className="Progrct-link">
-                  <a href="/production?level=Intermediate"> Learn more </a>
+                  <a href="/project-cat?level=Intermediate"> Learn more </a>
                   <img
                       style={{ marginLeft: "15px" }}
                       src="/images/smallarrow.png"
@@ -45,7 +45,7 @@ const Projectbuild = () => {
                     Here you work with mentors in real time to get the task done
                 </div>
                 <div className="Progrct-link">
-                  <a href="/production"> Learn more </a>
+                  <a href="/project-cat"> Learn more </a>
                   <img
                       style={{ marginLeft: "15px" }}
                       src="/images/smallarrow.png"

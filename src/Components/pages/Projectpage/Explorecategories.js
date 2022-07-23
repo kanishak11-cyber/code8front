@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Explorecategory.css"
+import { Link } from 'react-router-dom'
 
 const Explorecategories = (props) => {
     return (
@@ -12,7 +13,7 @@ const Explorecategories = (props) => {
                     <div className="Category-name">{props.topic}</div>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam unde voluptate nihil dolor perferendis! Porro, ex architecto voluptatum sint repellat ut! Nemo.</div>
                 </div>
-                <i className="fa-solid fa-arrow-right"></i>
+                <Link to={`/projects?domain=${props.topic}`}><i className="fa-solid fa-arrow-right"></i></Link>
             </div>
             {props.options && <div className="Category-operations">
                 <button className="cat-option 🙂">Read more  <i className="fa-solid fa-arrow-right"></i> </button>

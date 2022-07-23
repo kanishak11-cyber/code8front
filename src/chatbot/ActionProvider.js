@@ -72,7 +72,7 @@ class ActionProvider {
 
   //Get in touch with Build
   handleGetInTouchBuild = () => {
-    window.open("#");
+    window.open("mailto:Contact.us@codeate.in");
   };
 
 
@@ -92,7 +92,7 @@ class ActionProvider {
 
   //Get in touch with Learn
   handleGetInTouchLearn = () => {
-    window.open("#");
+    window.open("mailto:Contact.us@codeate.in");
   };
 
   //Brief about what Community is
@@ -111,7 +111,7 @@ class ActionProvider {
 
   //Get in touch with Community
   handleGetInTouchCommunity = () => {
-    window.open("#");
+    window.open("#")
   };
 
   addMessageToState = (message) => {
