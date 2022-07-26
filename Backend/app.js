@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(fileUpload());
 
-const port = process.env.PORT;
+const port = process.env.PORT ;
 
 // database connection
 const db = require('./config/db');

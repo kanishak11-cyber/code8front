@@ -67,6 +67,17 @@ const DownloadProject = () => {
                     By using CSS properties, we will decorate the web page and make it look attractive. colour,
                     width, height and position property are given as per the requirement in the project
                 </div>
+                <h1>Resources</h1>
+                <hr />
+                <div>
+                    <a href="google.com"> Google.com</a>
+                </div>
+                <div>
+                    <a href="google.com"> Google.com</a>
+                </div>
+                <div>
+                    <a href="google.com"> Google.com</a>
+                </div>
             </div>
         </div>
         <div className="submit-project">
