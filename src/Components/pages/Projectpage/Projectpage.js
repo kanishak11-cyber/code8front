@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Explorecategories from './Explorecategories'
 import Newsletter from './Newsletter'
 import "./Projectpage.css"
@@ -6,6 +6,21 @@ import Projects from './Projects'
 
 const Projectpage = () => {
     const queryurl = new URLSearchParams(window.location.search)
+
+useEffect(() => {
+    console.log("inside use effect");
+  const projects = async ()=>{
+    const respo = await fetch("http://localhost:5000/projects",{
+        method:"GET",
+        body:JSON.stringify()
+    })
+    const projectlist = await respo.json()
+    console.log(projectlist);
+    console.log(projectlist.projects)
+  }
+  projects();
+},[])
+    
 
     const level = queryurl.get('domain')
     return (<div className='Projectpage'>

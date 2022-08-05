@@ -9,6 +9,15 @@ const projectSchema = new mongoose.Schema({
         type : String,
         required : true
     },
+    Solution:{
+        type:String,
+    },
+    Technical_Description:{
+        type:String,
+    },
+    Prototyping_Steps:[{
+        type:String
+    }],
     techStacks : [{
         type : String,
         required : true
@@ -28,6 +37,9 @@ const projectSchema = new mongoose.Schema({
     level: {
         type: String,
         requored: true
+    },
+    Real_life:{
+        type:String
     }
 });
 

@@ -7,13 +7,15 @@ const app = express();
 require('dotenv').config();
 const cloudinary = require('cloudinary');
 const fileUpload = require('express-fileupload');
+const cors = require("cors")
 
 app.use(express.json());
+app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(fileUpload());
 
-const port = process.env.PORT ;
+const port = process.env.PORT || 5000;
 
 // database connection
 const db = require('./config/db');

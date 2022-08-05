@@ -38,7 +38,7 @@ const Chatbotcomponent = () => {
       </button>
 
 
-      <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog" style={{ left: "380px", bottom:"-10px", maxheight: "200px" }}>
           <div className="modal-content" style={{ width: "280px" }}>
          

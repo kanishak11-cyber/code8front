@@ -222,7 +222,7 @@ function Navbar() {
         {pop && <div className="Popup">
           <div className="popup-head">
             <div className="close-button">
-              <i class="fa-solid fa-xmark" onClick={()=>{setpop(false)}}></i>
+              <i className="fa-solid fa-xmark" onClick={()=>{setpop(false)}}></i>
             </div>
           </div>
           <div className="popup-body">
@@ -231,7 +231,7 @@ function Navbar() {
           </div>
         </div>}
       </nav>
-      <Dialog open={open2} onClose={handleClose2} fullWidth="yes" maxWidth="sm">
+      <Dialog open={open2} onClose={handleClose2} fullWidth='true' maxWidth="sm">
         <DialogContent>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <span>
@@ -308,7 +308,7 @@ function Navbar() {
         </DialogContent>
         <DialogActions></DialogActions>
       </Dialog>
-      <Dialog open={open} onClose={handleClose} fullWidth="yes" maxWidth="sm">
+      <Dialog open={open} onClose={handleClose} fullWidth="true" maxWidth="sm">
         <DialogContent>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <span>
