@@ -7,6 +7,7 @@ const DownloadProject = () => {
 
   const n = queryurl.get("n");
   const [set, dataSet] = useState([]);
+  //only on starting
   useEffect(() => {
     async function fetchAPI() {
       let response = await fetch(`http://localhost:5000/projects/${n}`);
