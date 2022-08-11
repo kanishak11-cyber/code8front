@@ -1,91 +1,138 @@
-import React from 'react'
-import "./Downloadproject.css"
+import React from "react";
+import "./Downloadproject.css";
+import { useEffect, useState } from "react";
 
 const DownloadProject = () => {
-    return (<div className='DownloadProject'>
-        <div className="problem-statement">
-            <h1>Problem Title </h1>
-            <div className="problem-description">
-                While visiting any website , if you want to change the background Colour of a website or if
-                you visit any website, you see the dark mode button to change the background Colour ,so
-                how can you do this type of thing?
-            </div>
-        </div>
-        <div className="Ideas">
-            <h1> How to Start</h1>
-            <ul>
-                <li><div className='step-num'>1</div><div>Download the Initial Code from given repo</div></li>
-                <li><div className='step-num'>2</div><div>Set the project with version control before starting</div></li>
-                <li><div className='step-num'>3</div><div>Read the "Readme.md" file to have an insight of project</div></li>
-                <li><div className='step-num'>4</div><div>Prefetch the fonts and colors used in Project</div></li>
-                <li><div className='step-num'>5</div><div>File architecture can be according to choice of candidate</div></li>
-                <li><div className='step-num'>6</div><div>Happy coding !!</div></li>
-            </ul>
-        </div>
-        <div className='Skills-Improved'>
-            <h1>Idea/Solution</h1>
-            <div className="topics">
-                Background colour changer is a project which enables you to change the background colour
-                of web pages with ease. There is a button on a web page when a user clicks on that button,
-                then the resultant colour will appear in the background of the web page.
-            </div>
-            <div className="brief">
-            In this app, the background colour of the canvas changes when the user clicks on a button.
-            </div>
-        </div>
-        <div className="Resources">
-            <div className="Tech-Stacks">
-                <h1>Tech-Stack</h1>
-                <hr />
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                </ul>
-                <div>
-                    Basic knowledge of HTML, CSS, and JavaScript needed. The HTML file adds structure,
-                    followed by styling using CSS and JavaScript adds functionality to it.
-                </div>
-                <h1>File Structure</h1>
-                <hr />
-                <ul>
-                    <li>Index.html</li>
-                    <li>Style.css</li>
-                    <li>Script.js</li>
-                </ul>
-            </div>
-            <div className="Prototyping-sites">
-                <h1>HTML Files :</h1>
-                <hr />
-                <div>
-                    HTML layout is created using the div tag, id attribute and anchor tags for function calling.
-                    With the help of an html file we will create a button.
-                </div>
-                <h1>CSS Files :</h1>
-                <hr />
-                <div>
-                    By using CSS properties, we will decorate the web page and make it look attractive. colour,
-                    width, height and position property are given as per the requirement in the project
-                </div>
-                <h1>Resources</h1>
-                <hr />
-                <div>
-                    <a href="google.com"> Google.com</a>
-                </div>
-                <div>
-                    <a href="google.com"> Google.com</a>
-                </div>
-                <div>
-                    <a href="google.com"> Google.com</a>
-                </div>
-            </div>
-        </div>
-        <div className="submit-project">
-            <h1>Submit your repo at</h1>
-            <a href="mailto:contact.us@codeate.in"> Your Repo Link </a>
-        </div>
-    </div>
-    )
-}
+  const queryurl = new URLSearchParams(window.location.search);
 
-export default DownloadProject
+  const n = queryurl.get("n");
+  const [set, dataSet] = useState([]);
+  useEffect(() => {
+    async function fetchAPI() {
+      let response = await fetch(`http://localhost:5000/projects/${n}`);
+      response = await response.json();
+      response = await response.project;
+      dataSet(response);
+    }
+
+    fetchAPI();
+  }, []);
+
+  const {
+    name,
+    description,
+    Solution,
+    Technical_Description,
+    Prototyping_Steps,
+    techStacks,
+    projectLink,
+    downloadLink,
+    Real_life,
+  } = set;
+
+  // const tec = Array.from(techStacks).map((tech) => {
+  //   return <li>{tech}</li>;
+  // });
+  console.log(techStacks);
+  return (
+    <div className="DownloadProject">
+      <div className="problem-statement">
+        <h1>{name} </h1>
+        <div className="problem-description">{description}</div>
+      </div>
+      <div className="Ideas">
+        <h1> How to Start</h1>
+        <ul>
+          <li>
+            <div className="step-num">1</div>
+            <div>Download the Initial Code from given repo</div>
+          </li>
+          <li>
+            <div className="step-num">2</div>
+            <div>Set the project with version control before starting</div>
+          </li>
+          <li>
+            <div className="step-num">3</div>
+            <div>Read the "Readme.md" file to have an insight of project</div>
+          </li>
+          <li>
+            <div className="step-num">4</div>
+            <div>Prefetch the fonts and colors used in Project</div>
+          </li>
+          <li>
+            <div className="step-num">5</div>
+            <div>File architecture can be according to choice of candidate</div>
+          </li>
+          <li>
+            <div className="step-num">6</div>
+            <div>Happy coding !!</div>
+          </li>
+        </ul>
+      </div>
+      <div className="Skills-Improved">
+        <div className="topics">
+          <h1>Idea/Solution</h1>
+          {Solution}
+        </div>
+
+        <div className="brief">
+          <h1>Real life</h1>
+          {Real_life}
+        </div>
+
+        <div className="brief">
+          <h1>Technical Description</h1>
+          {Technical_Description}
+        </div>
+      </div>
+      <div className="Resources">
+        <div className="Tech-Stacks">
+          <h1>Tech-Stack</h1>
+          <hr />
+          <ul>
+            {techStacks?.map((tech) => {
+              return <li>{tech}</li>;
+            })}
+          </ul>
+
+          <div>
+            Basic knowledge of HTML, CSS, and JavaScript needed. The HTML file
+            adds structure, followed by styling using CSS and JavaScript adds
+            functionality to it.
+          </div>
+          <h1>File Structure</h1>
+          <hr />
+          <ul>
+            <li>Index.html</li>
+            <li>Style.css</li>
+            <li>Script.js</li>
+          </ul>
+        </div>
+        <div className="Prototyping-sites">
+          <h1>Prototyping Steps</h1>
+          <hr />
+          <ul>
+            {Prototyping_Steps?.map((step) => {
+              return <li>{step}</li>;
+            })}
+          </ul>
+
+          <h1>Resources</h1>
+          <hr />
+          <div>
+            <a href={projectLink}> Project-Link</a>
+          </div>
+          <div>
+            <a href={downloadLink}>Download-Link</a>
+          </div>
+        </div>
+      </div>
+      <div className="submit-project">
+        <h1>Submit your repo at</h1>
+        <a href="mailto:contact.us@codeate.in"> Your Repo Link </a>
+      </div>
+    </div>
+  );
+};
+
+export default DownloadProject;
