@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css'
 import Navbar from './Components/Navbar';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -16,6 +17,7 @@ import Projectpage from './Components/pages/Projectpage/Projectpage';
 import Projectcat from './Components/pages/Projectcat/Projectcat';
 import Domainpage from './Components/pages/Domainpage/Domainpage';
 import DownloadProject from './Components/pages/Projectpage/DownloadProject';
+import Privacy from './Components/pages/Privacy/privacy';
 
 function App() {
   return (
@@ -34,9 +36,12 @@ function App() {
         <Route path='/project-cat' component={Projectcat}/>
         <Route path='/domains' component ={Domainpage} />
         <Route path='/project-page' component={DownloadProject} />
+        <Route path='/chatbot' component={Chatbotcomponent}/>
+        <Route path='/privacy' component={Privacy}/>
       </Switch>
       <Chatbotcomponent/>
       <Footer />
+      
     </ParallaxProvider>
     </>
   );

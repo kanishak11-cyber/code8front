@@ -1,11 +1,6 @@
 import { height } from "@mui/system";
 import React from "react";
 import { Button } from "../Button";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import Typography from "@mui/material/Typography";
-import CardContent from "@mui/material/CardContent";
 import Howitworks from "../Howitworks/Howitworks";
 import Stats from "../Stats/Stats";
 import Projectbuild from "../FindNextProject/Projectbuild";

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Eventgallery.css"
 import "../Testimonials/Testimonial.css"
 import { useState, useEffect } from 'react';
-import { Navigation, Autoplay, Pagination, Scrollbar, A11y } from 'swiper';
+import {  Autoplay, Pagination, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
 
