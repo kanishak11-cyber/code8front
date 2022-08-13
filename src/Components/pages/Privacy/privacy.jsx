@@ -2,7 +2,9 @@ import React from 'react'
 
 const privacy = () => {
   return (
-    <div>privacy</div>
+    <div>
+        <h1>Privacy</h1>
+    </div>
   )
 }
 
