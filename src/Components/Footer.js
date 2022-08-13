@@ -17,7 +17,7 @@ function Footer() {
     <div className='footer-container'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img src="/images/Frame1.png"></img>
+            <img src="/images/Frame1.png" alt=''></img>
             </Link>
           </div>
       <section className='footer-subscription'>
@@ -43,6 +43,7 @@ function Footer() {
               className='social-icon-link'
               href='https://chat.whatsapp.com/Dy5uAVlpzFj3ent90TMjeW'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='Facebook'
             >
               <FaWhatsapp/>
@@ -52,6 +53,7 @@ function Footer() {
               className='social-icon-link'
               href='https://instagram.com/codeate.in?igshid=YmMyMTA2M2Y='
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='Instagram'
             >
               <FaInstagram />
@@ -61,6 +63,7 @@ function Footer() {
               className='social-icon-link'
               href='http://dsc.gg/code8'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='Discord'
             >
             <FaDiscord />
@@ -70,6 +73,7 @@ function Footer() {
               className='social-icon-link'
               href='https://www.linkedin.com/company/code8-connect'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='LinkedIn'
             >
               <FaLinkedin />
@@ -104,7 +108,9 @@ function Footer() {
         </div>
       </div>
     </div>
-    <div className="bottom-footer-container">
+    <hr />
+    <div className="bottom-footer-container text-black">
+home
     </div>
     </>
   );
