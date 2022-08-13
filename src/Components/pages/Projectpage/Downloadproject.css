@@ -106,6 +106,8 @@
 .Skills-Improved{
     padding: 12vh 0;
     padding-left: 2.5vw;
+    display: grid;
+    grid-template-columns: auto auto ;
 }
 .Skills-Improved h1{
     color: #089ee8;
@@ -114,6 +116,8 @@
 .topics , .brief{
     max-width: 800px;
     margin: 5vh 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .Tech-Stacks ul{
