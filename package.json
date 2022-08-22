@@ -24,7 +24,7 @@
         "react-navbar-dropdown": "^1.4.3",
         "react-router-dom": "^5.2.0",
         "react-scripts": "3.4.1",
-    "react-chatbot-kit": "^2.0.1",
+        "react-chatbot-kit": "^2.0.1",
         "react-scroll-parallax": "^3.2.0",
         "styled-components": "^5.3.3",
         "swiper": "^8.2.3"

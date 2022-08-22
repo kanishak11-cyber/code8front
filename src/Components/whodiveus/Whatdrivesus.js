@@ -2,7 +2,7 @@ import React from 'react'
 import "./whatdriveus.css"
 const Card = (props) => {
     return (
-        <div className={`w-card ${props.index==0? "":"not-first-card"}`}>
+        <div className={`w-card ${props.index===0? "":"not-first-card"}`}>
             <img src={props.imgLink} alt="" />
             <div className="w-reason">{props.title}</div>
             <div className="w-card-content">

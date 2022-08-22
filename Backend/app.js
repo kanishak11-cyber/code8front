@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(fileUpload());
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5500;
 
 // database connection
 require("./config/db");
