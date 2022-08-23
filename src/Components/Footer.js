@@ -4,7 +4,6 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaDiscord, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 // import { MdFingerprint } from "react-icons/md";
-import Privacy from "./pages/Privacy/privacy";
 function Footer() {
   return (
     <>
