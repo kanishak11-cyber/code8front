@@ -182,8 +182,8 @@ const privacy = () => {
                     <p>
                         The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
                     </p>
-                    <h1 className='subtitle'>Disclosure of Your Personal Data</h1>
-                    <h2>Business Transactions</h2>
+                    <h1 className='md:text-xl text-lg'>Disclosure of Your Personal Data</h1>
+                    <h2 className='subtitle'>Business Transactions</h2>
                     <p>
                         If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
                     </p>
@@ -215,8 +215,8 @@ const privacy = () => {
                     <h1>Contact Us</h1>
                     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
                     <ul>
-                        <li>By email: <a href='mailto:By email: contact@codeate.in'/>contact@codeate.in</li>
-                        <li>By visiting this page on our website: <a href='https://codeate.in/privacy'/>Privacy</li>
+                        <li>By email: <a href='mailto:By email: contact@codeate.in' >contact@codeate.in</a></li>
+                        <li>By visiting this page on our website: <a href='https://codeate.in/privacy' >Privacy</a></li>
                     </ul>
                 </div>
 
