@@ -53,9 +53,9 @@ const privacy = () => {
                         </li>
                     </ul>
 
-                    <h1 className='md:text-xl text-lg'>Collecting and Using Your Personal Data</h1>
-                    <h2>Types of Data Collected</h2>
-                    <h3>Personal Data</h3>
+                    <h1 className='subheading'>Collecting and Using Your Personal Data</h1>
+                    <h2 className='lg:text-xl text-md mb-3'>Types of Data Collected</h2>
+                    <h3 className='subtitle'>Personal Data</h3>
                     <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
                     <ul>
                         <li>
@@ -182,14 +182,14 @@ const privacy = () => {
                     <p>
                         The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
                     </p>
-                    <h1 className='md:text-xl text-lg'>Disclosure of Your Personal Data</h1>
+                    <h1 className='subheading'>Disclosure of Your Personal Data</h1>
                     <h2 className='subtitle'>Business Transactions</h2>
                     <p>
                         If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
                     </p>
-                    <h2>Law enforcement</h2>
+                    <h2 className='subtitle'>Law enforcement</h2>
                     <p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
-                    <h2>Others legal requirements	</h2>
+                    <h2 className='subtitle'>Others legal requirements	</h2>
                     <p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
                     <ul>
                         <li>Comply with a legal obligation</li>
@@ -199,20 +199,20 @@ const privacy = () => {
                         <li>Protect against legal liability</li>
                     </ul>
                     <h1 className='subtitle'>Security of Your Personal Data</h1>
-                    <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
-                    <h1>Detailed Information on the Processing of Your Personal Data</h1>
-                    <p>The Service Providers We use may have access to Your Personal Data. These third-party vendors collect, store, use, process and transfer information about Your activity on Our Service in accordance with their Privacy Policies.</p>
-                    <h1>Children &apos;s Policy</h1>
-                    <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
+                        <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
+                    <h1 className='subtitle'>Detailed Information on the Processing of Your Personal Data</h1>
+                        <p>The Service Providers We use may have access to Your Personal Data. These third-party vendors collect, store, use, process and transfer information about Your activity on Our Service in accordance with their Privacy Policies.</p>
+                    <h1 className='subtitle'>Children &apos;s Policy</h1>
+                        <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
                     <p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
-                    <h1>Links to Other Websites</h1>
+                    <h1 className='subtitle'>Links to Other Websites</h1>
                     <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
                     <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
-                    <h1>Changes to this Privacy Policy</h1>
+                    <h1 className='subtitle'>Changes to this Privacy Policy</h1>
                     <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
                     <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of thi s Privacy Policy.</p>
                     <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-                    <h1>Contact Us</h1>
+                    <h1 className='subtitle'>Contact Us</h1>
                     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
                     <ul>
                         <li>By email: <a href='mailto:By email: contact@codeate.in' >contact@codeate.in</a></li>
