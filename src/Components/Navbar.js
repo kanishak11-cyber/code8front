@@ -94,6 +94,7 @@ function Navbar() {
                 Build
               </Link>
             </li>
+
             <li className="nav-item" onClick={closeMobileMenu1}>
               <Link to="/learn" className="nav-links">
                 Learn
@@ -344,7 +345,7 @@ function Navbar() {
         <DialogActions></DialogActions>
       </Dialog>
 
-      {/* <div className="Mobi-navbar">
+      <div className="Mobi-navbar">
         <div className="navicons">
           <Link to="/built">
             <i className="fa-solid fa-hammer"></i>
@@ -375,7 +376,7 @@ function Navbar() {
           </Link>
           <div>About Us</div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
